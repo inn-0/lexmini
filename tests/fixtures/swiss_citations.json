@@ -1,0 +1,868 @@
+{
+  "note": "Verbatim examples from three public Swiss judgments. Offsets refer to the recorded source PDFs extracted text; target_start refers to this context excerpt. Not a claim of external citation verification.",
+  "examples": [
+    {
+      "id": "SWISS_CIT_001",
+      "language": "fr",
+      "doc_id": "fr_CH_BVGE_001_E-1088-2022_2022-11-07",
+      "page": 1,
+      "source_page": 1,
+      "source_pdf": "sources/fr_CH_BVGE_001_E-1088-2022_2022-11-07.pdf",
+      "source_sha256": "362f36ce82689d8717985a5f3716e3e378afde08d38f1d067e7c6cf9edb4e5c7",
+      "start": 156,
+      "end": 167,
+      "quote": "E-1088/2022",
+      "family": "court_case",
+      "text": " \nBundesverw al tungsgeri cht \nTri bunal admi ni strati f fédéral \n   \nTri bunal e amm ini strati vo federal e \nTri bunal admi ni strati v federal \nCour V \nE-1088/2022 \n \n \nA r r ê t d u 7 n o v e m b r e 2 0 2 2 \nComposition \nWilliam Waeber (président du collège),  \nGérald Bovier, David R. Wenger, juges, \nLucas Pellet, greff",
+      "target_start": 156,
+      "expected": [
+        "E-1088/2022"
+      ]
+    },
+    {
+      "id": "SWISS_CIT_002",
+      "language": "fr",
+      "doc_id": "fr_CH_BVGE_001_E-1088-2022_2022-11-07",
+      "page": 7,
+      "source_page": 7,
+      "source_pdf": "sources/fr_CH_BVGE_001_E-1088-2022_2022-11-07.pdf",
+      "source_sha256": "362f36ce82689d8717985a5f3716e3e378afde08d38f1d067e7c6cf9edb4e5c7",
+      "start": 633,
+      "end": 645,
+      "quote": "art. 31 LTAF",
+      "family": "legislative_article",
+      "text": "lle du recourant. \nV.  \nLes autres faits et arguments seront examinés en tant que de besoin dans \nles considérants en droit. \n \nDroit : \n1.  \n1.1 En vertu de l'art. 31 LTAF (RS 173.32), le Tribunal administratif fédéral \n(ci-après : le Tribunal) connaît des recours contre les décisions au sens de \nl'art. 5 PA (RS 173.021) prises p",
+      "target_start": 160,
+      "expected": [
+        "art. 31 LTAF"
+      ]
+    },
+    {
+      "id": "SWISS_CIT_003",
+      "language": "fr",
+      "doc_id": "fr_CH_BVGE_001_E-1088-2022_2022-11-07",
+      "page": 7,
+      "source_page": 7,
+      "source_pdf": "sources/fr_CH_BVGE_001_E-1088-2022_2022-11-07.pdf",
+      "source_sha256": "362f36ce82689d8717985a5f3716e3e378afde08d38f1d067e7c6cf9edb4e5c7",
+      "start": 647,
+      "end": 656,
+      "quote": "RS 173.32",
+      "family": "statute_number",
+      "text": "nt. \nV.  \nLes autres faits et arguments seront examinés en tant que de besoin dans \nles considérants en droit. \n \nDroit : \n1.  \n1.1 En vertu de l'art. 31 LTAF (RS 173.32), le Tribunal administratif fédéral \n(ci-après : le Tribunal) connaît des recours contre les décisions au sens de \nl'art. 5 PA (RS 173.021) prises par les auto",
+      "target_start": 160,
+      "expected": [
+        "RS 173.32"
+      ]
+    },
+    {
+      "id": "SWISS_CIT_004",
+      "language": "fr",
+      "doc_id": "fr_CH_BVGE_001_E-1088-2022_2022-11-07",
+      "page": 7,
+      "source_page": 7,
+      "source_pdf": "sources/fr_CH_BVGE_001_E-1088-2022_2022-11-07.pdf",
+      "source_sha256": "362f36ce82689d8717985a5f3716e3e378afde08d38f1d067e7c6cf9edb4e5c7",
+      "start": 1169,
+      "end": 1193,
+      "quote": "art. 83 let. d ch. 1 LTF",
+      "family": "legislative_article",
+      "text": " \nde l'art. 105 LAsi [RS 142.31]), lequel statue alors définitivement, sauf \ndemande d'extradition déposée par l'Etat dont le requérant cherche à se \nprotéger (art. 83 let. d ch. 1 LTF [RS 173.110]), exception non réalisée en \nl’espèce. \nLe Tribunal est donc compétent pour connaître du recours. \n1.2 L'intéressé a qualité pour recourir ; prése",
+      "target_start": 160,
+      "expected": [
+        "art. 83 let. d ch. 1 LTF"
+      ]
+    },
+    {
+      "id": "SWISS_CIT_006",
+      "language": "fr",
+      "doc_id": "fr_CH_BVGE_001_E-1088-2022_2022-11-07",
+      "page": 8,
+      "source_page": 8,
+      "source_pdf": "sources/fr_CH_BVGE_001_E-1088-2022_2022-11-07.pdf",
+      "source_sha256": "362f36ce82689d8717985a5f3716e3e378afde08d38f1d067e7c6cf9edb4e5c7",
+      "start": 747,
+      "end": 773,
+      "quote": "ATAF 2009/60 consid. 2.1.1",
+      "family": "published_admin",
+      "text": "té administrative constate les faits d'office et procède \ns’il y a lieu à l’administration des preuves nécessaires à l’établissement des \nfaits pertinents (cf. ATAF 2009/60 consid. 2.1.1). Ce principe est relativisé \npar le devoir de collaborer des parties (cf. art. 13 PA et 8 LAsi ; cf. ATAF \n2012/21 consid. 5.1 ; 2009/60 consid. 2.1.1; 2009/5",
+      "target_start": 160,
+      "expected": [
+        "ATAF 2009/60 consid. 2.1.1"
+      ]
+    },
+    {
+      "id": "SWISS_CIT_007",
+      "language": "fr",
+      "doc_id": "fr_CH_BVGE_001_E-1088-2022_2022-11-07",
+      "page": 8,
+      "source_page": 8,
+      "source_pdf": "sources/fr_CH_BVGE_001_E-1088-2022_2022-11-07.pdf",
+      "source_sha256": "362f36ce82689d8717985a5f3716e3e378afde08d38f1d067e7c6cf9edb4e5c7",
+      "start": 927,
+      "end": 947,
+      "quote": "2009/50 consid. 10.2",
+      "family": "abbreviated_admin",
+      "text": " 2.1.1). Ce principe est relativisé \npar le devoir de collaborer des parties (cf. art. 13 PA et 8 LAsi ; cf. ATAF \n2012/21 consid. 5.1 ; 2009/60 consid. 2.1.1; 2009/50 consid. 10.2 ; 2008/24 \nconsid. 7.2 ; arrêt du Tribunal D-3082/2019 du 27 juin 2019). \nL'établissement des faits est incomplet, au sens de l'art. 106 al. 1 \nlet. b LAsi, lo",
+      "target_start": 160,
+      "expected": [
+        "2009/50 consid. 10.2"
+      ]
+    },
+    {
+      "id": "SWISS_CIT_008",
+      "language": "fr",
+      "doc_id": "fr_CH_BVGE_001_E-1088-2022_2022-11-07",
+      "page": 8,
+      "source_page": 8,
+      "source_pdf": "sources/fr_CH_BVGE_001_E-1088-2022_2022-11-07.pdf",
+      "source_sha256": "362f36ce82689d8717985a5f3716e3e378afde08d38f1d067e7c6cf9edb4e5c7",
+      "start": 991,
+      "end": 1002,
+      "quote": "D-3082/2019",
+      "family": "court_case",
+      "text": " des parties (cf. art. 13 PA et 8 LAsi ; cf. ATAF \n2012/21 consid. 5.1 ; 2009/60 consid. 2.1.1; 2009/50 consid. 10.2 ; 2008/24 \nconsid. 7.2 ; arrêt du Tribunal D-3082/2019 du 27 juin 2019). \nL'établissement des faits est incomplet, au sens de l'art. 106 al. 1 \nlet. b LAsi, lorsque toutes les circonstances de fait et les moyens de",
+      "target_start": 160,
+      "expected": [
+        "D-3082/2019"
+      ]
+    },
+    {
+      "id": "SWISS_CIT_009",
+      "language": "fr",
+      "doc_id": "fr_CH_BVGE_001_E-1088-2022_2022-11-07",
+      "page": 8,
+      "source_page": 8,
+      "source_pdf": "sources/fr_CH_BVGE_001_E-1088-2022_2022-11-07.pdf",
+      "source_sha256": "362f36ce82689d8717985a5f3716e3e378afde08d38f1d067e7c6cf9edb4e5c7",
+      "start": 2225,
+      "end": 2250,
+      "quote": "ATF 145 I 167 consid. 4.1",
+      "family": "published_case",
+      "text": "e à influer \nsur le sort de la décision, celui de participer à l'administration des preuves, \nd'en prendre connaissance et de se déterminer à leur propos \n(cf. ATF 145 I 167 consid. 4.1 ; ATAF 2013/23 consid. 6.1.1 ; 2010/53 \nconsid. 13.1).  \nL’autorité amenée à rendre une décision en matière d’asile peut en principe \nse limiter à prendre en c",
+      "target_start": 160,
+      "expected": [
+        "ATF 145 I 167 consid. 4.1"
+      ]
+    },
+    {
+      "id": "SWISS_CIT_010",
+      "language": "fr",
+      "doc_id": "fr_CH_BVGE_001_E-1088-2022_2022-11-07",
+      "page": 10,
+      "source_page": 10,
+      "source_pdf": "sources/fr_CH_BVGE_001_E-1088-2022_2022-11-07.pdf",
+      "source_sha256": "362f36ce82689d8717985a5f3716e3e378afde08d38f1d067e7c6cf9edb4e5c7",
+      "start": 628,
+      "end": 653,
+      "quote": "FF 2010 \n4035, spéc. 4075",
+      "family": "federal_gazette",
+      "text": "tutionnel ou le \ndroit international s’opposaient à un renvoi (cf. Message du Conseil fédéral \ndu 26 mai 2010 concernant la modification de la loi sur l’asile, FF 2010 \n4035, spéc. 4075). Il a ajouté qu'il y avait lieu de vérifier systématiquement \nsi l'exécution du renvoi était licite et raisonnablement exigible, \nconformément à l'art. 44 LAs",
+      "target_start": 160,
+      "expected": [
+        "FF 2010 \n4035, spéc. 4075"
+      ]
+    },
+    {
+      "id": "SWISS_CIT_011",
+      "language": "fr",
+      "doc_id": "fr_CH_BVGE_001_E-1088-2022_2022-11-07",
+      "page": 11,
+      "source_page": 11,
+      "source_pdf": "sources/fr_CH_BVGE_001_E-1088-2022_2022-11-07.pdf",
+      "source_sha256": "362f36ce82689d8717985a5f3716e3e378afde08d38f1d067e7c6cf9edb4e5c7",
+      "start": 454,
+      "end": 470,
+      "quote": "RS 0.142.113.729",
+      "family": "statute_number",
+      "text": "se de l’Accord entre le Conseil fédéral suisse et le \nGouvernement de la République hellénique relatif à la réadmission de \npersonnes en situation irrégulière (RS 0.142.113.729). Le recourant est \ndonc autorisé à retourner dans un Etat tiers présumé sûr, respectant le \nprincipe de non-refoulement à son égard. \n3.4 Le recourant n'a fou",
+      "target_start": 160,
+      "expected": [
+        "RS 0.142.113.729"
+      ]
+    },
+    {
+      "id": "SWISS_CIT_012",
+      "language": "fr",
+      "doc_id": "fr_CH_BVGE_001_E-1088-2022_2022-11-07",
+      "page": 12,
+      "source_page": 12,
+      "source_pdf": "sources/fr_CH_BVGE_001_E-1088-2022_2022-11-07.pdf",
+      "source_sha256": "362f36ce82689d8717985a5f3716e3e378afde08d38f1d067e7c6cf9edb4e5c7",
+      "start": 506,
+      "end": 517,
+      "quote": "art. 3 CEDH",
+      "family": "legislative_article",
+      "text": "être astreinte à se rendre dans un tel pays \n(art. 5 al. 1 LAsi). Nul ne peut être soumis à la torture ni à des peines ou \ntraitements inhumains ou dégradants (art. 3 CEDH). \n5.3 L'exécution du renvoi ne peut pas être raisonnablement exigée si le \nrenvoi ou l'expulsion de l'étranger dans son pays d'origine ou de \nprovenance le me",
+      "target_start": 160,
+      "expected": [
+        "art. 3 CEDH"
+      ]
+    },
+    {
+      "id": "SWISS_CIT_013",
+      "language": "fr",
+      "doc_id": "fr_CH_BVGE_001_E-1088-2022_2022-11-07",
+      "page": 13,
+      "source_page": 13,
+      "source_pdf": "sources/fr_CH_BVGE_001_E-1088-2022_2022-11-07.pdf",
+      "source_sha256": "362f36ce82689d8717985a5f3716e3e378afde08d38f1d067e7c6cf9edb4e5c7",
+      "start": 2541,
+      "end": 2560,
+      "quote": "requête n° 40524/10",
+      "family": "echr_application",
+      "text": "services \nmédicaux, sociaux ou autres qui leur sont fournis par cet Etat \n(cf. CourEDH, décisions Naima Mohammed Hassan c. Pays-Bas et Italie \ndu 27 août 2013, requête n° 40524/10, par. 180 ; Mohammed Hussein et \nautres c. Pays-Bas et Italie du 2 avril 2013, requête n° 27725/10, par. 65 à \n73 ; arrêt Müslim c. Turquie du 26 avril 2005, r",
+      "target_start": 160,
+      "expected": [
+        "requête n° 40524/10"
+      ]
+    },
+    {
+      "id": "SWISS_CIT_015",
+      "language": "fr",
+      "doc_id": "fr_CH_BVGE_001_E-1088-2022_2022-11-07",
+      "page": 15,
+      "source_page": 15,
+      "source_pdf": "sources/fr_CH_BVGE_001_E-1088-2022_2022-11-07.pdf",
+      "source_sha256": "362f36ce82689d8717985a5f3716e3e378afde08d38f1d067e7c6cf9edb4e5c7",
+      "start": 1235,
+      "end": 1261,
+      "quote": "E-3427/2021 et E-3431/2021",
+      "family": "court_case_group",
+      "text": "le pays (cf. chap. VII \nde  la Directive qualification). Cette jurisprudence constante a encore été \nrécemment \nconfirmée \npar \nle \nTribunal \ndans \nson \narrêt \nE-3427/2021 et E-3431/2021 [causes jointes] du 28 mars 2022 (consid. \n9.1).  \nDans ce même arrêt, le Tribunal a procédé à une analyse approfondie de \nla situation des bénéficiaires d'une",
+      "target_start": 160,
+      "expected": [
+        "E-3427/2021",
+        "E-3431/2021"
+      ]
+    },
+    {
+      "id": "SWISS_CIT_016",
+      "language": "fr",
+      "doc_id": "fr_CH_BVGE_001_E-1088-2022_2022-11-07",
+      "page": 18,
+      "source_page": 18,
+      "source_pdf": "sources/fr_CH_BVGE_001_E-1088-2022_2022-11-07.pdf",
+      "source_sha256": "362f36ce82689d8717985a5f3716e3e378afde08d38f1d067e7c6cf9edb4e5c7",
+      "start": 2119,
+      "end": 2147,
+      "quote": "JICRA] 2003 n° 24 consid. 5b",
+      "family": "legacy_asylum_collection",
+      "text": "nt des conditions \nminimales d'existence (cf. ATAF 2011/50 consid. 8.3 ; Jurisprudence et \ninformations de la Commission suisse de recours en matière d’asile \n[JICRA] 2003 n° 24 consid. 5b). \n7.4 En l’occurrence, pour les mêmes raisons que celles développées \nprécédemment, il ne ressort pas du dossier que l’état de santé du recourant \nou les cond",
+      "target_start": 160,
+      "expected": [
+        "JICRA] 2003 n° 24 consid. 5b"
+      ]
+    },
+    {
+      "id": "SWISS_CIT_017",
+      "language": "de",
+      "doc_id": "de_CH_BVGE_001_A-1496-2019_2021-07-16_pages_13-24",
+      "page": 1,
+      "source_page": 13,
+      "source_pdf": "sources/de_CH_BVGE_001_A-1496-2019_2021-07-16_pages_13-24.pdf",
+      "source_sha256": "65ac1be35bc200dd504de64763426009ec95b8bf0660b3d7fd8c9140db95e995",
+      "start": 115,
+      "end": 135,
+      "quote": "BGE 125 II 473 E. 4a",
+      "family": "published_case",
+      "text": "A-1496/2019 \nder Literatur ist die Unterscheidung zwischen internen und anderen Akten \nallerdings umstritten (vgl. BGE 125 II 473 E. 4a; Urteile des BGer \n1C_580/2016 vom 31. Mai 2017 E. 2.3 und 1C_159/2014 vom 10. Oktober \n2014 E. 4.3; je mit Hinweisen). Nicht erforderlich ist, dass die Akten ",
+      "target_start": 115,
+      "expected": [
+        "BGE 125 II 473 E. 4a"
+      ]
+    },
+    {
+      "id": "SWISS_CIT_018",
+      "language": "de",
+      "doc_id": "de_CH_BVGE_001_A-1496-2019_2021-07-16_pages_13-24",
+      "page": 1,
+      "source_page": 13,
+      "source_pdf": "sources/de_CH_BVGE_001_A-1496-2019_2021-07-16_pages_13-24.pdf",
+      "source_sha256": "65ac1be35bc200dd504de64763426009ec95b8bf0660b3d7fd8c9140db95e995",
+      "start": 155,
+      "end": 166,
+      "quote": "1C_580/2016",
+      "family": "court_case",
+      "text": "A-1496/2019 \nder Literatur ist die Unterscheidung zwischen internen und anderen Akten \nallerdings umstritten (vgl. BGE 125 II 473 E. 4a; Urteile des BGer \n1C_580/2016 vom 31. Mai 2017 E. 2.3 und 1C_159/2014 vom 10. Oktober \n2014 E. 4.3; je mit Hinweisen). Nicht erforderlich ist, dass die Akten den \nEntscheid in der Sache tat",
+      "target_start": 155,
+      "expected": [
+        "1C_580/2016"
+      ]
+    },
+    {
+      "id": "SWISS_CIT_019",
+      "language": "de",
+      "doc_id": "de_CH_BVGE_001_A-1496-2019_2021-07-16_pages_13-24",
+      "page": 1,
+      "source_page": 13,
+      "source_pdf": "sources/de_CH_BVGE_001_A-1496-2019_2021-07-16_pages_13-24.pdf",
+      "source_sha256": "65ac1be35bc200dd504de64763426009ec95b8bf0660b3d7fd8c9140db95e995",
+      "start": 2265,
+      "end": 2285,
+      "quote": "BVGE 2017 I/4 E. 4.2",
+      "family": "published_admin",
+      "text": " berechtigt ist. Des Weiteren dürfen dem Betroffenen durch \ndie Heilung keine unzumutbaren Nachteile entstehen (vgl. BGE 137 I 195 \nE. 2.3.2, 133 I 201 E. 2.2; BVGE 2017 I/4 E. 4.2; MOSER/BEUSCH/KNEU-\nBÜHLER, a.a.O., Rz. 3.110 ff.; je mit Hinweisen). \n4.2.3 Swisscom stellt sich in ihrer Beschwerde im Wesentlichen auf den \nStandpunkt, dass",
+      "target_start": 160,
+      "expected": [
+        "BVGE 2017 I/4 E. 4.2"
+      ]
+    },
+    {
+      "id": "SWISS_CIT_020",
+      "language": "de",
+      "doc_id": "de_CH_BVGE_001_A-1496-2019_2021-07-16_pages_13-24",
+      "page": 1,
+      "source_page": 13,
+      "source_pdf": "sources/de_CH_BVGE_001_A-1496-2019_2021-07-16_pages_13-24.pdf",
+      "source_sha256": "65ac1be35bc200dd504de64763426009ec95b8bf0660b3d7fd8c9140db95e995",
+      "start": 1102,
+      "end": 1114,
+      "quote": "Art. 28 VwVG",
+      "family": "legislative_article",
+      "text": "-\nche wesentlichen Inhalt mündlich oder schriftlich Kenntnis und ihr ausser-\ndem Gelegenheit gegeben hat, sich zu äussern und Gegenbeweismittel zu \nbezeichnen (Art. 28 VwVG). Diese Rechtsregeln gelten grundsätzlich so-\nwohl für verwaltungsinterne als auch für gerichtliche Verfahren (vgl. zum \nGanzen \nHÄFELIN/MÜLLER/UHLMANN, \nAllge",
+      "target_start": 160,
+      "expected": [
+        "Art. 28 VwVG"
+      ]
+    },
+    {
+      "id": "SWISS_CIT_021",
+      "language": "de",
+      "doc_id": "de_CH_BVGE_001_A-1496-2019_2021-07-16_pages_13-24",
+      "page": 2,
+      "source_page": 14,
+      "source_pdf": "sources/de_CH_BVGE_001_A-1496-2019_2021-07-16_pages_13-24.pdf",
+      "source_sha256": "65ac1be35bc200dd504de64763426009ec95b8bf0660b3d7fd8c9140db95e995",
+      "start": 316,
+      "end": 327,
+      "quote": "2A.586/2003",
+      "family": "court_case_legacy",
+      "text": " erge-\nben sich besondere Anforderungen an die Neutralität der verfügenden Be-\nhörde und damit auch an die Gleichbehandlung im Verfahren (vgl. Urteil \ndes BGer 2A.586/2003 und 2A.610/2003 vom 1. Oktober 2004 E. 9.3). Dies \nist bei der von Swisscom verlangten Einsicht zu berücksichtigen. Die elekt-\nronischen Daten im Programm COSM",
+      "target_start": 160,
+      "expected": [
+        "2A.586/2003"
+      ]
+    },
+    {
+      "id": "SWISS_CIT_022",
+      "language": "de",
+      "doc_id": "de_CH_BVGE_001_A-1496-2019_2021-07-16_pages_13-24",
+      "page": 2,
+      "source_page": 14,
+      "source_pdf": "sources/de_CH_BVGE_001_A-1496-2019_2021-07-16_pages_13-24.pdf",
+      "source_sha256": "65ac1be35bc200dd504de64763426009ec95b8bf0660b3d7fd8c9140db95e995",
+      "start": 332,
+      "end": 343,
+      "quote": "2A.610/2003",
+      "family": "court_case_legacy",
+      "text": "besondere Anforderungen an die Neutralität der verfügenden Be-\nhörde und damit auch an die Gleichbehandlung im Verfahren (vgl. Urteil \ndes BGer 2A.586/2003 und 2A.610/2003 vom 1. Oktober 2004 E. 9.3). Dies \nist bei der von Swisscom verlangten Einsicht zu berücksichtigen. Die elekt-\nronischen Daten im Programm COSMOS enthalten unb",
+      "target_start": 160,
+      "expected": [
+        "2A.610/2003"
+      ]
+    },
+    {
+      "id": "SWISS_CIT_023",
+      "language": "de",
+      "doc_id": "de_CH_BVGE_001_A-1496-2019_2021-07-16_pages_13-24",
+      "page": 2,
+      "source_page": 14,
+      "source_pdf": "sources/de_CH_BVGE_001_A-1496-2019_2021-07-16_pages_13-24.pdf",
+      "source_sha256": "65ac1be35bc200dd504de64763426009ec95b8bf0660b3d7fd8c9140db95e995",
+      "start": 1136,
+      "end": 1163,
+      "quote": "Art. 27 Abs. 1 \nBst. a VwVG",
+      "family": "legislative_article",
+      "text": "ch rascher und genauer berech-\nnen. Gegen eine Akteneinsicht sprechen demnach einerseits öffentliche In-\nteressen an einem fairen Zugangsverfahren im Sinne von Art. 27 Abs. 1 \nBst. a VwVG sowie die privaten Interessen von Sunrise, nicht benachteiligt \nzu werden (Art. 27 Abs. 1 Bst. b VwVG). Diese Interessen überwiegen ge-\ngenüber einer uneingesc",
+      "target_start": 160,
+      "expected": [
+        "Art. 27 Abs. 1 \nBst. a VwVG"
+      ]
+    },
+    {
+      "id": "SWISS_CIT_024",
+      "language": "de",
+      "doc_id": "de_CH_BVGE_001_A-1496-2019_2021-07-16_pages_13-24",
+      "page": 5,
+      "source_page": 17,
+      "source_pdf": "sources/de_CH_BVGE_001_A-1496-2019_2021-07-16_pages_13-24.pdf",
+      "source_sha256": "65ac1be35bc200dd504de64763426009ec95b8bf0660b3d7fd8c9140db95e995",
+      "start": 707,
+      "end": 726,
+      "quote": "Art. 62 Abs. 4 VwVG",
+      "family": "legislative_article",
+      "text": ".215 \nmit Hinweisen). Vor Bundesverwaltungsgericht gilt sodann die Untersu-\nchungsmaxime (Art. 12 VwVG) und der Grundsatz der Rechtsanwendung \nvon Amtes wegen (Art. 62 Abs. 4 VwVG). Im Rahmen des Streitgegen-\nstands dürfen neue Tatsachen und neue Beweismittel nachgebracht wer-\nden (Art. 32 Abs. 2 VwVG). Ebenso kann auch die rechtliche Be",
+      "target_start": 160,
+      "expected": [
+        "Art. 62 Abs. 4 VwVG"
+      ]
+    },
+    {
+      "id": "SWISS_CIT_025",
+      "language": "de",
+      "doc_id": "de_CH_BVGE_001_A-1496-2019_2021-07-16_pages_13-24",
+      "page": 7,
+      "source_page": 19,
+      "source_pdf": "sources/de_CH_BVGE_001_A-1496-2019_2021-07-16_pages_13-24.pdf",
+      "source_sha256": "65ac1be35bc200dd504de64763426009ec95b8bf0660b3d7fd8c9140db95e995",
+      "start": 525,
+      "end": 536,
+      "quote": "AS 2014 729",
+      "family": "official_collection",
+      "text": "assung der FDV Anwendung findet (nachfolgend: FDV 2013). \nFür die späteren Preise 2014/2 bis 2016 ist die per 1. Juli 2014 in Kraft \ngetretene Fassung der FDV (AS 2014 729 [nachfolgend: FDV 2014]) mas-\nsgebend. Die jüngsten per 1. Januar resp. 1. Juli 2021 in Kraft getretenen \nÄnderungen des FMG (AS 2020 6159) sowie der FDV (AS 2",
+      "target_start": 160,
+      "expected": [
+        "AS 2014 729"
+      ]
+    },
+    {
+      "id": "SWISS_CIT_026",
+      "language": "de",
+      "doc_id": "de_CH_BVGE_001_A-1496-2019_2021-07-16_pages_13-24",
+      "page": 7,
+      "source_page": 19,
+      "source_pdf": "sources/de_CH_BVGE_001_A-1496-2019_2021-07-16_pages_13-24.pdf",
+      "source_sha256": "65ac1be35bc200dd504de64763426009ec95b8bf0660b3d7fd8c9140db95e995",
+      "start": 920,
+      "end": 934,
+      "quote": "SR 784.101.112",
+      "family": "statute_number",
+      "text": "nberücksichtigt \nbleiben. Ebenso findet die per 1. Januar 2021 in Kraft getretene Verord-\nnung der ComCom vom 23. Oktober 2020 betreffend das Fernmeldegesetz \n(SR 784.101.112, nachfolgend: ComComV) noch keine Anwendung, wel-\nche die Verordnung der Eidgenössischen Kommunikationskommission \nvom 17. November 1997 betreffend das Fernmel",
+      "target_start": 160,
+      "expected": [
+        "SR 784.101.112"
+      ]
+    },
+    {
+      "id": "SWISS_CIT_027",
+      "language": "de",
+      "doc_id": "de_CH_BVGE_001_A-1496-2019_2021-07-16_pages_13-24",
+      "page": 7,
+      "source_page": 19,
+      "source_pdf": "sources/de_CH_BVGE_001_A-1496-2019_2021-07-16_pages_13-24.pdf",
+      "source_sha256": "65ac1be35bc200dd504de64763426009ec95b8bf0660b3d7fd8c9140db95e995",
+      "start": 1852,
+      "end": 1871,
+      "quote": "aArt. 11 Abs. 1 FMG",
+      "family": "legislative_article_historical",
+      "text": "den \n(Art. 1 Abs. 1 FMG). Es soll insbesondere einen wirksamen Wettbewerb \nbeim Erbringen von Fernmeldediensten ermöglichen (Art. 1 Abs. 2 Bst. c \nFMG). Gemäss aArt. 11 Abs. 1 FMG müssen marktbeherrschende Anbie-\nterinnen von Fernmeldediensten anderen Anbieterinnen in verschiedenen, \nim Gesetz aufgezählten Formen auf transparente und nic",
+      "target_start": 160,
+      "expected": [
+        "aArt. 11 Abs. 1 FMG"
+      ]
+    },
+    {
+      "id": "SWISS_CIT_029",
+      "language": "de",
+      "doc_id": "de_CH_BVGE_001_A-1496-2019_2021-07-16_pages_13-24",
+      "page": 10,
+      "source_page": 22,
+      "source_pdf": "sources/de_CH_BVGE_001_A-1496-2019_2021-07-16_pages_13-24.pdf",
+      "source_sha256": "65ac1be35bc200dd504de64763426009ec95b8bf0660b3d7fd8c9140db95e995",
+      "start": 839,
+      "end": 864,
+      "quote": "Art. 54a Abs. 1 FDV \n2014",
+      "family": "legislative_article",
+      "text": " die Kosten der Kabelkanalisationen ge-\nstützt auf die Kosten der marktbeherrschenden Anbieterin zur Erhaltung \nund Anpassung der Kabelkanalisationen bestimmt (Art. 54a Abs. 1 FDV \n2014). Eine neue Preisbestimmungsregel findet sich im Weiteren für den \nvollständig entbündelten Teilnehmeranschluss, wenn für die Bestimmung \nder Wiederbeschaffung",
+      "target_start": 160,
+      "expected": [
+        "Art. 54a Abs. 1 FDV \n2014"
+      ]
+    },
+    {
+      "id": "SWISS_CIT_030",
+      "language": "de",
+      "doc_id": "de_CH_BVGE_001_A-1496-2019_2021-07-16_pages_13-24",
+      "page": 10,
+      "source_page": 22,
+      "source_pdf": "sources/de_CH_BVGE_001_A-1496-2019_2021-07-16_pages_13-24.pdf",
+      "source_sha256": "65ac1be35bc200dd504de64763426009ec95b8bf0660b3d7fd8c9140db95e995",
+      "start": 1083,
+      "end": 1113,
+      "quote": "Art. 54 Abs. 2 Bst. a FDV 2014",
+      "family": "legislative_article",
+      "text": "für den \nvollständig entbündelten Teilnehmeranschluss, wenn für die Bestimmung \nder Wiederbeschaffungskosten einer modernen funktionsäquivalenten An-\nlage nach Art. 54 Abs. 2 Bst. a FDV 2014 auf eine neue, nicht mehr auf \nDoppelader-Metallleitungen basierende Technologe abzustellen ist. Ist \ndies der Fall, dann ist gemäss Art. 58 Abs. 3 FDV 2014 fü",
+      "target_start": 160,
+      "expected": [
+        "Art. 54 Abs. 2 Bst. a FDV 2014"
+      ]
+    },
+    {
+      "id": "SWISS_CIT_031",
+      "language": "it",
+      "doc_id": "it_CH_BVGE_001_C-6081-2022_2023-01-20",
+      "page": 1,
+      "source_page": 1,
+      "source_pdf": "sources/it_CH_BVGE_001_C-6081-2022_2023-01-20.pdf",
+      "source_sha256": "43f5289dfe404711ec17afc56a2c84610ccd8dee8963030802a67edb821a3b8b",
+      "start": 157,
+      "end": 168,
+      "quote": "C-6081/2022",
+      "family": "court_case",
+      "text": " \nBundesverwal tungsgeri cht \nT ri bunal admi ni strati f fédéral \nT ri bunal e amm ini strati vo federal e \nT ri bunal admi ni strati v federal \nCorte III \nC-6081/2022 \n \n \nS e n t e n z a d e l 2 0 g e n n a i o 2 0 2 3 \nComposizione \nGiudice Vito Valenti, giudice unico, \ncancelliera Marcella Lurà. \nParti \nA._______, (Italia",
+      "target_start": 157,
+      "expected": [
+        "C-6081/2022"
+      ]
+    },
+    {
+      "id": "SWISS_CIT_032",
+      "language": "it",
+      "doc_id": "it_CH_BVGE_001_C-6081-2022_2023-01-20",
+      "page": 2,
+      "source_page": 2,
+      "source_pdf": "sources/it_CH_BVGE_001_C-6081-2022_2023-01-20.pdf",
+      "source_sha256": "43f5289dfe404711ec17afc56a2c84610ccd8dee8963030802a67edb821a3b8b",
+      "start": 2228,
+      "end": 2254,
+      "quote": "art. 69 cpv. 1 lett. b LAI",
+      "family": "legislative_article",
+      "text": " realizzate nel caso di specie – di cui all'art. \n32 LTAF, questo Tribunale giudica, in virtù dell'art. 31 LTAF in combinazione \ncon l'art. 33 lett. d LTAF e l'art. 69 cpv. 1 lett. b LAI (RS 831.20), i ricorsi \nPagina 2 \n",
+      "target_start": 160,
+      "expected": [
+        "art. 69 cpv. 1 lett. b LAI"
+      ]
+    },
+    {
+      "id": "SWISS_CIT_033",
+      "language": "it",
+      "doc_id": "it_CH_BVGE_001_C-6081-2022_2023-01-20",
+      "page": 3,
+      "source_page": 3,
+      "source_pdf": "sources/it_CH_BVGE_001_C-6081-2022_2023-01-20.pdf",
+      "source_sha256": "43f5289dfe404711ec17afc56a2c84610ccd8dee8963030802a67edb821a3b8b",
+      "start": 312,
+      "end": 333,
+      "quote": "art. \n3 lett. dbis PA",
+      "family": "legislative_article",
+      "text": "AIE). \n3.2 La procedura dinanzi al Tribunale amministrativo federale è retta dalla \nPA, in quanto la LTAF non disponga altrimenti (art. 37 LTAF). In virtù dell'art. \n3 lett. dbis PA, la procedura in materia di assicurazioni sociali non è discipli-\nnata dalla PA nella misura in cui è applicabile la LPGA (RS 830.1). Giusta \nl'art. 1 cpv. 1 L",
+      "target_start": 160,
+      "expected": [
+        "art. \n3 lett. dbis PA"
+      ]
+    },
+    {
+      "id": "SWISS_CIT_034",
+      "language": "it",
+      "doc_id": "it_CH_BVGE_001_C-6081-2022_2023-01-20",
+      "page": 3,
+      "source_page": 3,
+      "source_pdf": "sources/it_CH_BVGE_001_C-6081-2022_2023-01-20.pdf",
+      "source_sha256": "43f5289dfe404711ec17afc56a2c84610ccd8dee8963030802a67edb821a3b8b",
+      "start": 579,
+      "end": 600,
+      "quote": "art. 1a-26bis e 28-70",
+      "family": "legislative_article_group",
+      "text": " misura in cui è applicabile la LPGA (RS 830.1). Giusta \nl'art. 1 cpv. 1 LAI, le disposizioni della LPGA sono applicabili all'assicura-\nzione per l'invalidità (art. 1a-26bis e 28-70), sempre che la LAI non deroghi \nalla LPGA. \n4.  \n4.1 Giusta l'art. 57a cpv. 1 LAI, l'Ufficio AI comunica all'assicurato, per \nmezzo di un preavviso, la decisi",
+      "target_start": 160,
+      "expected": [
+        "art. 1a-26bis e 28-70"
+      ]
+    },
+    {
+      "id": "SWISS_CIT_035",
+      "language": "it",
+      "doc_id": "it_CH_BVGE_001_C-6081-2022_2023-01-20",
+      "page": 3,
+      "source_page": 3,
+      "source_pdf": "sources/it_CH_BVGE_001_C-6081-2022_2023-01-20.pdf",
+      "source_sha256": "43f5289dfe404711ec17afc56a2c84610ccd8dee8963030802a67edb821a3b8b",
+      "start": 976,
+      "end": 990,
+      "quote": "art. 73ter OAI",
+      "family": "legislative_article",
+      "text": "lla soppressione o riduzione della prestazione già assegnata. \nL'assicurato ha il diritto di essere sentito conformemente all'art. 42 LPGA. \nInoltre, secondo l'art. 73ter OAI (RS 831.201), l'Ufficio AI deve dare all'assi-\ncurato o al suo rappresentante, da un lato, l'occasione d'esprimersi, oral-\nmente o per scritto, sul progetto/pr",
+      "target_start": 160,
+      "expected": [
+        "art. 73ter OAI"
+      ]
+    },
+    {
+      "id": "SWISS_CIT_036",
+      "language": "it",
+      "doc_id": "it_CH_BVGE_001_C-6081-2022_2023-01-20",
+      "page": 3,
+      "source_page": 3,
+      "source_pdf": "sources/it_CH_BVGE_001_C-6081-2022_2023-01-20.pdf",
+      "source_sha256": "43f5289dfe404711ec17afc56a2c84610ccd8dee8963030802a67edb821a3b8b",
+      "start": 1698,
+      "end": 1709,
+      "quote": "C-6835/2014",
+      "family": "court_case",
+      "text": "bito, l'assicurato può fra l'altro \nfar valere le sue eventuali obiezioni e domandare dei complementi d'istru-\nzione (cfr., in particolare, la sentenza del TAF C-6835/2014 del 10 ottobre \n2017 consid. 2.8.2 con rinvii). \n4.2 Per il resto, ai sensi dell’art. 74 cpv. 1 OAI, l’Ufficio AI si pronuncia sulla \nrichiesta di prestazioni,",
+      "target_start": 160,
+      "expected": [
+        "C-6835/2014"
+      ]
+    },
+    {
+      "id": "SWISS_CIT_037",
+      "language": "it",
+      "doc_id": "it_CH_BVGE_001_C-6081-2022_2023-01-20",
+      "page": 4,
+      "source_page": 4,
+      "source_pdf": "sources/it_CH_BVGE_001_C-6081-2022_2023-01-20.pdf",
+      "source_sha256": "43f5289dfe404711ec17afc56a2c84610ccd8dee8963030802a67edb821a3b8b",
+      "start": 946,
+      "end": 969,
+      "quote": "art. 85bis cpv. 3 \nLAVS",
+      "family": "legislative_article",
+      "text": "erito dello scritto \ndell’interessato del 21 dicembre 2022 e ciò in procedura semplificata a giu-\ndice unico (art. 23 cpv. 1 lett. b LTAF in combinazione con l’art. 85bis cpv. 3 \nLAVS e con l’art. 69 cpv. 2 LAI). Detto scritto, unitamente agli allegati do-\ncumenti, è trasmesso all’autorità inferiore al fine della continuazione della \nprocedu",
+      "target_start": 160,
+      "expected": [
+        "art. 85bis cpv. 3 \nLAVS"
+      ]
+    },
+    {
+      "id": "SWISS_CIT_038",
+      "language": "it",
+      "doc_id": "it_CH_BVGE_001_C-6081-2022_2023-01-20",
+      "page": 4,
+      "source_page": 4,
+      "source_pdf": "sources/it_CH_BVGE_001_C-6081-2022_2023-01-20.pdf",
+      "source_sha256": "43f5289dfe404711ec17afc56a2c84610ccd8dee8963030802a67edb821a3b8b",
+      "start": 2022,
+      "end": 2043,
+      "quote": "art. 7 e segg. TS-TAF",
+      "family": "legislative_article_group",
+      "text": " l’esito della procedura in esame non si giustifica altresì manife-\nstamente l’attribuzione di ripetibili all’interessato (art. 64 PA in combina-\nzione con gli art. 7 e segg. TS-TAF). \n \n \n \n(dispositivo alla pagina seguente) \nPagina 4 \n",
+      "target_start": 160,
+      "expected": [
+        "art. 7 e segg. TS-TAF"
+      ]
+    },
+    {
+      "id": "SWISS_CIT_039",
+      "language": "it",
+      "doc_id": "it_CH_BVGE_001_C-6081-2022_2023-01-20",
+      "page": 6,
+      "source_page": 6,
+      "source_pdf": "sources/it_CH_BVGE_001_C-6081-2022_2023-01-20.pdf",
+      "source_sha256": "43f5289dfe404711ec17afc56a2c84610ccd8dee8963030802a67edb821a3b8b",
+      "start": 236,
+      "end": 274,
+      "quote": "art. 82 e segg., 90 e \nsegg. e 100 LTF",
+      "family": "legislative_article_group",
+      "text": "rposto ricorso in materia di \ndiritto pubblico al Tribunale federale, Schweizerhofquai 6, 6004 Lucerna, \nentro un termine di 30 giorni dalla sua notificazione (art. 82 e segg., 90 e \nsegg. e 100 LTF). Il termine è reputato osservato se gli atti scritti sono \nconsegnati al Tribunale federale oppure, all'indirizzo di questo, alla posta \nsvizzera o a una rapp",
+      "target_start": 160,
+      "expected": [
+        "art. 82 e segg., 90 e \nsegg. e 100 LTF"
+      ]
+    },
+    {
+      "id": "SWISS_CIT_041",
+      "language": "fr",
+      "doc_id": "fr_CH_BVGE_001_E-1088-2022_2022-11-07",
+      "page": 5,
+      "source_page": 5,
+      "source_pdf": "sources/fr_CH_BVGE_001_E-1088-2022_2022-11-07.pdf",
+      "source_sha256": "362f36ce82689d8717985a5f3716e3e378afde08d38f1d067e7c6cf9edb4e5c7",
+      "start": 433,
+      "end": 435,
+      "quote": "F2",
+      "family": "negative_form_type",
+      "text": "requérant a exprimé le besoin de parler des violences \nsubies en Grèce, s’est dit dépressif, triste, en perte d’appétit et fatigué. \nDes formulaires médicaux « F2 » des 5 mai 2021, 11 mai 2021, 28 mai \n2021, 1er juin 2021, 8 juin 2021, 15 juin 2021, 24 juin 2021, 13 juillet 2021, \n1er septembre 2021, 6 septembre 2021, 9 ",
+      "target_start": 160,
+      "expected": []
+    },
+    {
+      "id": "SWISS_CIT_042",
+      "language": "fr",
+      "doc_id": "fr_CH_BVGE_001_E-1088-2022_2022-11-07",
+      "page": 5,
+      "source_page": 5,
+      "source_pdf": "sources/fr_CH_BVGE_001_E-1088-2022_2022-11-07.pdf",
+      "source_sha256": "362f36ce82689d8717985a5f3716e3e378afde08d38f1d067e7c6cf9edb4e5c7",
+      "start": 183,
+      "end": 185,
+      "quote": "M.",
+      "family": "negative_section_heading",
+      "text": "le laissant dans un état d’angoisse permanent. Il serait de plus \npaniqué à l’idée d’un retour en Grèce car il craindrait de devoir revivre cette \nexpérience. \nM.  \nDeux journaux de soins du 29 avril 2021 ont été versés au dossier, \nindiquant que le requérant a exprimé le besoin de parler des violences \nsubies en Grèce, ",
+      "target_start": 160,
+      "expected": []
+    },
+    {
+      "id": "SWISS_CIT_043",
+      "language": "fr",
+      "doc_id": "fr_CH_BVGE_001_E-1088-2022_2022-11-07",
+      "page": 5,
+      "source_page": 5,
+      "source_pdf": "sources/fr_CH_BVGE_001_E-1088-2022_2022-11-07.pdf",
+      "source_sha256": "362f36ce82689d8717985a5f3716e3e378afde08d38f1d067e7c6cf9edb4e5c7",
+      "start": 2248,
+      "end": 2254,
+      "quote": "Page 5",
+      "family": "negative_page_number",
+      "text": "reçu de traitement \nadéquat en Grèce et n’avoir consulté une psychiatre en Suisse que \nrécemment, de sorte qu’il conviendrait d’attendre le dépôt d’un rapport \nPage 5 \n",
+      "target_start": 160,
+      "expected": []
+    },
+    {
+      "id": "SWISS_CIT_044",
+      "language": "fr",
+      "doc_id": "fr_CH_BVGE_001_E-1088-2022_2022-11-07",
+      "page": 5,
+      "source_page": 5,
+      "source_pdf": "sources/fr_CH_BVGE_001_E-1088-2022_2022-11-07.pdf",
+      "source_sha256": "362f36ce82689d8717985a5f3716e3e378afde08d38f1d067e7c6cf9edb4e5c7",
+      "start": 214,
+      "end": 227,
+      "quote": "29 avril 2021",
+      "family": "negative_date",
+      "text": "isse permanent. Il serait de plus \npaniqué à l’idée d’un retour en Grèce car il craindrait de devoir revivre cette \nexpérience. \nM.  \nDeux journaux de soins du 29 avril 2021 ont été versés au dossier, \nindiquant que le requérant a exprimé le besoin de parler des violences \nsubies en Grèce, s’est dit dépressif, triste, en perte d’ap",
+      "target_start": 160,
+      "expected": []
+    },
+    {
+      "id": "SWISS_CIT_045",
+      "language": "fr",
+      "doc_id": "fr_CH_BVGE_001_E-1088-2022_2022-11-07",
+      "page": 1,
+      "source_page": 1,
+      "source_pdf": "sources/fr_CH_BVGE_001_E-1088-2022_2022-11-07.pdf",
+      "source_sha256": "362f36ce82689d8717985a5f3716e3e378afde08d38f1d067e7c6cf9edb4e5c7",
+      "start": 506,
+      "end": 516,
+      "quote": "3003 Berne",
+      "family": "negative_postcode",
+      "text": "_____, né le (…), \nAfghanistan,   \nreprésenté par Charbel Fakhri-Kairouz,  \n(…),  \nrecourant,  \ncontre \nSecrétariat d'Etat aux migrations (SEM), \nQuellenweg 6, 3003 Berne, \nautorité inférieure. \nObjet \nAsile (non-entrée en matière / Etat tiers sûr) et renvoi ;  \ndécision du SEM du 25 février 2022 / N (…). \n \n \n \n",
+      "target_start": 160,
+      "expected": []
+    },
+    {
+      "id": "SWISS_CIT_046",
+      "language": "de",
+      "doc_id": "de_CH_BVGE_001_A-1496-2019_2021-07-16_pages_13-24",
+      "page": 4,
+      "source_page": 16,
+      "source_pdf": "sources/de_CH_BVGE_001_A-1496-2019_2021-07-16_pages_13-24.pdf",
+      "source_sha256": "65ac1be35bc200dd504de64763426009ec95b8bf0660b3d7fd8c9140db95e995",
+      "start": 1919,
+      "end": 1932,
+      "quote": "2013 bis 2016",
+      "family": "negative_date_range",
+      "text": " a.a.O., Rz. 2.8 mit \nHinweisen).  \nDie Vorinstanz hat im Dispositiv der angefochtenen Teilverfügung vom \n22. Februar 2019 ausschliesslich die Preise der Jahre 2013 bis 2016 fest-\ngelegt. Dieser Zeitraum bildet den Streitgegenstand des vorliegenden Be-\nschwerdeverfahrens. Der vorinstanzliche Entscheid über die Preise der \nJahre 201",
+      "target_start": 160,
+      "expected": []
+    },
+    {
+      "id": "SWISS_CIT_047",
+      "language": "de",
+      "doc_id": "de_CH_BVGE_001_A-1496-2019_2021-07-16_pages_13-24",
+      "page": 12,
+      "source_page": 24,
+      "source_pdf": "sources/de_CH_BVGE_001_A-1496-2019_2021-07-16_pages_13-24.pdf",
+      "source_sha256": "65ac1be35bc200dd504de64763426009ec95b8bf0660b3d7fd8c9140db95e995",
+      "start": 842,
+      "end": 848,
+      "quote": "COSMOS",
+      "family": "negative_software_name",
+      "text": ". \nDie Vorinstanz, so Swisscom in der weiteren Begründung, habe den Kor-\nrekturfaktor für die Preise der regulierten Mietleitungen im Rahmen der \nKostenmodelle COSMOS fehlerhaft bestimmt und angewandt, wobei ge-\nsamthaft fünf Fehler auszumachen seien: (1.) Der Hauptfehler sei darin zu \nsehen, dass die Vorinstanz zur Bestimmu",
+      "target_start": 160,
+      "expected": []
+    },
+    {
+      "id": "SWISS_CIT_048",
+      "language": "de",
+      "doc_id": "de_CH_BVGE_001_A-1496-2019_2021-07-16_pages_13-24",
+      "page": 12,
+      "source_page": 24,
+      "source_pdf": "sources/de_CH_BVGE_001_A-1496-2019_2021-07-16_pages_13-24.pdf",
+      "source_sha256": "65ac1be35bc200dd504de64763426009ec95b8bf0660b3d7fd8c9140db95e995",
+      "start": 1906,
+      "end": 1917,
+      "quote": "PoP-\nAnteil",
+      "family": "negative_technical_parameter",
+      "text": "n Mengenanteilen an-\nhand der Spalte \"Bandbreite\", zu verzeichnen. (4.) Bei der Ermittlung des \nUmsatzwertes habe die Vorinstanz es unterlassen, den Parameter \"PoP-\nAnteil\" (Point of Presence) anzupassen, wodurch Kosten und Umsätze auf \nunterschiedlicher Basis ermittelt würden. (5.) Schliesslich wende die Vor-\ninstanz den von ihr",
+      "target_start": 160,
+      "expected": []
+    },
+    {
+      "id": "SWISS_CIT_049",
+      "language": "it",
+      "doc_id": "it_CH_BVGE_001_C-6081-2022_2023-01-20",
+      "page": 2,
+      "source_page": 2,
+      "source_pdf": "sources/it_CH_BVGE_001_C-6081-2022_2023-01-20.pdf",
+      "source_sha256": "43f5289dfe404711ec17afc56a2c84610ccd8dee8963030802a67edb821a3b8b",
+      "start": 408,
+      "end": 412,
+      "quote": "100%",
+      "family": "negative_medical_percentage",
+      "text": "omanda di prestazioni è (recte, sarebbe stata) \nrespinta, ritenuto in particolare che a causa del danno alla salute egli pre-\nsenta un’incapacità al lavoro del 100% dal 27 ottobre 2019, dello 0% dal \n27 novembre 2019 e del 100% dal 24 aprile 2020 nell’attività di stuccatore. \nTuttavia, l’esercizio di un’attività confacente",
+      "target_start": 160,
+      "expected": []
+    },
+    {
+      "id": "SWISS_CIT_050",
+      "language": "it",
+      "doc_id": "it_CH_BVGE_001_C-6081-2022_2023-01-20",
+      "page": 2,
+      "source_page": 2,
+      "source_pdf": "sources/it_CH_BVGE_001_C-6081-2022_2023-01-20.pdf",
+      "source_sha256": "43f5289dfe404711ec17afc56a2c84610ccd8dee8963030802a67edb821a3b8b",
+      "start": 1068,
+      "end": 1077,
+      "quote": "30 giorni",
+      "family": "negative_duration",
+      "text": "sclude il riconoscimento del diritto ad una rendita d’invalidità \nsvizzera. L’UAIE ha altresì concesso all’interessato la facoltà di formulare, \nnel termine di 30 giorni dalla ricezione del progetto di decisione, delle obie-\nzioni per iscritto. \n1.2 Con decisione del 12 ottobre 2022, l’UAIE ha respinto la domanda di \nprestazion",
+      "target_start": 160,
+      "expected": []
+    },
+    {
+      "id": "SWISS_CIT_051",
+      "language": "it",
+      "doc_id": "it_CH_BVGE_001_C-6081-2022_2023-01-20",
+      "page": 2,
+      "source_page": 2,
+      "source_pdf": "sources/it_CH_BVGE_001_C-6081-2022_2023-01-20.pdf",
+      "source_sha256": "43f5289dfe404711ec17afc56a2c84610ccd8dee8963030802a67edb821a3b8b",
+      "start": 63,
+      "end": 66,
+      "quote": "1.1",
+      "family": "negative_section_number",
+      "text": "C-6081/2022 \nRitenuto in fatto e considerato in diritto: \n1.  \n1.1 Con progetto di decisione del 12 agosto 2022, l’Ufficio dell’assicura-\nzione per l’invalidità per gli assicurati residenti all’estero (UAIE) ha comu-\nnicato al",
+      "target_start": 63,
+      "expected": []
+    },
+    {
+      "id": "SWISS_CIT_052",
+      "language": "it",
+      "doc_id": "it_CH_BVGE_001_C-6081-2022_2023-01-20",
+      "page": 1,
+      "source_page": 1,
+      "source_pdf": "sources/it_CH_BVGE_001_C-6081-2022_2023-01-20.pdf",
+      "source_sha256": "43f5289dfe404711ec17afc56a2c84610ccd8dee8963030802a67edb821a3b8b",
+      "start": 310,
+      "end": 319,
+      "quote": "A._______",
+      "family": "negative_existing_mask",
+      "text": "e III \nC-6081/2022 \n \n \nS e n t e n z a d e l 2 0 g e n n a i o 2 0 2 3 \nComposizione \nGiudice Vito Valenti, giudice unico, \ncancelliera Marcella Lurà. \nParti \nA._______, (Italia), \nricorrente, \ncontro \nUfficio dell'assicurazione per l'invalidità per gli \nassicurati residenti all'estero (UAIE), \nautorità inferiore. \nOggetto \nAs",
+      "target_start": 160,
+      "expected": []
+    }
+  ],
+  "unresolved": [
+    {
+      "id": "SWISS_CIT_005",
+      "quote": "52 al. 1 PA et 108 al. 3 LAsi",
+      "reason": "Requires inherited article context, ambiguous extracted EU identifier or context-defined standalone abbreviation."
+    },
+    {
+      "id": "SWISS_CIT_014",
+      "quote": "Directive 2O11l95lUE",
+      "reason": "Requires inherited article context, ambiguous extracted EU identifier or context-defined standalone abbreviation."
+    },
+    {
+      "id": "SWISS_CIT_028",
+      "quote": "ComComV",
+      "reason": "Requires inherited article context, ambiguous extracted EU identifier or context-defined standalone abbreviation."
+    },
+    {
+      "id": "SWISS_CIT_040",
+      "quote": "LPGA",
+      "reason": "Requires inherited article context, ambiguous extracted EU identifier or context-defined standalone abbreviation."
+    }
+  ]
+}

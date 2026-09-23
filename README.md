@@ -71,7 +71,7 @@ Transcribed from slide 10 of the organiser’s “Legal Hackathon Slides - Parti
 
 ## Processing
 
-Docling reads paragraphs and layout. OpenAI Privacy Filter runs on Modal GPU; spaCy and rules add candidates. GPT-4.1 mini performs the final structured quality check through Pydantic AI. Apertus is the planned replacement for that final check.
+Docling reads paragraphs and layout. OpenAI Privacy Filter runs on Modal GPU; spaCy and rules add candidates. GPT-6 Sol performs the final structured quality check through Pydantic AI, using standard processing and medium reasoning. Apertus is the planned replacement for that final check.
 
 ## Demonstration deadline
 

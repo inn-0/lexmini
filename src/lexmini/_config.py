@@ -21,4 +21,4 @@ ORGANISATION_ID = os.environ.get("LEXMINI_ORGANISATION_ID", "local-organisation"
 SCREENING_APP = "demokratis-lexmini-screening"
 SCREENING_CLASS = "DocumentScreening"
 NEON_AUTH_BASE_URL = os.environ.get("NEON_AUTH_BASE_URL", "")
-QUALITY_MODEL = os.environ.get('LEXMINI_QUALITY_MODEL', 'gpt-4.1-mini')
+QUALITY_MODEL = os.environ.get('LEXMINI_QUALITY_MODEL', 'gpt-6-sol')

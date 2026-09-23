@@ -49,7 +49,7 @@ def detect(texts: list[str], languages: list[str]) -> list[list[dict]]:
           raise ValueError("spaCy changed source text; findings cannot be mapped safely")
         for reference in doc.spans.get('legal_references', []):
           output[index].append(dict(start=reference.start_char,end=reference.end_char,
-            field_type='case_reference',level='professional-secrecy',subcategory='legal_reference',
+            field_type='case_reference',level='public',subcategory='legal_reference',
             detector='spacy/legal-reference-ruler',reason='Configured spaCy legal-reference pattern matched; verify the source.'))
         for entity in doc.ents:
           if entity.label_ not in LABELS:

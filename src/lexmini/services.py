@@ -296,6 +296,44 @@ def restore_review(document_id, request):
     return session.review.model_copy(deep=True)
 
 
+def _human_protected(finding):
+  sources = set(finding.detector.split(' + '))
+  return (finding.review_status != 'unreviewed' or finding.review_signal == 'approved'
+    or bool(sources & {'reviewer-example', 'screening-memory', 'user-term'}))
+
+
+def _reconcile_public_keeps(findings, kept, explicit_protect):
+  # A kept citation/company must not leave its machine-detected fragments hidden.
+  # Keep independent sensitive fields, explicit model conflicts and human choices.
+  fragments = {'person_name', 'organisation_name', 'date', 'case_reference', 'other'}
+  reconciled = 0
+  for outer in kept:
+    if outer.field_type not in {'organisation_name', 'case_reference'} or outer.sensitivity_levels != ['public']:
+      continue
+    a = outer.location
+    if a.source != 'page_text' or a.start is None or a.end is None:
+      continue
+    for inner in findings:
+      b = inner.location
+      if (inner is outer or not inner.selected or _human_protected(inner)
+          or inner.finding_id in explicit_protect or inner.field_type not in fragments):
+        continue
+      if (b.source != 'page_text' or b.page_number != a.page_number or b.start is None
+          or b.end is None or not a.start <= b.start < b.end <= a.end):
+        continue
+      sources = inner.detector.split(' + ')
+      if not all(source in {'openai/privacy-filter', 'openai-quality', 'legal-rule', 'date-rule',
+                            'legal-reference', 'legal-reference-rule', 'document-match', 'document-repeat'} or source.startswith('spacy/') for source in sources):
+        continue
+      inner.selected = False
+      inner.context_suggestion = 'keep'
+      inner.context_reason = f'Contained in public {outer.field_type.replace("_", " ")} kept by the quality check: {outer.finding_id}.'
+      if 'openai-quality' not in sources:
+        inner.detector += ' + openai-quality'
+      reconciled += 1
+  return reconciled
+
+
 def quality_review(document_id, request):
   from . import llm_review
   session=store.get(document_id)
@@ -313,11 +351,11 @@ def quality_review(document_id, request):
         f.review_status='confirmed_remove' if decision.selected else 'confirmed_keep'
       result=llm_review.review(session)
       changed=protected=0
+      kept=[]
+      explicit_protect={change.finding_id for change in result['changes'] if change.action != 'keep'}
       for change in result['changes']:
         f=by_id[change.finding_id]
-        if f.review_status != 'unreviewed' or f.review_signal == 'approved':
-          protected+=1;continue
-        if change.action=='keep' and f.field_type=='person_name':
+        if _human_protected(f):
           protected+=1;continue
         f.field_type=change.field_type
         from .legal_references import info as reference_info
@@ -329,6 +367,7 @@ def quality_review(document_id, request):
         f.reason='LLM quality check: '+change.reason[:600]
         f.detector=f.detector+' + openai-quality' if 'openai-quality' not in f.detector else f.detector
         f.replacement=session.tokens.assign(f.field_type,f.original_text)
+        if change.action=='keep': kept.append(f)
         changed+=1
       additions=0
       existing={(f.location.page_number,f.location.start,f.location.end,f.field_type) for f in session.review.findings}
@@ -341,12 +380,33 @@ def quality_review(document_id, request):
         found=rules.findings_for_page(document_id,page,[],Context(),spans,session.layout_regions)
         for f in found:
           if 'openai-quality' not in f.detector: continue
+          action=add.get('action','review')
+          f.selected=action!='keep'
+          f.context_suggestion=action
+          f.context_reason=add['reason'][:600]
+          inherited=[prior for prior in session.review.findings if _human_protected(prior)
+            and prior.location.source == f.location.source
+            and (prior.location.page_number,prior.location.start,prior.location.end) ==
+                (f.location.page_number,f.location.start,f.location.end)]
+          if inherited:
+            # Exact-span human choices govern every type for the same text.
+            # Conflicting human records stay protected until a reviewer resolves them.
+            f.selected=any(prior.selected for prior in inherited)
+            f.review_status='confirmed_remove' if f.selected else 'confirmed_keep'
+            f.context_suggestion='remove' if f.selected else 'keep'
+            conflict=len({prior.selected for prior in inherited}) > 1
+            f.context_reason=('Conflicting human decisions for this exact span; removal takes precedence pending review. '
+              if conflict else 'Inherited the human decision for this exact span. ') + ', '.join(prior.finding_id for prior in inherited)
+            protected+=1
+          if not f.selected: kept.append(f)
+          else: explicit_protect.add(f.finding_id)
           f.replacement=session.tokens.assign(f.field_type,f.original_text)
           session.review.findings.append(f);existing.add(identity);additions+=1
+      reconciled=_reconcile_public_keeps(session.review.findings,kept,explicit_protect)
       layout.annotate(session.review.findings,session.extracted.pages,session.layout_regions)
       session.review.revision+=1
       session.review.quality_check={k:v for k,v in result.items() if k not in {'changes','additions'}}
-      session.review.quality_check.update(changed=changed,added=additions,protected=protected)
+      session.review.quality_check.update(changed=changed,added=additions,protected=protected,reconciled=reconciled)
       session.review.processing+=' + OpenAI quality check'
       return session.review.model_copy(deep=True)
     except Exception:

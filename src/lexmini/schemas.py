@@ -17,7 +17,7 @@ FieldType = Literal[
 class Context(BaseModel):
   model_config = ConfigDict(extra="forbid")
   role: str = Field(default="Legal translator", max_length=500)
-  goal: str = Field(default="Translate the document while concealing the parties.", max_length=2000)
+  goal: str = Field(default="Translate the document while protecting private client details and sensitive facts.", max_length=2000)
   confidential_terms: list[str] = Field(default_factory=list, max_length=100)
   retain_requests: list[str] = Field(default_factory=list, max_length=50)
   review_set: str = Field(default="demo", min_length=1, max_length=80, pattern=r"^[\w .-]+$")

@@ -165,11 +165,11 @@ def findings_for_page(document_id: str, page: PageText, spans: list[dict], conte
     default_selected = field_type != "date"
     if field_type == "date":
       nearby = page.text[max(0,start-90):min(len(page.text),end+90)].casefold()
-      default_selected = bool(re.search(r"birth|born|birthday|naissance|né[e]? le|geburt|geboren|nascita|nato|crime|offen[cs]e|infraction|tatzeit|reato",nearby))
-      context_reason = "Possible birth or sensitive-event date; review before release." if default_selected else "Ordinary date kept by default; check if it identifies the confidential matter."
+      default_selected = bool(re.search(r"birth|born|birthday|naissance|né[e]? le|geburt|geboren|nascita|nato",nearby))
+      context_reason = "Possible birth date; review before release." if default_selected else "Ordinary date kept by default; check if it identifies the confidential matter."
       suggestion = "remove" if default_selected else "keep"
     if field_type == 'case_reference':
-      default_selected = span['subcategory'] in {'internal_file','bvger_case','bger_case'}
+      default_selected = span['subcategory'] in {'internal_file'}
     output.append(Finding(selected=default_selected,
       legal_reference=reference_info(original,span['subcategory']) if field_type=='case_reference' else None,finding_id=finding_id, entity_id=entity, field_type=field_type,
       original_text=original, location=Location(page_number=page.info.number, start=start, end=end,
