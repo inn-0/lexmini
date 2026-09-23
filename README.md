@@ -2,6 +2,12 @@
 
 ![Document review interface](docs/images/review.png)
 
+## Open Lexmini
+
+- **[Documentation](https://lexmini.replit.app/)** - start here for the use case, process and governance design.
+- **[Try the Swiss example](https://lexmini.replit.app/assets/review.html?quality=CH_BVGE_001_E-1088-2022_2022-11-07)** - open a real French judgment with saved findings, ready to review.
+- **[Upload a PDF](https://lexmini.replit.app/assets/review.html)** - open the review workspace and choose your own document.
+
 ## [Watch our presentation](https://drive.google.com/file/d/1oYyn97AnC8AuUX9uYixeoTu65kwLxWij/view)
 
 Built for [the Legal Hackathon at Swiss {ai} Weeks](https://ai-weeks.ch/events/legal-hackathon), 23 September 2026.

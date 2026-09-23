@@ -14,3 +14,7 @@
 .guide .guide-brand{display:inline-flex;align-items:center;gap:9px;margin-right:12px;text-decoration:none;flex-shrink:0;color:#174c3b}
 .guide-brand strong{font-size:23px;letter-spacing:-1px}
 .guide-mark{display:grid;place-items:center;width:32px;height:35px;border-radius:8px 8px 8px 2px;background:#174c3b;color:white;font:25px Georgia,serif}
+
+.guide .guide-nav .guide-demo{background:#174c3b;color:#fff;padding:9px 16px;border-radius:7px;text-decoration:none;font-weight:700;animation:demo-pulse 2.4s ease-in-out infinite}
+@keyframes demo-pulse{0%,100%{box-shadow:0 0 0 0 #2d9b8833}50%{box-shadow:0 0 0 7px #2d9b8818,0 0 18px #2d9b8833}}
+@media(prefers-reduced-motion:reduce){.guide .guide-nav .guide-demo{animation:none;box-shadow:0 0 0 2px #2d9b8833}}

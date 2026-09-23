@@ -85,7 +85,7 @@ def policy():
 
 @app.get("/")
 def home():
-  return RedirectResponse("/assets/review.html")
+  return RedirectResponse("/assets/governance-guide.html")
 
 
 @app.post("/api/documents", response_model=DocumentReview)

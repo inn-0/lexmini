@@ -8,6 +8,10 @@ brand.className='guide-brand';brand.href='#';brand.setAttribute('aria-label','Le
 brand.innerHTML='<span class="guide-mark" aria-hidden="true">L</span><strong>lexmini</strong>';
 brand.onclick=event=>{event.preventDefault();window.scrollTo({top:0});};
 nav.append(brand);
+const demo=document.createElement('a');
+demo.className='guide-demo';demo.href='review.html?quality=CH_BVGE_001_E-1088-2022_2022-11-07';demo.textContent='Try the example';nav.append(demo);
+const upload=document.createElement('a');upload.href='review.html';upload.textContent='Upload a PDF';nav.append(upload);
+
 
 const labels=['Use case','Review process','Three tiers','Approved labels','Controlled reveal','Governance','Processing','Challenge'];
 const headings=[...document.querySelectorAll('h2')];
