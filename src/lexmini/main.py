@@ -17,6 +17,7 @@ from starlette.middleware.trustedhost import TrustedHostMiddleware
 
 from . import _config, pdf, rules, services, quality, paragraphs
 from .sharing import router as sharing_router
+from .download_names import attachment
 from .governance_routes import router as governance_router
 from .governance_demo import DemoDenied
 from .schemas import Context, DocumentReview, ExportRequest, Health, LearnRequest, RestoreReviewRequest, QualityRequest
@@ -163,7 +164,7 @@ def export(document_id: str, selection: ExportRequest):
   payload = services.export(document_id, selection)
   extension = "pdf" if selection.format == "pdf" else "txt"
   return Response(payload, media_type="application/pdf" if extension == "pdf" else "text/plain; charset=utf-8",
-    headers={"Content-Disposition": f'attachment; filename="lexmini-reviewed.{extension}"'})
+    headers={"Content-Disposition": attachment(services.store.get(document_id).review.filename, extension)})
 
 
 @app.delete("/api/documents/{document_id}")

@@ -301,13 +301,13 @@ for (const format of ['pdf','text']) $(format).onclick = () => task(async () => 
     const payload = {selected_ids:review.findings.filter(f=>f.selected).map(f=>f.finding_id), revision:review.revision, format,
       replacement_style:$('replacementStyle').value, pdf_layout:$('pdfLayout').value};
   const response = await request(`/api/documents/${review.document_id}/export`, {method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify(payload)});
-  saveDownload(await response.blob(), `lexmini-reviewed.${format==='pdf'?'pdf':'txt'}`);
+  saveDownload(await response.blob(), downloadName(format==='pdf'?'pdf':'txt'));
   status('Download ready. Check the result before sharing.');
 });
 $('keys').onclick = () => task(async () => {
   await ensureSession();
   const response = await request(`/api/documents/${review.document_id}/keys`);
-  saveDownload(new Blob([JSON.stringify(await response.json(), null, 2)], {type:'application/json'}), 'lexmini-private-keys.json');
+  saveDownload(new Blob([JSON.stringify(await response.json(), null, 2)], {type:'application/json'}), downloadName('json'));
   status('Private key map downloaded. Keep it separate from the document you share.');
 });
 $('pdfLayout').onchange = () => {
@@ -403,6 +403,11 @@ async function ensureSession() {
     method:'POST', headers:{'Content-Type':'application/json'},
     body:JSON.stringify({findings:old.findings, context:screeningContext()})})).json();
   focused=null; renderPages();renderFindings();
+}
+function downloadName(extension) {
+  const name=(review?.filename || 'document.pdf').replace(/\\/g,'/').split('/').pop();
+  const stem=name.replace(/\.pdf$/i,'').replace(/[\x00-\x1f\x7f<>:"/\\|?*]/g,'_').replace(/^[ .]+|[ .]+$/g,'') || 'document';
+  return `lexmini_${stem.slice(0,180)}.${extension}`;
 }
 function saveDownload(blob, filename) {
   const url=URL.createObjectURL(blob), link=document.createElement('a');

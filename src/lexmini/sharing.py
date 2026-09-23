@@ -1,5 +1,6 @@
 # src/lexmini/sharing.py
 """Real-document, expiring recipient downloads for the trusted local prototype.
+from .download_names import attachment
 
 Anyone with the curator UI can issue/revoke. Recipient links are bearer grants,
 not verified identities. Check each download; never send the private key map.
@@ -90,4 +91,4 @@ def download(token:str):
     payload=services.export(grant['document_id'],ExportRequest(revision=grant['revision'],
       selected_ids=grant['selected_ids'],format='pdf',pdf_layout='reflow'))
     event('download_allowed',grant['document_id'],recipient=grant['recipient'],revision=grant['revision'])
-    return Response(payload,media_type='application/pdf',headers={'Content-Disposition':'attachment; filename="lexmini-recipient.pdf"'})
+    return Response(payload,media_type='application/pdf',headers={'Content-Disposition':attachment(session.review.filename,'pdf')})
