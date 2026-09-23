@@ -3,18 +3,18 @@
 .guide>div{max-width:1200px;margin:auto}.guide .d2-diagram{margin:24px 0}
 
 /* Section navigation follows the JTI meaning report's compact sticky links. */
-.guide .guide-nav{display:flex;flex-wrap:wrap;gap:10px 20px;align-items:baseline;position:sticky;top:0;z-index:100;padding:12px 0;background:rgba(245,247,250,.97);backdrop-filter:blur(10px);border-bottom:1px solid #c2cdd6;font-size:.9rem}
-.guide .guide-nav a{color:#183040;text-underline-offset:4px}
+.guide .guide-nav{display:flex;flex-wrap:nowrap;gap:12px;align-items:baseline;overflow-x:auto;white-space:nowrap;scrollbar-width:thin;position:sticky;top:0;z-index:100;padding:12px 0;background:rgba(245,247,250,.97);backdrop-filter:blur(10px);border-bottom:1px solid #c2cdd6;font-size:14px}
+.guide .guide-nav a{flex-shrink:0;color:#183040;text-underline-offset:4px}
 .guide h2{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:7px;text-decoration-color:#8ca79a;margin-top:64px;margin-bottom:24px;scroll-margin-top:var(--guide-nav-height,90px)}
 .guide h3{scroll-margin-top:var(--guide-nav-height,90px)}
-@media(max-width:700px){.guide .guide-nav{gap:8px 14px;font-size:13px}}
+@media(max-width:700px){.guide .guide-nav{gap:10px;font-size:13px}}
 @media print{.guide .guide-nav{display:none}}
 
 .guide .guide-nav{align-items:center}
-.guide .guide-brand{display:inline-flex;align-items:center;gap:9px;margin-right:12px;text-decoration:none;flex-shrink:0;color:#174c3b}
+.guide .guide-brand{display:inline-flex;align-items:center;gap:7px;margin-right:4px;text-decoration:none;flex-shrink:0;color:#174c3b}
 .guide-brand strong{font-size:23px;letter-spacing:-1px}
 .guide-mark{display:grid;place-items:center;width:32px;height:35px;border-radius:8px 8px 8px 2px;background:#174c3b;color:white;font:25px Georgia,serif}
 
-.guide .guide-nav .guide-demo{background:#174c3b;color:#fff;padding:9px 16px;border-radius:7px;text-decoration:none;font-weight:700;animation:demo-pulse 2.4s ease-in-out infinite}
+.guide .guide-nav .guide-demo{background:#174c3b;color:#fff;padding:7px 11px;border-radius:7px;text-decoration:none;font-weight:700;animation:demo-pulse 2.4s ease-in-out infinite}
 @keyframes demo-pulse{0%,100%{box-shadow:0 0 0 0 #2d9b8833}50%{box-shadow:0 0 0 7px #2d9b8818,0 0 18px #2d9b8833}}
 @media(prefers-reduced-motion:reduce){.guide .guide-nav .guide-demo{animation:none;box-shadow:0 0 0 2px #2d9b8833}}
