@@ -1,11 +1,11 @@
 # src/lexmini/sharing.py
 """Real-document, expiring recipient downloads for the trusted local prototype.
-from .download_names import attachment
 
 Anyone with the curator UI can issue/revoke. Recipient links are bearer grants,
 not verified identities. Check each download; never send the private key map.
 """
 import secrets
+from .download_names import attachment
 import time
 import threading
 from pydantic import BaseModel, ConfigDict, Field
