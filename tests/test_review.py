@@ -101,7 +101,7 @@ class ReviewTests(unittest.TestCase):
     hidden = services.export(review.document_id, ExportRequest(**args, format="text", replacement_style="x")).decode()
     self.assertIn("[X]", hidden)
     self.assertNotIn("[TERM_", hidden)
-    payload = services.export(review.document_id, ExportRequest(**args, format="pdf"))
+    payload = services.export(review.document_id, ExportRequest(**args, format="pdf", pdf_layout="reflow"))
     with pymupdf.open(stream=payload, filetype="pdf") as doc:
       content = "".join(p.get_text() for p in doc)
       self.assertIn("[TERM_00001]", content)
