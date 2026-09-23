@@ -1,5 +1,7 @@
 # Lexmini
 
+## [Live Demo](https://lexmini.replit.app)
+
 ![Document review interface](docs/images/review.png)
 
 ## Open Lexmini
