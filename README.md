@@ -1,5 +1,7 @@
 # Lexmini
 
+![Document review interface](docs/images/review.png)
+
 ## [Watch our presentation](https://drive.google.com/file/d/1oYyn97AnC8AuUX9uYixeoTu65kwLxWij/view)
 
 Built for [the Legal Hackathon at Swiss {ai} Weeks](https://ai-weeks.ch/events/legal-hackathon), 23 September 2026.
@@ -7,8 +9,6 @@ Built for [the Legal Hackathon at Swiss {ai} Weeks](https://ai-weeks.ch/events/l
 **Team:** Jerome Gano, Olga Ilyukhina, Urs Thüring.
 
 A legal translator needs a useful document without private client names, addresses or birthdays. Lexmini finds candidate fields, lets the law firm review removals, and shares a tokenised copy. The firm can permit selected originals for a limited time and revoke future access. Approved party labels improve later screening.
-
-![Document review interface](docs/images/review.png)
 
 ![Colour-coded removals in a French Swiss judgment](docs/images/coloured-pdf.png)
 
