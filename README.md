@@ -73,11 +73,11 @@ Docling reads paragraphs and layout. OpenAI Privacy Filter runs on Modal GPU; sp
 
 ## Demonstration deadline
 
-OpenAI requests are blocked after **23 October 2026 at 13:52:45 UTC**. This application guard does not revoke the provider key. No API keys are included in this repository.
+OpenAI requests are blocked after **23 October 2026 at 13:52:45 UTC**.
 
 ## Run locally
 
-Install Python 3.12 or 3.13 and uv, then run from this folder:
+Install Python 3.13 and uv, then run from this folder:
 
 ```bash
 export UV_CACHE_DIR="$HOME/.cache/uv"
@@ -87,11 +87,19 @@ bash scripts/RUN_server.sh
 
 Open http://127.0.0.1:8766/assets/review.html. The saved French Swiss example can be reviewed without calling the models. New screening needs the services below.
 
-## Connect your own services
+## Connect your services
 
-Set OPENAI_API_KEY in the server environment. Do not put it in browser code or commit it. The quality check uses GPT-4.1 mini through Pydantic AI.
+1. **Bitwarden:** create a Secrets Manager machine account and an access token. Save the token as `BITWARDEN_ACCESS_TOKEN`.
+2. **Modal:** create API credentials and save them as `MODAL_TOKEN_ID` and `MODAL_TOKEN_SECRET`.
+3. **OpenAI:** create an API key and save it as `OPENAI_API_KEY`.
+4. **Replit:** add the Modal and OpenAI values to Secrets and include them in the deployment. The app reads these fields directly; Bitwarden is where you can manage the originals.
 
-Authenticate the Modal CLI with your own account. Deploy scripts/RUN_modal_screening.py and scripts/RUN_modal_privacy.py using `uv run modal deploy <script>`. The privacy worker also needs its configured model volume and model access; read that script before deployment. Existing deployments belong to the demonstration environment and are not transferred by this ZIP.
+Deploy the two Modal workers:
+
+```bash
+uv run modal deploy scripts/RUN_modal_screening.py
+uv run modal deploy scripts/RUN_modal_privacy.py
+```
 
 ## Contents
 
@@ -102,4 +110,4 @@ Authenticate the Modal CLI with your own account. Deploy scripts/RUN_modal_scree
 - data: public Swiss PDFs, text and saved screening results.
 - extension/governance-guide.html: the documentation page.
 
-The synthetic walkthrough remains disabled. The trusted curator interface is a local prototype. Public hosting needs access control and server-side secrets. This archive contains no credentials, installed environment, runtime accounts or private document sessions.
+
