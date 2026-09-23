@@ -84,10 +84,10 @@
       </details>
       <div class="export">
         <label>Replacement <select id="replacementStyle"><option value="tokens">Labelled tokens: [PARTY_00001]</option><option value="x">Hide labels: [X]</option></select></label>
-        <label>PDF layout <select id="pdfLayout"><option value="reflow">Readable text with replacements</option><option value="original">Original layout with colour-coded redactions</option></select></label>
+        <label>PDF layout <select id="pdfLayout"><option value="reflow">Readable text with replacements</option><option value="original" selected>Original layout with colour-coded redactions</option></select></label>
         <p id="exportNote">Review both removed and kept items. Layout-only section markers may start kept.</p>
         <div><button id="pdf" disabled>Download PDF</button><button id="text" class="secondary" disabled>Download text</button></div>
-        <small id="layoutNote">Token PDF: new text layout. Repeated values share a token. Keys stay separate.</small>
+        <small id="layoutNote">PDF: original layout with colour-coded redactions. Keys stay separate.</small>
         <button id="keys" class="quiet" disabled>Download key map (private)</button>
       </div>
     </aside>

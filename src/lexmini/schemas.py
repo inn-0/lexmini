@@ -109,7 +109,7 @@ class ExportRequest(BaseModel):
   revision: int = Field(ge=0)
   format: Literal["pdf", "text"]
   replacement_style: Literal["tokens", "x"] = "tokens"
-  pdf_layout: Literal["reflow", "original"] = "reflow"
+  pdf_layout: Literal["reflow", "original"] = "original"
 
 
 class LearnRequest(BaseModel):
