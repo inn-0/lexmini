@@ -96,6 +96,6 @@ Authenticate the Modal CLI with your own account. Deploy scripts/RUN_modal_scree
 - scripts: model deployment and data utilities.
 - tests: repeatable checks (`uv run python -m unittest discover -s tests`).
 - data: public Swiss PDFs, text and saved screening results.
-- Documentation: final guide and Word copy.
+- extension/governance-guide.html: the documentation page.
 
 The synthetic walkthrough remains disabled. The trusted curator interface is a local prototype. Public hosting needs access control and server-side secrets. This archive contains no credentials, installed environment, runtime accounts or private document sessions.
