@@ -25,47 +25,45 @@ Open **START.html** for the guide and sample PDFs. The reviewed examples illustr
 
 Transcribed from slide 10 of the organiser’s “Legal Hackathon Slides - Participants” presentation.
 
-TRACK 1 IN DETAIL
-
-Data Minimiser: AI Assistant for Privacy-by-Design Forms & Flows (hard-coded)
-
-Data minimisation is one of the core principles of responsible data processing, but it is often difficult to apply in day-to-day product design. This challenge helps teams turn that principle into something tangible: a tool that makes it easier to collect only what is needed, communicate that clearly, and reduce risk from the start. 
-
-Why
-
-The Problem
-
-Every product, onboarding flow, and internal system collects data, but not every field is necessary. Too often, teams ask for more information than they need, store it for too long, or collect sensitive data without a clear purpose.
-
-This challenge invites participants to build an AI assistant that helps teams design leaner, safer, and more transparent data collection flows. The goal is to review forms, onboarding journeys, or CRM fields and identify where data minimisation is possible, where sensitive data may be over-collected, and how to explain data use in a clearer, more user-friendly way.
-
-The Solution should
-
-support product teams, legal/compliance functions, and operations teams by:
-
-Flagging unnecessary or overly intrusive fields.
-
-Identifying where sensitive or special-category data may be collected.
-
-Suggesting simpler alternatives or optional fields.
-
-Generating plain-language microcopy that explains why each field is needed.
-
-Mapping how collected data flows through systems such as CRM, analytics, support, or third-party tools.
-
-What we’re looking for
-
-A prototype that reviews a sample form, flow, or data schema.
-
-Clear identification of fields that could be removed, made optional, or better explained.
-
-Suggestions for improved wording or data-handling logic.
-
-A strong user experience that makes privacy decisions easy to understand.
-
-Responsible AI design with human review, transparency, and data minimisation built in.
-
-The best solutions will not just reduce friction for users, but also help organisations apply privacy-by-design principles in a practical, everyday way.
+> Data Minimiser: AI Assistant for Privacy-by-Design Forms & Flows (hard-coded)
+> 
+> ### Why
+> 
+> Data minimisation is one of the core principles of responsible data processing, but it is often difficult to apply in day-to-day product design. This challenge helps teams turn that principle into something tangible: a tool that makes it easier to collect only what is needed, communicate that clearly, and reduce risk from the start. 
+> 
+> ### The Problem
+> 
+> Every product, onboarding flow, and internal system collects data, but not every field is necessary. Too often, teams ask for more information than they need, store it for too long, or collect sensitive data without a clear purpose.
+> 
+> This challenge invites participants to build an AI assistant that helps teams design leaner, safer, and more transparent data collection flows. The goal is to review forms, onboarding journeys, or CRM fields and identify where data minimisation is possible, where sensitive data may be over-collected, and how to explain data use in a clearer, more user-friendly way.
+> 
+> ### The Solution should
+> 
+> support product teams, legal/compliance functions, and operations teams by:
+> 
+> - Flagging unnecessary or overly intrusive fields.
+> 
+> - Identifying where sensitive or special-category data may be collected.
+> 
+> - Suggesting simpler alternatives or optional fields.
+> 
+> - Generating plain-language microcopy that explains why each field is needed.
+> 
+> - Mapping how collected data flows through systems such as CRM, analytics, support, or third-party tools.
+> 
+> ### What we’re looking for
+> 
+> - A prototype that reviews a sample form, flow, or data schema.
+> 
+> - Clear identification of fields that could be removed, made optional, or better explained.
+> 
+> - Suggestions for improved wording or data-handling logic.
+> 
+> - A strong user experience that makes privacy decisions easy to understand.
+> 
+> - Responsible AI design with human review, transparency, and data minimisation built in.
+> 
+> The best solutions will not just reduce friction for users, but also help organisations apply privacy-by-design principles in a practical, everyday way.
 
 </details>
 
