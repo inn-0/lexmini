@@ -1,0 +1,12 @@
+entrypoint = "src/lexmini/main.py"
+run = "bash scripts/RUN_replit.sh"
+modules = ["python-3.12"]
+
+[deployment]
+deploymentTarget = "autoscale"
+build = ["bash", "-lc", "UV_CACHE_DIR=$HOME/.cache/uv uv sync --frozen"]
+run = ["bash", "scripts/RUN_replit.sh"]
+
+[[ports]]
+localPort = 8000
+externalPort = 80

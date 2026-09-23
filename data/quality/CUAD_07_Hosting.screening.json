@@ -1,0 +1,858 @@
+{
+  "spacy_spans": [
+    [
+      {
+        "start": 0,
+        "end": 31,
+        "field_type": "organisation_name",
+        "level": "professional-secrecy",
+        "subcategory": "named_entity",
+        "detector": "spacy/en_core_web_lg@3.8.0",
+        "reason": "spaCy found a ORG entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 50,
+        "end": 121,
+        "field_type": "organisation_name",
+        "level": "professional-secrecy",
+        "subcategory": "named_entity",
+        "detector": "spacy/en_core_web_lg@3.8.0",
+        "reason": "spaCy found a ORG entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 142,
+        "end": 158,
+        "field_type": "date",
+        "level": "personal-private",
+        "subcategory": "named_entity",
+        "detector": "spacy/en_core_web_lg@3.8.0",
+        "reason": "spaCy found a DATE entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 174,
+        "end": 190,
+        "field_type": "person_name",
+        "level": "personal-private",
+        "subcategory": "named_entity",
+        "detector": "spacy/en_core_web_lg@3.8.0",
+        "reason": "spaCy found a PERSON entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 204,
+        "end": 212,
+        "field_type": "organisation_name",
+        "level": "professional-secrecy",
+        "subcategory": "named_entity",
+        "detector": "spacy/en_core_web_lg@3.8.0",
+        "reason": "spaCy found a ORG entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 255,
+        "end": 271,
+        "field_type": "person_name",
+        "level": "personal-private",
+        "subcategory": "named_entity",
+        "detector": "spacy/en_core_web_lg@3.8.0",
+        "reason": "spaCy found a PERSON entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 285,
+        "end": 293,
+        "field_type": "organisation_name",
+        "level": "professional-secrecy",
+        "subcategory": "named_entity",
+        "detector": "spacy/en_core_web_lg@3.8.0",
+        "reason": "spaCy found a ORG entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 364,
+        "end": 386,
+        "field_type": "organisation_name",
+        "level": "professional-secrecy",
+        "subcategory": "named_entity",
+        "detector": "spacy/en_core_web_lg@3.8.0",
+        "reason": "spaCy found a ORG entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 653,
+        "end": 670,
+        "field_type": "organisation_name",
+        "level": "professional-secrecy",
+        "subcategory": "named_entity",
+        "detector": "spacy/en_core_web_lg@3.8.0",
+        "reason": "spaCy found a ORG entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 1236,
+        "end": 1253,
+        "field_type": "organisation_name",
+        "level": "professional-secrecy",
+        "subcategory": "named_entity",
+        "detector": "spacy/en_core_web_lg@3.8.0",
+        "reason": "spaCy found a ORG entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 1263,
+        "end": 1268,
+        "field_type": "date",
+        "level": "personal-private",
+        "subcategory": "named_entity",
+        "detector": "spacy/en_core_web_lg@3.8.0",
+        "reason": "spaCy found a DATE entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 1376,
+        "end": 1393,
+        "field_type": "organisation_name",
+        "level": "professional-secrecy",
+        "subcategory": "named_entity",
+        "detector": "spacy/en_core_web_lg@3.8.0",
+        "reason": "spaCy found a ORG entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 1417,
+        "end": 1425,
+        "field_type": "date",
+        "level": "personal-private",
+        "subcategory": "named_entity",
+        "detector": "spacy/en_core_web_lg@3.8.0",
+        "reason": "spaCy found a DATE entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 1431,
+        "end": 1462,
+        "field_type": "date",
+        "level": "personal-private",
+        "subcategory": "named_entity",
+        "detector": "spacy/en_core_web_lg@3.8.0",
+        "reason": "spaCy found a DATE entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 1527,
+        "end": 1544,
+        "field_type": "organisation_name",
+        "level": "professional-secrecy",
+        "subcategory": "named_entity",
+        "detector": "spacy/en_core_web_lg@3.8.0",
+        "reason": "spaCy found a ORG entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 1723,
+        "end": 1740,
+        "field_type": "organisation_name",
+        "level": "professional-secrecy",
+        "subcategory": "named_entity",
+        "detector": "spacy/en_core_web_lg@3.8.0",
+        "reason": "spaCy found a ORG entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 1959,
+        "end": 1968,
+        "field_type": "organisation_name",
+        "level": "professional-secrecy",
+        "subcategory": "named_entity",
+        "detector": "spacy/en_core_web_lg@3.8.0",
+        "reason": "spaCy found a ORG entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 2123,
+        "end": 2128,
+        "field_type": "organisation_name",
+        "level": "professional-secrecy",
+        "subcategory": "named_entity",
+        "detector": "spacy/en_core_web_lg@3.8.0",
+        "reason": "spaCy found a ORG entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 3296,
+        "end": 3302,
+        "field_type": "organisation_name",
+        "level": "professional-secrecy",
+        "subcategory": "named_entity",
+        "detector": "spacy/en_core_web_lg@3.8.0",
+        "reason": "spaCy found a ORG entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 3385,
+        "end": 3392,
+        "field_type": "organisation_name",
+        "level": "professional-secrecy",
+        "subcategory": "named_entity",
+        "detector": "spacy/en_core_web_lg@3.8.0",
+        "reason": "spaCy found a ORG entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 3553,
+        "end": 3559,
+        "field_type": "organisation_name",
+        "level": "professional-secrecy",
+        "subcategory": "named_entity",
+        "detector": "spacy/en_core_web_lg@3.8.0",
+        "reason": "spaCy found a ORG entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 3763,
+        "end": 3780,
+        "field_type": "organisation_name",
+        "level": "professional-secrecy",
+        "subcategory": "named_entity",
+        "detector": "spacy/en_core_web_lg@3.8.0",
+        "reason": "spaCy found a ORG entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 3785,
+        "end": 3810,
+        "field_type": "organisation_name",
+        "level": "professional-secrecy",
+        "subcategory": "named_entity",
+        "detector": "spacy/en_core_web_lg@3.8.0",
+        "reason": "spaCy found a ORG entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 3857,
+        "end": 3864,
+        "field_type": "organisation_name",
+        "level": "professional-secrecy",
+        "subcategory": "named_entity",
+        "detector": "spacy/en_core_web_lg@3.8.0",
+        "reason": "spaCy found a ORG entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 3924,
+        "end": 3945,
+        "field_type": "date",
+        "level": "personal-private",
+        "subcategory": "named_entity",
+        "detector": "spacy/en_core_web_lg@3.8.0",
+        "reason": "spaCy found a DATE entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 4040,
+        "end": 4066,
+        "field_type": "date",
+        "level": "personal-private",
+        "subcategory": "named_entity",
+        "detector": "spacy/en_core_web_lg@3.8.0",
+        "reason": "spaCy found a DATE entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 4257,
+        "end": 4263,
+        "field_type": "organisation_name",
+        "level": "professional-secrecy",
+        "subcategory": "named_entity",
+        "detector": "spacy/en_core_web_lg@3.8.0",
+        "reason": "spaCy found a ORG entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 4481,
+        "end": 4497,
+        "field_type": "organisation_name",
+        "level": "professional-secrecy",
+        "subcategory": "named_entity",
+        "detector": "spacy/en_core_web_lg@3.8.0",
+        "reason": "spaCy found a ORG entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 4600,
+        "end": 4621,
+        "field_type": "organisation_name",
+        "level": "professional-secrecy",
+        "subcategory": "named_entity",
+        "detector": "spacy/en_core_web_lg@3.8.0",
+        "reason": "spaCy found a ORG entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 4829,
+        "end": 4845,
+        "field_type": "organisation_name",
+        "level": "professional-secrecy",
+        "subcategory": "named_entity",
+        "detector": "spacy/en_core_web_lg@3.8.0",
+        "reason": "spaCy found a ORG entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 4955,
+        "end": 4975,
+        "field_type": "organisation_name",
+        "level": "professional-secrecy",
+        "subcategory": "named_entity",
+        "detector": "spacy/en_core_web_lg@3.8.0",
+        "reason": "spaCy found a ORG entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 5141,
+        "end": 5149,
+        "field_type": "person_name",
+        "level": "personal-private",
+        "subcategory": "named_entity",
+        "detector": "spacy/en_core_web_lg@3.8.0",
+        "reason": "spaCy found a PERSON entity. Review its relevance to this matter. Analysed as fallback paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 5164,
+        "end": 5184,
+        "field_type": "date",
+        "level": "personal-private",
+        "subcategory": "named_entity",
+        "detector": "spacy/en_core_web_lg@3.8.0",
+        "reason": "spaCy found a DATE entity. Review its relevance to this matter. Analysed as fallback paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 5186,
+        "end": 5194,
+        "field_type": "organisation_name",
+        "level": "professional-secrecy",
+        "subcategory": "named_entity",
+        "detector": "spacy/en_core_web_lg@3.8.0",
+        "reason": "spaCy found a ORG entity. Review its relevance to this matter. Analysed as fallback paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 5201,
+        "end": 5209,
+        "field_type": "date",
+        "level": "personal-private",
+        "subcategory": "named_entity",
+        "detector": "spacy/en_core_web_lg@3.8.0",
+        "reason": "spaCy found a DATE entity. Review its relevance to this matter. Analysed as fallback paragraph; mapped to original PDF characters."
+      }
+    ],
+    [
+      {
+        "start": 16,
+        "end": 32,
+        "field_type": "person_name",
+        "level": "personal-private",
+        "subcategory": "named_entity",
+        "detector": "spacy/en_core_web_lg@3.8.0",
+        "reason": "spaCy found a PERSON entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 39,
+        "end": 52,
+        "field_type": "date",
+        "level": "personal-private",
+        "subcategory": "named_entity",
+        "detector": "spacy/en_core_web_lg@3.8.0",
+        "reason": "spaCy found a DATE entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 53,
+        "end": 61,
+        "field_type": "person_name",
+        "level": "personal-private",
+        "subcategory": "named_entity",
+        "detector": "spacy/en_core_web_lg@3.8.0",
+        "reason": "spaCy found a PERSON entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 182,
+        "end": 198,
+        "field_type": "person_name",
+        "level": "personal-private",
+        "subcategory": "named_entity",
+        "detector": "spacy/en_core_web_lg@3.8.0",
+        "reason": "spaCy found a PERSON entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 207,
+        "end": 215,
+        "field_type": "organisation_name",
+        "level": "professional-secrecy",
+        "subcategory": "named_entity",
+        "detector": "spacy/en_core_web_lg@3.8.0",
+        "reason": "spaCy found a ORG entity. Review its relevance to this matter. Analysed as fallback paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 222,
+        "end": 230,
+        "field_type": "date",
+        "level": "personal-private",
+        "subcategory": "named_entity",
+        "detector": "spacy/en_core_web_lg@3.8.0",
+        "reason": "spaCy found a DATE entity. Review its relevance to this matter. Analysed as fallback paragraph; mapped to original PDF characters."
+      }
+    ],
+    [
+      {
+        "start": 0,
+        "end": 8,
+        "field_type": "person_name",
+        "level": "personal-private",
+        "subcategory": "named_entity",
+        "detector": "spacy/en_core_web_lg@3.8.0",
+        "reason": "spaCy found a PERSON entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 23,
+        "end": 54,
+        "field_type": "organisation_name",
+        "level": "professional-secrecy",
+        "subcategory": "named_entity",
+        "detector": "spacy/en_core_web_lg@3.8.0",
+        "reason": "spaCy found a ORG entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 347,
+        "end": 349,
+        "field_type": "organisation_name",
+        "level": "professional-secrecy",
+        "subcategory": "named_entity",
+        "detector": "spacy/en_core_web_lg@3.8.0",
+        "reason": "spaCy found a ORG entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 664,
+        "end": 690,
+        "field_type": "organisation_name",
+        "level": "professional-secrecy",
+        "subcategory": "named_entity",
+        "detector": "spacy/en_core_web_lg@3.8.0",
+        "reason": "spaCy found a ORG entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 692,
+        "end": 700,
+        "field_type": "person_name",
+        "level": "personal-private",
+        "subcategory": "named_entity",
+        "detector": "spacy/en_core_web_lg@3.8.0",
+        "reason": "spaCy found a PERSON entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 791,
+        "end": 799,
+        "field_type": "person_name",
+        "level": "personal-private",
+        "subcategory": "named_entity",
+        "detector": "spacy/en_core_web_lg@3.8.0",
+        "reason": "spaCy found a PERSON entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 821,
+        "end": 837,
+        "field_type": "person_name",
+        "level": "personal-private",
+        "subcategory": "named_entity",
+        "detector": "spacy/en_core_web_lg@3.8.0",
+        "reason": "spaCy found a PERSON entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 846,
+        "end": 854,
+        "field_type": "organisation_name",
+        "level": "professional-secrecy",
+        "subcategory": "named_entity",
+        "detector": "spacy/en_core_web_lg@3.8.0",
+        "reason": "spaCy found a ORG entity. Review its relevance to this matter. Analysed as fallback paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 861,
+        "end": 869,
+        "field_type": "date",
+        "level": "personal-private",
+        "subcategory": "named_entity",
+        "detector": "spacy/en_core_web_lg@3.8.0",
+        "reason": "spaCy found a DATE entity. Review its relevance to this matter. Analysed as fallback paragraph; mapped to original PDF characters."
+      }
+    ]
+  ],
+  "regions": [
+    {
+      "page_number": 1,
+      "label": "section_header",
+      "box": [
+        133.375,
+        47.5691875,
+        360.6248484999997,
+        55.82817531388491
+      ],
+      "text": "Website Design, Development and Hosting Agreement"
+    },
+    {
+      "page_number": 1,
+      "label": "text",
+      "box": [
+        50.05,
+        68.40043749999995,
+        443.95023987499945,
+        100.60096455627718
+      ],
+      "text": "This Website Design, Development and Hosting Agreement the ('Agreement') is entered into on January 11, 2018 by and between Natalija Tunevic, director of FreeCook (hereinafter referred to as 'Client') and Mitchell Vitalis, director of Mitchell's Web Advance, PLC (hereinafter referred to as 'Company')."
+    },
+    {
+      "page_number": 1,
+      "label": "list_item",
+      "box": [
+        50.05,
+        114.48168749999991,
+        443.950284062499,
+        145.41971455627709
+      ],
+      "text": " Website Design and Development. Client agrees to pay to Company the sum of  $5,000 (the 'Contract Price') to design and develop a website for Client (the 'Client Website') in accordance with the accompanying Scope of Work, attached to this Agreement as Exhibit A."
+    },
+    {
+      "page_number": 1,
+      "label": "list_item",
+      "box": [
+        50.05,
+        159.30043750000004,
+        443.9502525,
+        235.68846455627704
+      ],
+      "text": "(a)  Change Orders. Any changes to the Scope of Work following the execution of this Agreement requiring Additional Work must be submitted to and accepted by Company in writing as a 'Change Order'. The costs of any such changes shall be added to the Contract Price. Additional Work shall be defined as the addition or revision of pages, graphics, or other features, any text, graphic or page design or programming requiring more than two rounds of textual or graphical revisions, substantial revisions to text and/or content provided by Client, changes to elements which have been finalized, or significant changes in the Scope of Work."
+    },
+    {
+      "page_number": 1,
+      "label": "list_item",
+      "box": [
+        50.05,
+        249.5691875,
+        443.95023356250005,
+        303.2322145562771
+      ],
+      "text": "(b) Due Dates and Delays. Company will use its best efforts to deliver the Client Website in the time frame specified in the Scope of Work. Terms of the project: 12 weeks from February 8, 2018 to May 3, 2018. Client acknowledges and agrees that any due dates set forth in the Scope of Work are subject to delay if Company does not receive the required materials or documentation in a timely manner or in the required format or if approvals are delayed by Client or if the Scope of Work is changed by Client."
+    },
+    {
+      "page_number": 1,
+      "label": "list_item",
+      "box": [
+        50.05,
+        317.11293750000004,
+        443.9502525,
+        427.58846455627713
+      ],
+      "text": "(c)  Client Submitted Content. All written content submitted by Client for use in the Client Website must be typewritten, proofread and delivered to Company in the body of an email message or as a Microsoft Word electronic document or plaint text electronic document. Any content submitted by Client in any other manner or format, including, but not limited to Adobe PDF format, will be returned to Client for resubmission. Company will not make any attempt to proof read or correct any contextual, grammatical or typographical errors in the written content submitted by Client. It is Client's sole responsibility to check the accuracy of the written content and correct any errors prior to submission for final publication. Company will assume that all the written content submitted by Client has been proofread and is ready for publication. Client may elect to pay Company the Hourly Rate set forth below to type and proofread any written content not submitted in the electronic formats specified above."
+    },
+    {
+      "page_number": 1,
+      "label": "list_item",
+      "box": [
+        50.05,
+        441.4691875,
+        443.9503030000003,
+        529.2197145562772
+      ],
+      "text": "(d) Company License and Credit. Client hereby grants to Company a non-exclusive and limited license to use Client's trade names, logos and other trademarks in connection with Company advertising, marketing and promotion of its products and services. Client agrees that any unsolicited positive feedback Client provides to Company may be used in any Company marketing and/or advertising materials (i.e., customer testimonials). Client further agrees that Company may use and display the graphics and other web design elements of Client's website as examples of Company website design and development work. To maintain Company's portfolio credentials, and the integrity of any applicable copyrights, Company shall be entitled to place an unobtrusive credit in the footer on each page of Client's website."
+    },
+    {
+      "page_number": 1,
+      "label": "list_item",
+      "box": [
+        50.05,
+        533.0004375,
+        443.9500315625008,
+        563.938464556277
+      ],
+      "text": " Payment Terms. Upon the signing of this Agreement, Client agrees to pay to Company a total of $5,000. Client shall make a prepayment of $1,900 and pay the remaining $3,100 on completion of the Scope of Work."
+    },
+    {
+      "page_number": 1,
+      "label": "list_item",
+      "box": [
+        50.05,
+        577.8191875,
+        443.95009468750015,
+        654.2072145562771
+      ],
+      "text": " Business Hours; Rush Work. Company representatives are available during Company's normal business hours which are 9 a.m. to 5 p.m. UTC +2, Monday through Friday. Any email or telephone correspondence received after normal business hours will be processed the following business day. Client shall pay an additional surcharge for any services requiring work to be performed outside of normal business hours by reason of a rush deadline requested by Client or as a result of Client's failure to meet scheduled times for delivery and/or review and approval of information, content and materials.  The surcharge for rush work shall be the standard hourly rate of $40 plus twenty-five percent (25%)."
+    },
+    {
+      "page_number": 1,
+      "label": "list_item",
+      "box": [
+        50.05,
+        668.0879375000001,
+        443.9502651249992,
+        733.1134645562771
+      ],
+      "text": "Customer Service. Company, either directly or through its authorized service provider, shall provide customer service (the 'Customer Service') relating to Client Website consisting of replying to customer questions or complaints regarding website hosting services during the normal business hours set forth. Company is not obligated to provide any Customer Service except as specified in this Section. Company at its sole discretion may at any time alter or cease providing the Customer Service which it has agreed to provide to Client relating to Client Website pursuant to this Agreement without any liability to Company."
+    },
+    {
+      "page_number": 1,
+      "label": "section_header",
+      "box": [
+        50.05,
+        746.9941875000001,
+        171.88130050000007,
+        755.2531753138848
+      ],
+      "text": "AGREED AND ACCEPTED:"
+    },
+    {
+      "page_number": 2,
+      "label": "text",
+      "box": [
+        50.05,
+        72.58793750000007,
+        361.8875126249999,
+        80.80096455627711
+      ],
+      "text": "By Company: /s/ Mitchell Vitalis Date: Jan. 11, 2018"
+    },
+    {
+      "page_number": 2,
+      "label": "text",
+      "box": [
+        110.01875,
+        114.45496249999997,
+        443.95006312500004,
+        141.54732856351552
+      ],
+      "text": "Mitchell's Web Advance - Website Design, Development and Hosting Agreement Page 1 of 2 Client : /s/ Natalija Tunevic Company : /s/ Mitchell Vitalis"
+    },
+    {
+      "page_number": 3,
+      "label": "section_header",
+      "box": [
+        50.05,
+        184.55038749999994,
+        79.7187436875,
+        192.7634145562771
+      ],
+      "text": "Stage 1:"
+    },
+    {
+      "page_number": 3,
+      "label": "list_item",
+      "box": [
+        50.05,
+        195.9128875,
+        320.8562500000002,
+        204.12591455627705
+      ],
+      "text": "Search for competitors, collecting additional information on the subject."
+    },
+    {
+      "page_number": 3,
+      "label": "list_item",
+      "box": [
+        50.05,
+        207.27538749999997,
+        247.6312499999999,
+        215.48841455627712
+      ],
+      "text": "Development of unique style of the Client Website."
+    },
+    {
+      "page_number": 3,
+      "label": "list_item",
+      "box": [
+        50.05,
+        218.63788750000003,
+        279.1937500000002,
+        226.85091455627708
+      ],
+      "text": "Development of a logo based on the unique corporate style."
+    },
+    {
+      "page_number": 3,
+      "label": "list_item",
+      "box": [
+        50.05,
+        230.0003875,
+        182.6124116250001,
+        238.21341455627703
+      ],
+      "text": "Designing UI/UX-practical parts."
+    },
+    {
+      "page_number": 3,
+      "label": "list_item",
+      "box": [
+        50.05,
+        241.36288749999994,
+        305.07499999999953,
+        249.5759145562771
+      ],
+      "text": "Development of the main and internal pages of the Client Website."
+    },
+    {
+      "page_number": 3,
+      "label": "section_header",
+      "box": [
+        50.05,
+        262.82538750000003,
+        79.7187436875,
+        271.0384145562771
+      ],
+      "text": "Stage 2:"
+    },
+    {
+      "page_number": 3,
+      "label": "list_item",
+      "box": [
+        50.05,
+        274.1878875,
+        229.95640150000008,
+        282.40091455627703
+      ],
+      "text": "Emotional design (creation of web-assistants)."
+    },
+    {
+      "page_number": 3,
+      "label": "list_item",
+      "box": [
+        50.05,
+        285.55038749999994,
+        263.41239268750013,
+        293.7634145562771
+      ],
+      "text": "Adaptive design (mobile version of the Client Website)."
+    },
+    {
+      "page_number": 3,
+      "label": "list_item",
+      "box": [
+        50.05,
+        296.9128875,
+        198.39374368749995,
+        305.12591455627705
+      ],
+      "text": "Design adaptation to other languages."
+    },
+    {
+      "page_number": 3,
+      "label": "list_item",
+      "box": [
+        50.05,
+        308.27538749999997,
+        243.21267043750007,
+        316.4884145562771
+      ],
+      "text": "Development of a prototype and interface testing."
+    },
+    {
+      "page_number": 3,
+      "label": "section_header",
+      "box": [
+        50.05,
+        329.73788749999994,
+        79.7187436875,
+        337.95091455627704
+      ],
+      "text": "Stage 3:"
+    },
+    {
+      "page_number": 3,
+      "label": "text",
+      "box": [
+        50.05,
+        341.1003875,
+        168.7250631250001,
+        349.31341455627705
+      ],
+      "text": "10. Search Engine Optimization."
+    },
+    {
+      "page_number": 3,
+      "label": "text",
+      "box": [
+        110.01875,
+        372.8674125,
+        383.98124999999976,
+        390.1252019387002
+      ],
+      "text": "Mitchell's Web Advance - Website Design, Development and Hosting Agreement Page 2 of 2"
+    },
+    {
+      "page_number": 3,
+      "label": "text",
+      "box": [
+        225.5375,
+        393.9031875,
+        247.0000000000001,
+        399.9597785635155
+      ],
+      "text": "Client"
+    },
+    {
+      "page_number": 3,
+      "label": "text",
+      "box": [
+        247.0,
+        393.64626875,
+        333.4812121249997,
+        399.7645106321839
+      ],
+      "text": ": /s/ Natalija Tunevic"
+    },
+    {
+      "page_number": 3,
+      "label": "text",
+      "box": [
+        333.48125,
+        393.9031875,
+        365.0437373749999,
+        399.9597785635155
+      ],
+      "text": "Company"
+    },
+    {
+      "page_number": 3,
+      "label": "text",
+      "box": [
+        365.04375,
+        393.64626875,
+        443.95006312500004,
+        399.7645106321839
+      ],
+      "text": ": /s/ Mitchell Vitalis"
+    },
+    {
+      "page_number": 3,
+      "label": "section_header",
+      "box": [
+        196.5,
+        87.96913749999999,
+        297.49999368749945,
+        96.22812531388479
+      ],
+      "text": "Mitchell's Web Advance"
+    },
+    {
+      "page_number": 3,
+      "label": "section_header",
+      "box": [
+        133.375,
+        99.33163749999994,
+        360.6248484999997,
+        107.59062531388486
+      ],
+      "text": "Website Design, Development and Hosting Agreement"
+    },
+    {
+      "page_number": 3,
+      "label": "section_header",
+      "box": [
+        227.43125,
+        130.89413749999994,
+        266.56877524999993,
+        139.15312531388486
+      ],
+      "text": "Exhibit A"
+    },
+    {
+      "page_number": 3,
+      "label": "section_header",
+      "box": [
+        170.61874999999998,
+        152.35663750000003,
+        323.3812373749999,
+        171.9781253138848
+      ],
+      "text": "Scope of Work Development of design of Free Cook"
+    }
+  ],
+  "text_hashes": [
+    "ffda69303ebcd877916063bc9114622570e819803941f24e6678929c28d6320a",
+    "a856e02a2005f8afc580aa73c4f91d23d8cd179d61e6fbb7e7d8dcbfd395d6fd",
+    "12ac735756de63ae55f23058be454713c7bcfb7bcb36b7b74b996a0324803c25"
+  ],
+  "pdf_sha256": "4f7f73fad7d3f00c1f17c11894ac56867d049a7de006b38f172120e5c7bf458e",
+  "engine": "spaCy 3.8.16 on Modal CPU + Docling 2.110.0 / Heron paragraphs v1",
+  "languages": [
+    "en"
+  ],
+  "schema_version": 1
+}

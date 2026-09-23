@@ -1,0 +1,16 @@
+/* extension/governance.css */
+:root{font:17px/1.55 system-ui,sans-serif;color:#183040;background:#f5f7fa}body{margin:0}header,main{max-width:1200px;margin:auto;padding:24px}header{border-bottom:3px solid #0072b2}h1{font-size:2.4rem;line-height:1.15}h2{margin-top:2rem}a{color:#005f94}button,select,input{font:inherit;padding:9px 13px;border:1px solid #70838f;border-radius:5px}button{background:#fff;color:#173447;cursor:pointer}button:hover{background:#e7f3fc}button:focus-visible,a:focus-visible{outline:3px solid #d55e00;outline-offset:3px}button:disabled{opacity:.5}input{max-width:90%;width:520px}label{display:block;margin:12px 0}.notice{padding:15px;border-left:5px solid #d55e00;background:#fff3e6;margin-bottom:20px}.actions{display:flex;flex-wrap:wrap;gap:10px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px}.card{background:white;padding:20px;border:1px solid #c2cdd6;border-radius:8px}.field{padding:15px 0;border-bottom:1px solid #e0e6ec}.field code{display:block;font-weight:bold}.result{display:block;min-height:1.6em;margin-top:8px}.allowed{color:#006448}.denied{color:#963a00}small{display:block;color:#475e6c}pre{white-space:pre-wrap;word-break:break-word;max-height:380px;overflow:auto;padding:15px;background:#e9eff4;font-size:13px}.diagram-frame{overflow:auto;max-height:75vh;border:1px solid #b4bbc3;padding:12px;background:white}.diagram-frame svg{height:auto;max-width:none}.diagram-controls{display:flex;gap:8px;margin:10px 0}body.guide{max-width:none;padding:24px}.guide>header,.guide>main,.guide>section,.guide>nav,.guide>p,.guide>h1,.guide>h2,.guide>h3,.guide>ul,.guide>ol,.guide>table,.guide>figure{max-width:1200px;margin-left:auto;margin-right:auto}.guide table{border-collapse:collapse;width:100%}.guide th,.guide td{padding:10px;border:1px solid #c2cdd6;vertical-align:top}.guide nav{position:sticky;top:0;background:#f5f7fa;padding:12px;z-index:2}.guide img{max-width:100%}
+.guide>div{max-width:1200px;margin:auto}.guide .d2-diagram{margin:24px 0}
+
+/* Section navigation follows the JTI meaning report's compact sticky links. */
+.guide .guide-nav{display:flex;flex-wrap:wrap;gap:10px 20px;align-items:baseline;position:sticky;top:0;z-index:100;padding:12px 0;background:rgba(245,247,250,.97);backdrop-filter:blur(10px);border-bottom:1px solid #c2cdd6;font-size:.9rem}
+.guide .guide-nav a{color:#183040;text-underline-offset:4px}
+.guide h2{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:7px;text-decoration-color:#8ca79a;margin-top:64px;margin-bottom:24px;scroll-margin-top:var(--guide-nav-height,90px)}
+.guide h3{scroll-margin-top:var(--guide-nav-height,90px)}
+@media(max-width:700px){.guide .guide-nav{gap:8px 14px;font-size:13px}}
+@media print{.guide .guide-nav{display:none}}
+
+.guide .guide-nav{align-items:center}
+.guide .guide-brand{display:inline-flex;align-items:center;gap:9px;margin-right:12px;text-decoration:none;flex-shrink:0;color:#174c3b}
+.guide-brand strong{font-size:23px;letter-spacing:-1px}
+.guide-mark{display:grid;place-items:center;width:32px;height:35px;border-radius:8px 8px 8px 2px;background:#174c3b;color:white;font:25px Georgia,serif}

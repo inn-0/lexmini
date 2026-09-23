@@ -1,0 +1,20 @@
+Source: https://entscheidsuche.ch/dataUsage
+Checked: 2026-09-23
+
+Suchen
+Neu: MCP Interface
+DE
+Daten
+Speicherung
+
+Die auf der Plattform entscheidsuche.ch veröffenlichten Dokumente werden vom Verein entscheidsuche.ch öffentlich zugänglich im Format HTML oder im Format PDF gespeichert. Pro Entscheiddatei besteht eine Metadaten-Datei im Format JSON, diese Metadaten-Files sind ebenfalls öffentlich zugänglich gespeichert. Die Daten sind frei zugänglich unter https://entscheidsuche.ch/docs. Der aktuelle Stand der Scraper ist unter Datenstand verfügbar. Eine Dokumentation dieser Schnittstelle findet sich hier.
+
+Weiterverwendung der Daten
+
+Die Plattform entscheidsuche.ch versteht sich als privat betriebener Service public. Die von der Plattform gesammelten und veröffentlichten Daten stehen alle Interessierten zur freien Benutzung und Weiterbearbeitung zur Verfügung. Bitte nennen Sie uns bei der Weiterverwendung der Daten als Quelle. Der Verein entscheidsuche.ch ist zur Finanzierung dieses Service public darauf angewiesen, dass neben den direkten NutzerInnen auch Dienste, welche die Daten von entscheidsuche.ch weiterverarbeiten, freiwillige Zuwendungen an den Verein vorsehen. Freiwillige Zuwendungen an den Verein sind im Rahmen der einschlägigen gesetzlichen Vorgaben steuerlich abzugsfähig (Verfügung über die Gemeinnützigkeit).
+
+Langzeitarchivierung
+
+Die Inhalte der Plattform entscheidsuche.ch werden von der Schweizerischen Nationalbibliothek jährlich eingesammelt und in eine Langzeitarchivierung (Open Archival Information System - OAIS) im Webarchiv Schweiz überführt Webarchiv Schweiz überführt. Diese "Zeitschnitte" ergeben einen Nachweis der Inhalte der Plattform entscheidsuche.ch über die Jahre hinweg. Der Zugang zum Webarchiv Schweiz ist eingeschränkt, d.h. die älteren Versionen der Plattform entscheidsuche.ch können nur in der Nationalbibliothek und den Partnerinstitutionen der Nationalbibliothek vor Ort eingesehen werden.
+
+powered by

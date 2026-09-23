@@ -1,0 +1,38 @@
+# code/lexmini/pyproject.toml
+[project]
+name = "lexmini"
+version = "0.1.0"
+description = "Legal document confidentiality review"
+requires-python = ">=3.12,<3.14"
+dependencies = [
+    "fastapi>=0.141.1",
+    "fastapi-mcp>=0.4.0",
+    "httpx>=0.28.1",
+    "logfire>=5.1.0",
+    "mcp<2",
+    "modal>=1.5.5",
+    "pydantic>=2.13.5",
+    "pydantic-ai-slim[openai]>=2.48.0",
+    "pymupdf>=1.28.2",
+    "python-multipart>=0.0.32",
+    "uvicorn>=0.53.0",
+]
+
+[project.optional-dependencies]
+local-models = ["spacy>=3.8.14,<3.9.0", "de-core-news-lg", "fr-core-news-lg", "it-core-news-lg", "en-core-web-lg"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/lexmini"]
+
+[tool.uv.workspace]
+members = []
+
+[tool.uv.sources]
+en-core-web-lg = { url = "https://github.com/explosion/spacy-models/releases/download/en_core_web_lg-3.8.0/en_core_web_lg-3.8.0-py3-none-any.whl" }
+de-core-news-lg = { url = "https://github.com/explosion/spacy-models/releases/download/de_core_news_lg-3.8.0/de_core_news_lg-3.8.0-py3-none-any.whl" }
+fr-core-news-lg = { url = "https://github.com/explosion/spacy-models/releases/download/fr_core_news_lg-3.8.0/fr_core_news_lg-3.8.0-py3-none-any.whl" }
+it-core-news-lg = { url = "https://github.com/explosion/spacy-models/releases/download/it_core_news_lg-3.8.0/it_core_news_lg-3.8.0-py3-none-any.whl" }

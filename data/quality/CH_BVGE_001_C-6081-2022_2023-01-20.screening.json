@@ -1,0 +1,1005 @@
+{
+  "spacy_spans": [
+    [
+      {
+        "start": 2,
+        "end": 14,
+        "field_type": "person_name",
+        "level": "personal-private",
+        "subcategory": "named_entity",
+        "detector": "spacy/it_core_news_lg@3.8.0",
+        "reason": "spaCy found a PER entity. Review its relevance to this matter. Analysed as fallback paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 174,
+        "end": 175,
+        "field_type": "address",
+        "level": "professional-secrecy",
+        "subcategory": "named_entity",
+        "detector": "spacy/it_core_news_lg@3.8.0",
+        "reason": "spaCy found a LOC entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 237,
+        "end": 257,
+        "field_type": "person_name",
+        "level": "personal-private",
+        "subcategory": "named_entity",
+        "detector": "spacy/it_core_news_lg@3.8.0",
+        "reason": "spaCy found a PER entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 287,
+        "end": 300,
+        "field_type": "person_name",
+        "level": "personal-private",
+        "subcategory": "named_entity",
+        "detector": "spacy/it_core_news_lg@3.8.0",
+        "reason": "spaCy found a PER entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 303,
+        "end": 308,
+        "field_type": "address",
+        "level": "professional-secrecy",
+        "subcategory": "named_entity",
+        "detector": "spacy/it_core_news_lg@3.8.0",
+        "reason": "spaCy found a LOC entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 322,
+        "end": 328,
+        "field_type": "address",
+        "level": "professional-secrecy",
+        "subcategory": "named_entity",
+        "detector": "spacy/it_core_news_lg@3.8.0",
+        "reason": "spaCy found a LOC entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 353,
+        "end": 360,
+        "field_type": "address",
+        "level": "professional-secrecy",
+        "subcategory": "named_entity",
+        "detector": "spacy/it_core_news_lg@3.8.0",
+        "reason": "spaCy found a LOC entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 439,
+        "end": 443,
+        "field_type": "organisation_name",
+        "level": "professional-secrecy",
+        "subcategory": "named_entity",
+        "detector": "spacy/it_core_news_lg@3.8.0",
+        "reason": "spaCy found a ORG entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      }
+    ],
+    [
+      {
+        "start": 115,
+        "end": 122,
+        "field_type": "address",
+        "level": "professional-secrecy",
+        "subcategory": "named_entity",
+        "detector": "spacy/it_core_news_lg@3.8.0",
+        "reason": "spaCy found a LOC entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 202,
+        "end": 206,
+        "field_type": "organisation_name",
+        "level": "professional-secrecy",
+        "subcategory": "named_entity",
+        "detector": "spacy/it_core_news_lg@3.8.0",
+        "reason": "spaCy found a ORG entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 986,
+        "end": 990,
+        "field_type": "organisation_name",
+        "level": "professional-secrecy",
+        "subcategory": "named_entity",
+        "detector": "spacy/it_core_news_lg@3.8.0",
+        "reason": "spaCy found a ORG entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 1195,
+        "end": 1199,
+        "field_type": "organisation_name",
+        "level": "professional-secrecy",
+        "subcategory": "named_entity",
+        "detector": "spacy/it_core_news_lg@3.8.0",
+        "reason": "spaCy found a ORG entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 1325,
+        "end": 1329,
+        "field_type": "organisation_name",
+        "level": "professional-secrecy",
+        "subcategory": "named_entity",
+        "detector": "spacy/it_core_news_lg@3.8.0",
+        "reason": "spaCy found a ORG entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 1761,
+        "end": 1796,
+        "field_type": "organisation_name",
+        "level": "professional-secrecy",
+        "subcategory": "named_entity",
+        "detector": "spacy/it_core_news_lg@3.8.0",
+        "reason": "spaCy found a ORG entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 2036,
+        "end": 2049,
+        "field_type": "address",
+        "level": "professional-secrecy",
+        "subcategory": "named_entity",
+        "detector": "spacy/it_core_news_lg@3.8.0",
+        "reason": "spaCy found a LOC entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 2134,
+        "end": 2143,
+        "field_type": "address",
+        "level": "professional-secrecy",
+        "subcategory": "named_entity",
+        "detector": "spacy/it_core_news_lg@3.8.0",
+        "reason": "spaCy found a LOC entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      }
+    ],
+    [
+      {
+        "start": 55,
+        "end": 57,
+        "field_type": "address",
+        "level": "professional-secrecy",
+        "subcategory": "named_entity",
+        "detector": "spacy/it_core_news_lg@3.8.0",
+        "reason": "spaCy found a LOC entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 69,
+        "end": 76,
+        "field_type": "address",
+        "level": "professional-secrecy",
+        "subcategory": "named_entity",
+        "detector": "spacy/it_core_news_lg@3.8.0",
+        "reason": "spaCy found a LOC entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 151,
+        "end": 155,
+        "field_type": "organisation_name",
+        "level": "professional-secrecy",
+        "subcategory": "named_entity",
+        "detector": "spacy/it_core_news_lg@3.8.0",
+        "reason": "spaCy found a ORG entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 187,
+        "end": 220,
+        "field_type": "organisation_name",
+        "level": "professional-secrecy",
+        "subcategory": "named_entity",
+        "detector": "spacy/it_core_news_lg@3.8.0",
+        "reason": "spaCy found a ORG entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 236,
+        "end": 238,
+        "field_type": "address",
+        "level": "professional-secrecy",
+        "subcategory": "named_entity",
+        "detector": "spacy/it_core_news_lg@3.8.0",
+        "reason": "spaCy found a LOC entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 291,
+        "end": 295,
+        "field_type": "address",
+        "level": "professional-secrecy",
+        "subcategory": "named_entity",
+        "detector": "spacy/it_core_news_lg@3.8.0",
+        "reason": "spaCy found a LOC entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 326,
+        "end": 333,
+        "field_type": "address",
+        "level": "professional-secrecy",
+        "subcategory": "named_entity",
+        "detector": "spacy/it_core_news_lg@3.8.0",
+        "reason": "spaCy found a LOC entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 411,
+        "end": 413,
+        "field_type": "address",
+        "level": "professional-secrecy",
+        "subcategory": "named_entity",
+        "detector": "spacy/it_core_news_lg@3.8.0",
+        "reason": "spaCy found a LOC entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 492,
+        "end": 495,
+        "field_type": "person_name",
+        "level": "personal-private",
+        "subcategory": "named_entity",
+        "detector": "spacy/it_core_news_lg@3.8.0",
+        "reason": "spaCy found a PER entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 639,
+        "end": 643,
+        "field_type": "organisation_name",
+        "level": "professional-secrecy",
+        "subcategory": "named_entity",
+        "detector": "spacy/it_core_news_lg@3.8.0",
+        "reason": "spaCy found a ORG entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 687,
+        "end": 694,
+        "field_type": "organisation_name",
+        "level": "professional-secrecy",
+        "subcategory": "named_entity",
+        "detector": "spacy/it_core_news_lg@3.8.0",
+        "reason": "spaCy found a ORG entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 1007,
+        "end": 1017,
+        "field_type": "address",
+        "level": "professional-secrecy",
+        "subcategory": "named_entity",
+        "detector": "spacy/it_core_news_lg@3.8.0",
+        "reason": "spaCy found a LOC entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 1813,
+        "end": 1823,
+        "field_type": "address",
+        "level": "professional-secrecy",
+        "subcategory": "named_entity",
+        "detector": "spacy/it_core_news_lg@3.8.0",
+        "reason": "spaCy found a LOC entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 2121,
+        "end": 2127,
+        "field_type": "organisation_name",
+        "level": "professional-secrecy",
+        "subcategory": "named_entity",
+        "detector": "spacy/it_core_news_lg@3.8.0",
+        "reason": "spaCy found a ORG entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      }
+    ],
+    [
+      {
+        "start": 394,
+        "end": 398,
+        "field_type": "organisation_name",
+        "level": "professional-secrecy",
+        "subcategory": "named_entity",
+        "detector": "spacy/it_core_news_lg@3.8.0",
+        "reason": "spaCy found a ORG entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 569,
+        "end": 602,
+        "field_type": "organisation_name",
+        "level": "professional-secrecy",
+        "subcategory": "named_entity",
+        "detector": "spacy/it_core_news_lg@3.8.0",
+        "reason": "spaCy found a ORG entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 917,
+        "end": 923,
+        "field_type": "address",
+        "level": "professional-secrecy",
+        "subcategory": "named_entity",
+        "detector": "spacy/it_core_news_lg@3.8.0",
+        "reason": "spaCy found a LOC entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 1791,
+        "end": 1826,
+        "field_type": "organisation_name",
+        "level": "professional-secrecy",
+        "subcategory": "named_entity",
+        "detector": "spacy/it_core_news_lg@3.8.0",
+        "reason": "spaCy found a ORG entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 1828,
+        "end": 1834,
+        "field_type": "address",
+        "level": "professional-secrecy",
+        "subcategory": "named_entity",
+        "detector": "spacy/it_core_news_lg@3.8.0",
+        "reason": "spaCy found a LOC entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 1990,
+        "end": 1995,
+        "field_type": "address",
+        "level": "professional-secrecy",
+        "subcategory": "named_entity",
+        "detector": "spacy/it_core_news_lg@3.8.0",
+        "reason": "spaCy found a LOC entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 2037,
+        "end": 2043,
+        "field_type": "address",
+        "level": "professional-secrecy",
+        "subcategory": "named_entity",
+        "detector": "spacy/it_core_news_lg@3.8.0",
+        "reason": "spaCy found a LOC entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      }
+    ],
+    [
+      {
+        "start": 35,
+        "end": 68,
+        "field_type": "organisation_name",
+        "level": "professional-secrecy",
+        "subcategory": "named_entity",
+        "detector": "spacy/it_core_news_lg@3.8.0",
+        "reason": "spaCy found a ORG entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 528,
+        "end": 540,
+        "field_type": "person_name",
+        "level": "personal-private",
+        "subcategory": "named_entity",
+        "detector": "spacy/it_core_news_lg@3.8.0",
+        "reason": "spaCy found a PER entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 542,
+        "end": 555,
+        "field_type": "person_name",
+        "level": "personal-private",
+        "subcategory": "named_entity",
+        "detector": "spacy/it_core_news_lg@3.8.0",
+        "reason": "spaCy found a PER entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      }
+    ],
+    [
+      {
+        "start": 126,
+        "end": 144,
+        "field_type": "organisation_name",
+        "level": "professional-secrecy",
+        "subcategory": "named_entity",
+        "detector": "spacy/it_core_news_lg@3.8.0",
+        "reason": "spaCy found a ORG entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 146,
+        "end": 164,
+        "field_type": "organisation_name",
+        "level": "professional-secrecy",
+        "subcategory": "named_entity",
+        "detector": "spacy/it_core_news_lg@3.8.0",
+        "reason": "spaCy found a ORG entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 171,
+        "end": 178,
+        "field_type": "address",
+        "level": "professional-secrecy",
+        "subcategory": "named_entity",
+        "detector": "spacy/it_core_news_lg@3.8.0",
+        "reason": "spaCy found a LOC entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 271,
+        "end": 274,
+        "field_type": "organisation_name",
+        "level": "professional-secrecy",
+        "subcategory": "named_entity",
+        "detector": "spacy/it_core_news_lg@3.8.0",
+        "reason": "spaCy found a ORG entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 349,
+        "end": 367,
+        "field_type": "organisation_name",
+        "level": "professional-secrecy",
+        "subcategory": "named_entity",
+        "detector": "spacy/it_core_news_lg@3.8.0",
+        "reason": "spaCy found a ORG entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 536,
+        "end": 539,
+        "field_type": "organisation_name",
+        "level": "professional-secrecy",
+        "subcategory": "named_entity",
+        "detector": "spacy/it_core_news_lg@3.8.0",
+        "reason": "spaCy found a ORG entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      },
+      {
+        "start": 799,
+        "end": 802,
+        "field_type": "organisation_name",
+        "level": "professional-secrecy",
+        "subcategory": "named_entity",
+        "detector": "spacy/it_core_news_lg@3.8.0",
+        "reason": "spaCy found a ORG entity. Review its relevance to this matter. Analysed as docling paragraph; mapped to original PDF characters."
+      }
+    ]
+  ],
+  "regions": [
+    {
+      "page_number": 1,
+      "label": "picture",
+      "box": [
+        41.654876708984375,
+        115.50834655761719,
+        121.07363891601562,
+        154.97557067871094
+      ],
+      "text": ""
+    },
+    {
+      "page_number": 1,
+      "label": "section_header",
+      "box": [
+        236.69,
+        255.21511999999996,
+        479.40040000000005,
+        266.83930917127066
+      ],
+      "text": "Sentenza del 20 gennaio 2023"
+    },
+    {
+      "page_number": 1,
+      "label": "text",
+      "box": [
+        80.784,
+        309.86312,
+        127.11488000000001,
+        316.1057401104972
+      ],
+      "text": "Composizione"
+    },
+    {
+      "page_number": 1,
+      "label": "text",
+      "box": [
+        236.69,
+        309.77288,
+        409.09911999999997,
+        335.2749670718232
+      ],
+      "text": "Giudice Vito Valenti, giudice unico, cancelliera Marcella Lurà."
+    },
+    {
+      "page_number": 1,
+      "label": "text",
+      "box": [
+        80.784,
+        367.10311999999993,
+        97.11888,
+        373.3457401104972
+      ],
+      "text": "Parti"
+    },
+    {
+      "page_number": 1,
+      "label": "text",
+      "box": [
+        236.69,
+        367.01287999999994,
+        333.37912,
+        376.9149670718232
+      ],
+      "text": "A._______ , (Italia),"
+    },
+    {
+      "page_number": 1,
+      "label": "text",
+      "box": [
+        236.69,
+        382.61287999999996,
+        289.31912,
+        405.9749670718232
+      ],
+      "text": "ricorrente, contro"
+    },
+    {
+      "page_number": 1,
+      "label": "text",
+      "box": [
+        236.69,
+        425.11287999999996,
+        483.9418399999994,
+        450.6149670718232
+      ],
+      "text": "Ufficio dell'assicurazione per l'invalidità per gli assicurati residenti all'estero (UAIE),"
+    },
+    {
+      "page_number": 1,
+      "label": "text",
+      "box": [
+        236.69,
+        456.31287999999995,
+        322.33912,
+        466.2149670718232
+      ],
+      "text": "autorità inferiore."
+    },
+    {
+      "page_number": 1,
+      "label": "text",
+      "box": [
+        80.784,
+        482.4431199999999,
+        107.67488,
+        488.6857401104972
+      ],
+      "text": "Oggetto"
+    },
+    {
+      "page_number": 1,
+      "label": "text",
+      "box": [
+        236.69,
+        482.35287999999997,
+        536.5933599999998,
+        507.8549670718232
+      ],
+      "text": "Assicurazione per l'invalidità; domanda di rendita (progetto di decisione del 12 agosto 2022)."
+    },
+    {
+      "page_number": 2,
+      "label": "section_header",
+      "box": [
+        178.58,
+        95.18287999999995,
+        388.32183999999984,
+        105.08496707182314
+      ],
+      "text": "Ritenuto in fatto e considerato in diritto:"
+    },
+    {
+      "page_number": 2,
+      "label": "section_header",
+      "box": [
+        178.58,
+        124.22288000000003,
+        190.79912,
+        134.12496707182322
+      ],
+      "text": "1."
+    },
+    {
+      "page_number": 2,
+      "label": "text",
+      "box": [
+        178.58,
+        153.98288000000002,
+        541.7291,
+        382.31496707182316
+      ],
+      "text": "1.1 Con progetto di decisione del 12 agosto 2022, l'Ufficio dell'assicurazione per l'invalidità per gli assicurati residenti all'estero (UAIE) ha comunicato all'interessato che la domanda di prestazioni è (recte, sarebbe stata) respinta, ritenuto in particolare che a causa del danno alla salute egli presenta un'incapacità al lavoro del 100% dal 27 ottobre 2019, dello 0% dal 27 novembre 2019 e del 100% dal 24 aprile 2020 nell'attività di stuccatore. Tuttavia, l'esercizio di un'attività confacente allo stato di salute è da considerare esigibile allo 0% dal 27 ottobre 2019, al 100% dal 27 novembre 2019, allo 0% dal 24 aprile 2020 ed al 100% dal 24 luglio 2020, ciò che comporta un grado d'invalidità del 100% dal 27 ottobre 2019, dello 0% dal 27 novembre 2019, del 100% dal 24 aprile 2020 e dello 0% dal 24 luglio 2020, che esclude il riconoscimento del diritto ad una rendita d'invalidità svizzera. L'UAIE ha altresì concesso all'interessato la facoltà di formulare, nel termine di 30 giorni dalla ricezione del progetto di decisione, delle obiezioni per iscritto."
+    },
+    {
+      "page_number": 2,
+      "label": "text",
+      "box": [
+        178.58,
+        402.31287999999995,
+        541.5283999999997,
+        427.81496707182316
+      ],
+      "text": "1.2 Con decisione del 12 ottobre 2022, l'UAIE ha respinto la domanda di prestazioni dell'assicurazione svizzera per l'invalidità."
+    },
+    {
+      "page_number": 2,
+      "label": "text",
+      "box": [
+        178.58,
+        447.67287999999996,
+        541.7367999999999,
+        535.5749670718233
+      ],
+      "text": "1.3 Con scritto del 3 novembre 2022, l'UAIE ha segnalato all'interessato che la decisione del 12 ottobre 2022 è da considerarsi siccome nulla e ' non avvenuta '. Detta autorità ha altresì trasmesso all'interessato una copia del progetto di decisione del 12 agosto 2022 e gli ha concesso la facoltà di formulare, nel termine di 30 giorni dalla ricezione dello scritto medesimo, delle obiezioni per iscritto."
+    },
+    {
+      "page_number": 2,
+      "label": "section_header",
+      "box": [
+        178.58,
+        555.43288,
+        190.79912,
+        565.3349670718233
+      ],
+      "text": "2."
+    },
+    {
+      "page_number": 2,
+      "label": "text",
+      "box": [
+        178.58,
+        571.06288,
+        541.7228799999997,
+        643.3649670718232
+      ],
+      "text": "Il 21 dicembre 2022, l'interessato ha inoltrato dinanzi al Tribunale amministrativo  federale  uno  scritto  -  denominato  ricorso/riesame  -  mediante  il quale ha chiesto una ' vostra riapertura e rivalutazione del caso ', dolendosi in particolare di un'errata valutazione del suo stato di salute e della sua capacità di guadagno."
+    },
+    {
+      "page_number": 2,
+      "label": "section_header",
+      "box": [
+        178.58,
+        663.3428799999999,
+        190.79912,
+        673.2449670718231
+      ],
+      "text": "3."
+    },
+    {
+      "page_number": 2,
+      "label": "text",
+      "box": [
+        178.58,
+        693.1028799999999,
+        541.7118399999999,
+        734.2249670718231
+      ],
+      "text": "3.1 Riservate le eccezioni - non realizzate nel caso di specie - di cui all'art. 32 LTAF, questo Tribunale giudica, in virtù dell'art. 31 LTAF in combinazione con l'art. 33 lett. d LTAF e l'art. 69 cpv. 1 lett. b LAI (RS 831.20), i ricorsi contro le decisioni, ai sensi dell'art. 5 PA, rese dall'Ufficio dell'assicurazione per l'invalidità per le persone residenti all'estero (UAIE)."
+    },
+    {
+      "page_number": 3,
+      "label": "text",
+      "box": [
+        178.58,
+        98.06287999999995,
+        541.7449599999997,
+        123.56496707182316
+      ],
+      "text": "3.1 Riservate le eccezioni - non realizzate nel caso di specie - di cui all'art. 32 LTAF, questo Tribunale giudica, in virtù dell'art. 31 LTAF in combinazione con l'art. 33 lett. d LTAF e l'art. 69 cpv. 1 lett. b LAI (RS 831.20), i ricorsi contro le decisioni, ai sensi dell'art. 5 PA, rese dall'Ufficio dell'assicurazione per l'invalidità per le persone residenti all'estero (UAIE)."
+    },
+    {
+      "page_number": 3,
+      "label": "text",
+      "box": [
+        178.58,
+        143.42287999999996,
+        541.6026400000001,
+        246.95496707182315
+      ],
+      "text": "3.2 La procedura dinanzi al Tribunale amministrativo federale è retta dalla PA, in quanto la LTAF non disponga altrimenti (art. 37 LTAF). In virtù dell'art. 3 lett. d bis PA, la procedura in materia di assicurazioni sociali non è disciplinata dalla PA nella misura in cui è applicabile la LPGA (RS 830.1). Giusta l'art. 1 cpv. 1 LAI, le disposizioni della LPGA sono applicabili all'assicurazione per l'invalidità (art. 1a-26 bis  e 28-70), sempre che la LAI non deroghi alla LPGA."
+    },
+    {
+      "page_number": 3,
+      "label": "section_header",
+      "box": [
+        178.58,
+        266.81287999999995,
+        190.79912,
+        276.71496707182314
+      ],
+      "text": "4."
+    },
+    {
+      "page_number": 3,
+      "label": "text",
+      "box": [
+        178.58,
+        296.69287999999995,
+        541.6849600000003,
+        525.0149670718232
+      ],
+      "text": "4.1 Giusta  l'art.  57 a cpv.  1  LAI,  l'Ufficio AI  comunica  all'assicurato,  per mezzo di un preavviso, la decisione prevista in merito alla domanda di prestazione o alla soppressione o riduzione della prestazione già assegnata. L'assicurato ha il diritto di essere sentito conformemente all'art. 42 LPGA. Inoltre, secondo l'art. 73 ter OAI (RS 831.201), l'Ufficio AI deve dare all'assicurato o al suo rappresentante, da un lato, l'occasione d'esprimersi, oralmente o per scritto, sul progetto/preavviso di regolamento del caso concreto e, dall'altro lato, concedere la facoltà di consultare gli atti di causa prima di pronunciarsi sul rifiuto di una domanda o sulla soppressione o riduzione di una rendita già assegnata. Il diritto di essere sentito è cosi dato in  questi  casi  prima  dell'emanazione  della  decisione  amministrativa,  ma dopo l'istruzione della domanda. In tale ambito, l'assicurato può fra l'altro far valere le sue eventuali obiezioni e domandare dei complementi d'istruzione (cfr., in particolare, la sentenza del TAF C-6835/2014 del 10 ottobre 2017 consid. 2.8.2 con rinvii)."
+    },
+    {
+      "page_number": 3,
+      "label": "text",
+      "box": [
+        178.58,
+        544.8728799999999,
+        541.6907199999999,
+        601.6049670718231
+      ],
+      "text": "4.2 Per il resto, ai sensi dell'art. 74 cpv. 1 OAI, l'Ufficio AI si pronuncia sulla richiesta  di  prestazioni,  una  volta  terminata  l'istruttoria.  La  motivazione della  deliberazione  tiene  conto  delle  obiezioni  formulate  dalle  parti  sul preavviso, in quanto siano rilevanti per la deliberazione (art. 74 cpv. 2 OAI)."
+    },
+    {
+      "page_number": 3,
+      "label": "text",
+      "box": [
+        178.58,
+        621.46288,
+        190.79912,
+        631.3649670718232
+      ],
+      "text": "5."
+    },
+    {
+      "page_number": 3,
+      "label": "list_item",
+      "box": [
+        178.58,
+        651.3428799999999,
+        541.71664,
+        739.2649670718232
+      ],
+      "text": "5.1 Con scritto del 3 novembre 2022, l'UAIE - dopo avere indicato che ha annullato la propria decisione del 22 ottobre 2022 - ha trasmesso all'interessato una copia del progetto di decisione del 12 agosto 2022, concedendogli la facoltà di formulare, entro un termine di 30 giorni, delle obiezioni per iscritto sulla prevista decisione di respingimento della domanda di rendita d'invalidità svizzera. L'interessato, nello scritto del 21 dicembre 2022,"
+    },
+    {
+      "page_number": 4,
+      "label": "text",
+      "box": [
+        178.58,
+        98.06287999999995,
+        541.7329599999998,
+        248.3949670718232
+      ],
+      "text": "riferendosi peraltro esplicitamente al progetto di decisione del 12 agosto 2022 (' non sono d'accordo con il vostro progetto di decisione '), si è doluto di un'errata valutazione del suo stato di salute e della sua capacità di guadagno. Lo scritto dell'interessato del 21 dicembre 2022 costituisce pertanto manifestamente  una  tempestiva obiezione al progetto di decisione dell'UAIE del 12 agosto 2022 (art. 73 ter  OAI), progetto di decisione che non è assimilabile ad una decisione formale ai sensi dell'art. 5 PA, di modo che è escluso un ricorso al Tribunale amministrativo federale contro un progetto di decisione (cfr., fra l'altro, la sentenza del TAF C-59/2020 dell'8 gennaio 2020 consid. 6 con rinvii)."
+    },
+    {
+      "page_number": 4,
+      "label": "section_header",
+      "box": [
+        178.58,
+        268.25288,
+        190.79912,
+        278.1549670718232
+      ],
+      "text": "6."
+    },
+    {
+      "page_number": 4,
+      "label": "text",
+      "box": [
+        178.58,
+        283.85288,
+        541.71568,
+        465.37496707182316
+      ],
+      "text": "Da  quanto  esposto,  consegue  che  non  si  entra  nel  merito  dello  scritto dell'interessato del 21 dicembre 2022 e ciò in procedura semplificata a giudice unico (art. 23 cpv. 1 lett. b LTAF in combinazione con l'art. 85 bis cpv. 3 LAVS e con l'art. 69 cpv. 2 LAI). Detto scritto, unitamente agli allegati documenti, è trasmesso all'autorità inferiore al fine della continuazione della procedura d'istruttoria della domanda di rendita. In tale ambito, l'autorità inferiore terrà conto dello scritto di obiezioni dell'interessato del 21 dicembre 2022, procederà ad un eventuale complemento d'istruzione (in tal caso rispettando il diritto di essere sentito dell'interessato) e pronuncerà poi una nuova decisione suscettibile di impugnazione, dando così seguito alla richiesta  dell'interessato  medesimo  di  una  ' riapertura  e  rivalutazione  del caso '."
+    },
+    {
+      "page_number": 4,
+      "label": "section_header",
+      "box": [
+        178.58,
+        485.23287999999997,
+        190.79912,
+        495.1349670718232
+      ],
+      "text": "7."
+    },
+    {
+      "page_number": 4,
+      "label": "text",
+      "box": [
+        178.58,
+        515.1128799999999,
+        541.5504799999997,
+        571.8449670718232
+      ],
+      "text": "7.1 Per eccezione, non si prelevano spese processuali (art. 63 cpv. 1 PA nonché art. 6 lett. b del regolamento del 21 febbraio 2008 sulle tasse e sulle spese ripetibili nelle cause dinanzi al Tribunale amministrativo federale [TS-TAF; RS 173.320.2])."
+    },
+    {
+      "page_number": 4,
+      "label": "text",
+      "box": [
+        178.58,
+        591.7028799999999,
+        538.6579999999997,
+        632.8049670718232
+      ],
+      "text": "7.2 Visto l'esito della procedura in esame non si giustifica altresì manifestamente l'attribuzione  di  ripetibili  all'interessato  (art.  64  PA  in  combinazione con gli art. 7 e segg. TS-TAF)."
+    },
+    {
+      "page_number": 4,
+      "label": "text",
+      "box": [
+        178.58,
+        742.0828799999999,
+        341.93888,
+        751.9849670718231
+      ],
+      "text": "(dispositivo alla pagina seguente)"
+    },
+    {
+      "page_number": 5,
+      "label": "section_header",
+      "box": [
+        178.58,
+        95.18287999999995,
+        517.7839999999993,
+        105.08496707182314
+      ],
+      "text": "Per questi motivi, il Tribunale amministrativo federale pronuncia:"
+    },
+    {
+      "page_number": 5,
+      "label": "list_item",
+      "box": [
+        178.58,
+        124.22288000000003,
+        541.398559999999,
+        165.32496707182315
+      ],
+      "text": "Non si entra nel merito dello scritto/ricorso/riesame dell'interessato del 21 dicembre 2022."
+    },
+    {
+      "page_number": 5,
+      "label": "text",
+      "box": [
+        178.58,
+        185.18287999999995,
+        190.79912,
+        195.08496707182314
+      ],
+      "text": "2."
+    },
+    {
+      "page_number": 5,
+      "label": "text",
+      "box": [
+        178.58,
+        200.78287999999998,
+        541.4746399999995,
+        226.2849670718232
+      ],
+      "text": "Lo scritto dell'interessato, unitamente agli allegati documenti, è trasmesso all'autorità inferiore ai sensi del considerando 6."
+    },
+    {
+      "page_number": 5,
+      "label": "list_item",
+      "box": [
+        178.58,
+        246.29287999999997,
+        190.79912,
+        256.19496707182316
+      ],
+      "text": "3."
+    },
+    {
+      "page_number": 5,
+      "label": "text",
+      "box": [
+        178.58,
+        261.89288,
+        355.3855999999998,
+        271.7949670718232
+      ],
+      "text": "Non si prelevano spese processuali."
+    },
+    {
+      "page_number": 5,
+      "label": "list_item",
+      "box": [
+        178.58,
+        291.65288,
+        318.3905599999998,
+        317.1549670718232
+      ],
+      "text": "Non si attribuiscono ripetibili."
+    },
+    {
+      "page_number": 5,
+      "label": "text",
+      "box": [
+        178.58,
+        337.01287999999994,
+        541.7293599999999,
+        378.1149670718232
+      ],
+      "text": "5. Questa  sentenza  è  comunicata  al  ricorrente,  all'autorità inferiore e all'UFAS."
+    },
+    {
+      "page_number": 5,
+      "label": "text",
+      "box": [
+        178.7,
+        457.63287999999994,
+        257.63912,
+        467.5349670718232
+      ],
+      "text": "Il giudice unico:"
+    },
+    {
+      "page_number": 5,
+      "label": "text",
+      "box": [
+        373.75,
+        457.63287999999994,
+        447.76912,
+        467.5349670718232
+      ],
+      "text": "La cancelliera:"
+    },
+    {
+      "page_number": 5,
+      "label": "text",
+      "box": [
+        178.7,
+        578.1428799999999,
+        237.47912,
+        588.0449670718232
+      ],
+      "text": "Vito Valenti"
+    },
+    {
+      "page_number": 5,
+      "label": "text",
+      "box": [
+        373.75,
+        578.1428799999999,
+        443.44912,
+        588.0449670718232
+      ],
+      "text": "Marcella Lurà"
+    },
+    {
+      "page_number": 5,
+      "label": "text",
+      "box": [
+        178.58,
+        727.2028799999999,
+        445.8363199999997,
+        737.1049670718231
+      ],
+      "text": "I rimedi giuridici sono menzionati alla pagina seguente."
+    },
+    {
+      "page_number": 6,
+      "label": "section_header",
+      "box": [
+        178.58,
+        95.18287999999995,
+        264.78031999999996,
+        105.08496707182314
+      ],
+      "text": "Rimedi giuridici:"
+    },
+    {
+      "page_number": 6,
+      "label": "text",
+      "box": [
+        178.58,
+        124.22288000000003,
+        541.7293599999999,
+        290.1549670718232
+      ],
+      "text": "Contro la presente decisione può essere interposto ricorso in materia di diritto pubblico al Tribunale federale, Schweizerhofquai 6, 6004 Lucerna, entro un termine di 30 giorni dalla sua notificazione (art. 82 e segg., 90 e segg. e 100 LTF). Il termine è reputato osservato se gli atti scritti  sono consegnati al Tribunale federale oppure, all'indirizzo di questo, alla posta svizzera o a una rappresentanza diplomatica o consolare svizzera al più tardi l'ultimo giorno del termine (art. 48 cpv. 1 LTF). Gli atti scritti devono contenere  le  conclusioni,  i  motivi  e  l'indicazione  dei  mezzi  di  prova  ed essere  firmati.  La  decisione  impugnata  e  -  se  in  possesso  della  parte ricorrente  -  i  documenti  indicati  come  mezzi  di  prova  devono  essere allegati (art. 42 LTF)."
+    },
+    {
+      "page_number": 6,
+      "label": "text",
+      "box": [
+        178.58,
+        369.6528799999999,
+        272.27916,
+        379.55496707182317
+      ],
+      "text": "Data di spedizione:"
+    }
+  ],
+  "text_hashes": [
+    "c13ef6573a729ac9e286502c51e934b544d4e984b0499bc6f6022527037f6f8d",
+    "4f7836ec8e53769ae7eb520da5ec03fa94ff6d7cf02658da8af70ecc9c50f9e7",
+    "2a3faf5af80b58dfc022d483b4c6f22a3ce7405781c5aa656bd46792508944da",
+    "0968915b1dce725c5de5c255e0af5db0f68c84a781b85abdb0a9082a139be763",
+    "c18fc9c6e0c7b9b74cd8ab3a2e71204fcd0c8d443d62f65698fcc64a19bc66e0",
+    "0754c82bc4b6a3b7fa87dff18540367b797e1ffc66f367cf48134c99b3292530"
+  ],
+  "pdf_sha256": "43f5289dfe404711ec17afc56a2c84610ccd8dee8963030802a67edb821a3b8b",
+  "engine": "spaCy 3.8.16 on Modal CPU + Docling 2.110.0 / Heron paragraphs v1",
+  "languages": [
+    "it"
+  ],
+  "schema_version": 1
+}

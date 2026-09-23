@@ -1,0 +1,388 @@
+{
+  "schema_version": 1,
+  "pdf_sha256": "43f5289dfe404711ec17afc56a2c84610ccd8dee8963030802a67edb821a3b8b",
+  "pdf_path": "data/reference/swiss/CH_BVGE_001_C-6081-2022_2023-01-20.pdf",
+  "captured_at": "2026-09-23T10:54:38.399455+00:00",
+  "model": {
+    "name": "openai/privacy-filter",
+    "opf_revision": "f7f00ca7fb869683eb732c010299d901457f19c3",
+    "weights_revision": "7ffa9a043d54d1be65afb281eddf0ffbe629385b",
+    "service": "Modal private PrivacyFilter.detect",
+    "mode": "one call per extracted page"
+  },
+  "pages": [
+    {
+      "text_sha256": "c13ef6573a729ac9e286502c51e934b544d4e984b0499bc6f6022527037f6f8d",
+      "spans": [
+        {
+          "label": "private_person",
+          "start": 237,
+          "end": 257,
+          "text": "Giudice Vito Valenti",
+          "placeholder": "<PRIVATE_PERSON>"
+        },
+        {
+          "label": "private_person",
+          "start": 287,
+          "end": 300,
+          "text": "Marcella Lurà",
+          "placeholder": "<PRIVATE_PERSON>"
+        },
+        {
+          "label": "private_date",
+          "start": 556,
+          "end": 570,
+          "text": "12 agosto 2022",
+          "placeholder": "<PRIVATE_DATE>"
+        }
+      ]
+    },
+    {
+      "text_sha256": "4f7836ec8e53769ae7eb520da5ec03fa94ff6d7cf02658da8af70ecc9c50f9e7",
+      "spans": [
+        {
+          "label": "account_number",
+          "start": 0,
+          "end": 11,
+          "text": "C-6081/2022",
+          "placeholder": "<ACCOUNT_NUMBER>"
+        },
+        {
+          "label": "private_date",
+          "start": 97,
+          "end": 111,
+          "text": "12 agosto 2022",
+          "placeholder": "<PRIVATE_DATE>"
+        },
+        {
+          "label": "private_date",
+          "start": 417,
+          "end": 432,
+          "text": "27 ottobre 2019",
+          "placeholder": "<PRIVATE_DATE>"
+        },
+        {
+          "label": "private_date",
+          "start": 448,
+          "end": 464,
+          "text": "27 novembre 2019",
+          "placeholder": "<PRIVATE_DATE>"
+        },
+        {
+          "label": "private_date",
+          "start": 480,
+          "end": 494,
+          "text": "24 aprile 2020",
+          "placeholder": "<PRIVATE_DATE>"
+        },
+        {
+          "label": "private_date",
+          "start": 635,
+          "end": 650,
+          "text": "27 ottobre 2019",
+          "placeholder": "<PRIVATE_DATE>"
+        },
+        {
+          "label": "private_date",
+          "start": 664,
+          "end": 681,
+          "text": "27 novembre \n2019",
+          "placeholder": "<PRIVATE_DATE>"
+        },
+        {
+          "label": "private_date",
+          "start": 695,
+          "end": 709,
+          "text": "24 aprile 2020",
+          "placeholder": "<PRIVATE_DATE>"
+        },
+        {
+          "label": "private_date",
+          "start": 725,
+          "end": 739,
+          "text": "24 luglio 2020",
+          "placeholder": "<PRIVATE_DATE>"
+        },
+        {
+          "label": "private_date",
+          "start": 794,
+          "end": 809,
+          "text": "27 ottobre 2019",
+          "placeholder": "<PRIVATE_DATE>"
+        },
+        {
+          "label": "private_date",
+          "start": 825,
+          "end": 841,
+          "text": "27 novembre 2019",
+          "placeholder": "<PRIVATE_DATE>"
+        },
+        {
+          "label": "private_date",
+          "start": 856,
+          "end": 870,
+          "text": "24 aprile 2020",
+          "placeholder": "<PRIVATE_DATE>"
+        },
+        {
+          "label": "private_date",
+          "start": 886,
+          "end": 901,
+          "text": "24 luglio \n2020",
+          "placeholder": "<PRIVATE_DATE>"
+        },
+        {
+          "label": "private_date",
+          "start": 1176,
+          "end": 1191,
+          "text": "12 ottobre 2022",
+          "placeholder": "<PRIVATE_DATE>"
+        },
+        {
+          "label": "private_date",
+          "start": 1306,
+          "end": 1321,
+          "text": "3 novembre 2022",
+          "placeholder": "<PRIVATE_DATE>"
+        },
+        {
+          "label": "private_date",
+          "start": 1381,
+          "end": 1396,
+          "text": "12 ottobre 2022",
+          "placeholder": "<PRIVATE_DATE>"
+        },
+        {
+          "label": "private_date",
+          "start": 1541,
+          "end": 1555,
+          "text": "12 agosto 2022",
+          "placeholder": "<PRIVATE_DATE>"
+        },
+        {
+          "label": "private_date",
+          "start": 1705,
+          "end": 1721,
+          "text": "21 dicembre 2022",
+          "placeholder": "<PRIVATE_DATE>"
+        }
+      ]
+    },
+    {
+      "text_sha256": "2a3faf5af80b58dfc022d483b4c6f22a3ce7405781c5aa656bd46792508944da",
+      "spans": [
+        {
+          "label": "account_number",
+          "start": 0,
+          "end": 11,
+          "text": "C-6081/2022",
+          "placeholder": "<ACCOUNT_NUMBER>"
+        },
+        {
+          "label": "private_address",
+          "start": 288,
+          "end": 295,
+          "text": "37 LTAF",
+          "placeholder": "<PRIVATE_ADDRESS>"
+        },
+        {
+          "label": "private_address",
+          "start": 457,
+          "end": 463,
+          "text": "RS 830",
+          "placeholder": "<PRIVATE_ADDRESS>"
+        },
+        {
+          "label": "private_address",
+          "start": 981,
+          "end": 1004,
+          "text": "73ter OAI (RS 831.201),",
+          "placeholder": "<PRIVATE_ADDRESS>"
+        },
+        {
+          "label": "private_date",
+          "start": 1700,
+          "end": 1709,
+          "text": "6835/2014",
+          "placeholder": "<PRIVATE_DATE>"
+        },
+        {
+          "label": "private_date",
+          "start": 1714,
+          "end": 1730,
+          "text": "10 ottobre \n2017",
+          "placeholder": "<PRIVATE_DATE>"
+        },
+        {
+          "label": "private_person",
+          "start": 1806,
+          "end": 1809,
+          "text": "OAI",
+          "placeholder": "<PRIVATE_PERSON>"
+        },
+        {
+          "label": "private_person",
+          "start": 2070,
+          "end": 2073,
+          "text": "OAI",
+          "placeholder": "<PRIVATE_PERSON>"
+        },
+        {
+          "label": "private_date",
+          "start": 2102,
+          "end": 2117,
+          "text": "3 novembre 2022",
+          "placeholder": "<PRIVATE_DATE>"
+        },
+        {
+          "label": "private_date",
+          "start": 2191,
+          "end": 2206,
+          "text": "22 ottobre 2022",
+          "placeholder": "<PRIVATE_DATE>"
+        },
+        {
+          "label": "private_date",
+          "start": 2280,
+          "end": 2294,
+          "text": "12 agosto 2022",
+          "placeholder": "<PRIVATE_DATE>"
+        },
+        {
+          "label": "private_date",
+          "start": 2523,
+          "end": 2539,
+          "text": "21 dicembre 2022",
+          "placeholder": "<PRIVATE_DATE>"
+        }
+      ]
+    },
+    {
+      "text_sha256": "0968915b1dce725c5de5c255e0af5db0f68c84a781b85abdb0a9082a139be763",
+      "spans": [
+        {
+          "label": "private_date",
+          "start": 2,
+          "end": 11,
+          "text": "6081/2022",
+          "placeholder": "<PRIVATE_DATE>"
+        },
+        {
+          "label": "private_person",
+          "start": 78,
+          "end": 87,
+          "text": "12 agosto",
+          "placeholder": "<PRIVATE_PERSON>"
+        },
+        {
+          "label": "private_date",
+          "start": 284,
+          "end": 300,
+          "text": "21 dicembre 2022",
+          "placeholder": "<PRIVATE_DATE>"
+        },
+        {
+          "label": "private_date",
+          "start": 403,
+          "end": 417,
+          "text": "12 agosto 2022",
+          "placeholder": "<PRIVATE_DATE>"
+        },
+        {
+          "label": "private_person",
+          "start": 424,
+          "end": 433,
+          "text": "73ter OAI",
+          "placeholder": "<PRIVATE_PERSON>"
+        },
+        {
+          "label": "account_number",
+          "start": 672,
+          "end": 685,
+          "text": "TAF C-59/2020",
+          "placeholder": "<ACCOUNT_NUMBER>"
+        },
+        {
+          "label": "private_date",
+          "start": 693,
+          "end": 706,
+          "text": "gennaio \n2020",
+          "placeholder": "<PRIVATE_DATE>"
+        },
+        {
+          "label": "private_date",
+          "start": 828,
+          "end": 844,
+          "text": "21 dicembre 2022",
+          "placeholder": "<PRIVATE_DATE>"
+        }
+      ]
+    },
+    {
+      "text_sha256": "c18fc9c6e0c7b9b74cd8ab3a2e71204fcd0c8d443d62f65698fcc64a19bc66e0",
+      "spans": [
+        {
+          "label": "private_date",
+          "start": 165,
+          "end": 178,
+          "text": "dicembre 2022",
+          "placeholder": "<PRIVATE_DATE>"
+        },
+        {
+          "label": "private_person",
+          "start": 528,
+          "end": 540,
+          "text": "Vito Valenti",
+          "placeholder": "<PRIVATE_PERSON>"
+        },
+        {
+          "label": "private_person",
+          "start": 542,
+          "end": 555,
+          "text": "Marcella Lurà",
+          "placeholder": "<PRIVATE_PERSON>"
+        }
+      ]
+    },
+    {
+      "text_sha256": "0754c82bc4b6a3b7fa87dff18540367b797e1ffc66f367cf48134c99b3292530",
+      "spans": [
+        {
+          "label": "private_address",
+          "start": 146,
+          "end": 164,
+          "text": "Schweizerhofquai 6",
+          "placeholder": "<PRIVATE_ADDRESS>"
+        },
+        {
+          "label": "private_address",
+          "start": 166,
+          "end": 178,
+          "text": "6004 Lucerna",
+          "placeholder": "<PRIVATE_ADDRESS>"
+        },
+        {
+          "label": "account_number",
+          "start": 271,
+          "end": 274,
+          "text": "LTF",
+          "placeholder": "<ACCOUNT_NUMBER>"
+        },
+        {
+          "label": "account_number",
+          "start": 536,
+          "end": 539,
+          "text": "LTF",
+          "placeholder": "<ACCOUNT_NUMBER>"
+        },
+        {
+          "label": "account_number",
+          "start": 791,
+          "end": 802,
+          "text": "art. 42 LTF",
+          "placeholder": "<ACCOUNT_NUMBER>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+<!-- extension/review.html -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lexmini | Legal document review</title>
+  <link rel="stylesheet" href="review.css">
+  <script src="review-groups.js" defer></script>
+  <script src="review.js" defer></script>
+  <script src="review-text.js" defer></script>
+</head>
+<body>
+  <section class="toolbar">
+    <div class="brand compact-brand" aria-label="Lexmini"><span class="mark">L</span><strong>lexmini</strong></div>
+    <div class="file-info"><span id="connection" class="connection">Connecting…</span><strong id="filename">No document open</strong><span id="fileDetails">PDF documents · up to 40 pages</span></div>
+    <div class="actions">
+      <label class="button secondary file-button">Open PDF<input type="file" id="file" accept="application/pdf,.pdf"></label>
+      <button id="demo" class="secondary">Try example</button>
+      <select id="samples" aria-label="Open a real legal document"><option value="">Real legal examples…</option></select>
+      <select id="qualitySamples" aria-label="Open a cached quality check"><option value="">Cached quality checks…</option></select>
+      <button id="close" class="quiet" disabled>Close document</button>
+    </div>
+  </section>
+  <main>
+    <section class="document-area" aria-label="Document preview">
+      <div class="review-tools"><label>Document mode <select id="documentMode"><option value="review">Review highlights</option><option value="select">Select text on PDF</option><option value="debug">Debug text and layout</option></select></label><label>Colour by <select id="colourBy"><option value="signal">Review signal</option><option value="selection">Remove / keep</option></select></label></div>
+      <div id="selectionNotice" class="selection-notice" hidden><span id="selectedTextLabel"></span><button id="useSelection" class="secondary">Use selected text</button></div>
+      <div id="documentScroll" class="document-scroll">
+        <div id="empty" class="empty">
+          <div class="paper-icon">Aa<span>▰ ▰</span></div>
+          <span class="eyebrow">BEFORE YOU SHARE</span>
+          <h1>Keep the meaning.<br>Choose what stays private.</h1>
+          <p>Open a PDF to find names, contact details and confidential legal information. Review each finding on the page.</p>
+          <button id="emptyOpen">Choose a PDF</button>
+          <small>Or try the synthetic example. No real client data.</small>
+        </div>
+        <div id="pages"></div>
+      </div>
+      <div class="legend"><span class="signal-approved">■ Approved term</span><span class="signal-priority">▲ Review first</span><span class="signal-candidate">● Candidate</span><span class="signal-weak">◇ Weak / layout</span><span>Faded = kept · Colours are review signals, not probabilities</span></div>
+    </section>
+    <aside aria-label="Review findings">
+      <details class="context" open>
+        <summary>Document review</summary>
+        <div class="context-fields">
+          <label>Your role<input id="role" value="Legal translator" maxlength="500"></label>
+          <label>Review set<input id="reviewSet" value="demo" maxlength="80" pattern="[\w .-]+"></label>
+          <label>Document language<select id="documentLanguage"><option value="fr">French</option><option value="de">German</option><option value="it">Italian</option><option value="en">English</option><option value="de,fr,it,en">Mixed German / French / Italian / English</option></select></label>
+          <label>Extra names or topics to conceal<textarea id="terms" rows="2" placeholder="One name or phrase per line"></textarea></label>
+          <p class="hint">Screening checks similar spellings, document layout and sensitive information, then runs a final quality check. Review the suggested removals.</p>
+          <button id="analyse" disabled>Find private information</button>
+          <button id="qualityCheck" disabled>Recheck findings</button><p id="contextSuggestion" class="hint"></p>
+        </div>
+      </details>
+      <div id="status" role="status" aria-live="polite">Open a PDF to begin.</div>
+      <div id="warnings" class="warnings" hidden></div>
+      <details class="learning"><summary>Add something the detector missed</summary>
+        <label>Text from this document<input id="manualTerm" maxlength="200" placeholder="Copy a missed name or phrase"></label>
+        <label>Category<select id="manualType"><option value="confidential_term">Confidential term</option><option value="person_name">Person</option><option value="organisation_name">Company / organisation</option><option value="address">Address</option><option value="email">Email</option><option value="phone">Phone</option><option value="account_number">Account number</option><option value="date">Date</option><option value="medical_information">Medical information</option><option value="credential">Password / access secret</option></select></label>
+        <label>Protection<select id="manualLevel"><option value="professional-secrecy">Professional-secrecy</option><option value="personal-private">Personal-private</option><option value="both">Both</option></select></label>
+        <label>When approved, save for<select id="memoryScope"><option value="workspace">This organisation</option><option value="set">This review set within the organisation</option></select></label>
+        <button id="addExample" disabled>Apply to this document only</button>
+        <button id="approveExample" disabled>Save approved term and check every page</button>
+        <p class="hint">Only approved people and organisations are remembered across documents. Apply dates and other terms to this document only. Selecting a highlight or exporting does not save a term. This prototype uses one server-assigned organisation; hosted user permissions are not yet connected.</p>
+      </details>
+      <details class="legal-references"><summary id="referenceSummary">Legal references</summary><div id="legalReferences"></div></details>
+      <div class="findings-top">
+        <div><h2>Findings <span id="total">0</span></h2><span id="selectedCount">Nothing selected</span></div>
+        <div class="batch"><button id="selectAll" class="quiet" disabled>Select all</button><button id="keepAll" class="quiet" disabled>Keep all</button></div>
+      </div>
+      <div class="filters">
+        <input id="search" type="search" aria-label="Search findings" placeholder="Search findings…">
+        <select id="filter" aria-label="Filter findings"><option value="all">All findings</option><option value="signal:weak">Weak / layout</option><option value="signal:approved">Approved terms</option><option value="signal:priority">Review first</option><option value="selected">Selected</option><option value="kept">Kept</option><option value="date-backup">Dates added by backup</option><option value="personal-private">Personal-private</option><option value="professional-secrecy">Professional-secrecy</option></select>
+      </div>
+      <div class="group-controls"><label>Group by <select id="groupBy"><option value="category">Category - all dates together</option><option value="signal">Review signal, then category</option><option value="priority">Review priority, then category</option><option value="sensitivity">Sensitivity, then category</option></select></label>
+        <p id="groupHint">Repeated values share a card. Expand a category to review its mentions.</p></div>
+      <div id="findings" class="findings"><p class="list-empty">Findings will appear here, with a reason for each one.</p></div>
+      <details class="sharing-panel"><summary>Share this real document</summary>
+        <label>Recipient label<input id="shareRecipient" value="Translator" maxlength="100"></label>
+        <p>60-second access. Select a finding on the page to allow that value separately. Overlapping protected text can still conceal it.</p>
+        <label><input type="checkbox" id="shareReveal">Allow the focused value and equivalent mentions</label>
+        <button id="issueShare">Issue / replace recipient copy</button><button id="revokeShare" disabled>Revoke access</button>
+        <p id="shareStatus">Prototype: anyone in this curator UI can change permissions. Recipient links grant access to their holders.</p><a id="shareLink" hidden target="_blank" rel="noopener noreferrer">Download recipient PDF</a>
+      </details>
+      <div class="export">
+        <label>Replacement <select id="replacementStyle"><option value="tokens">Labelled tokens: [PARTY_00001]</option><option value="x">Hide labels: [X]</option></select></label>
+        <label>PDF layout <select id="pdfLayout"><option value="reflow">Readable text with replacements</option><option value="original">Original layout with colour-coded redactions</option></select></label>
+        <p id="exportNote">Review both removed and kept items. Layout-only section markers may start kept.</p>
+        <div><button id="pdf" disabled>Download PDF</button><button id="text" class="secondary" disabled>Download text</button></div>
+        <small id="layoutNote">Token PDF: new text layout. Repeated values share a token. Keys stay separate.</small>
+        <button id="keys" class="quiet" disabled>Download key map (private)</button>
+      </div>
+    </aside>
+  </main>
+</body>
+</html>

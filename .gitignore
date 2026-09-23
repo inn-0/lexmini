@@ -1,0 +1,7 @@
+# code/lexmini/.gitignore
+.venv/
+__pycache__/
+*.pyc
+.env
+.env.local
+.runtime/

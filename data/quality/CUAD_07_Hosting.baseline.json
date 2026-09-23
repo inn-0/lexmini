@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "pdf_sha256": "4f7f73fad7d3f00c1f17c11894ac56867d049a7de006b38f172120e5c7bf458e",
+  "pdf_path": "data/reference/cuad/pdfs/CUAD_07_Hosting.pdf",
+  "captured_at": "2026-09-23T10:54:39.143535+00:00",
+  "model": {
+    "name": "openai/privacy-filter",
+    "opf_revision": "f7f00ca7fb869683eb732c010299d901457f19c3",
+    "weights_revision": "7ffa9a043d54d1be65afb281eddf0ffbe629385b",
+    "service": "Modal private PrivacyFilter.detect",
+    "mode": "one call per extracted page"
+  },
+  "pages": [
+    {
+      "text_sha256": "ffda69303ebcd877916063bc9114622570e819803941f24e6678929c28d6320a",
+      "spans": [
+        {
+          "label": "private_person",
+          "start": 174,
+          "end": 190,
+          "text": "Natalija Tunevic",
+          "placeholder": "<PRIVATE_PERSON>"
+        },
+        {
+          "label": "private_person",
+          "start": 255,
+          "end": 271,
+          "text": "Mitchell Vitalis",
+          "placeholder": "<PRIVATE_PERSON>"
+        },
+        {
+          "label": "private_person",
+          "start": 5141,
+          "end": 5157,
+          "text": "Natalija Tunevic",
+          "placeholder": "<PRIVATE_PERSON>"
+        }
+      ]
+    },
+    {
+      "text_sha256": "a856e02a2005f8afc580aa73c4f91d23d8cd179d61e6fbb7e7d8dcbfd395d6fd",
+      "spans": [
+        {
+          "label": "private_person",
+          "start": 16,
+          "end": 32,
+          "text": "Mitchell Vitalis",
+          "placeholder": "<PRIVATE_PERSON>"
+        },
+        {
+          "label": "private_date",
+          "start": 39,
+          "end": 52,
+          "text": "Jan. 11, 2018",
+          "placeholder": "<PRIVATE_DATE>"
+        },
+        {
+          "label": "private_person",
+          "start": 152,
+          "end": 168,
+          "text": "Natalija Tunevic",
+          "placeholder": "<PRIVATE_PERSON>"
+        },
+        {
+          "label": "private_person",
+          "start": 182,
+          "end": 198,
+          "text": "Mitchell Vitalis",
+          "placeholder": "<PRIVATE_PERSON>"
+        }
+      ]
+    },
+    {
+      "text_sha256": "12ac735756de63ae55f23058be454713c7bcfb7bcb36b7b74b996a0324803c25",
+      "spans": [
+        {
+          "label": "private_person",
+          "start": 791,
+          "end": 807,
+          "text": "Natalija Tunevic",
+          "placeholder": "<PRIVATE_PERSON>"
+        },
+        {
+          "label": "private_person",
+          "start": 821,
+          "end": 837,
+          "text": "Mitchell Vitalis",
+          "placeholder": "<PRIVATE_PERSON>"
+        }
+      ]
+    }
+  ]
+}

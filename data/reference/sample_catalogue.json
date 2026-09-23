@@ -1,0 +1,46 @@
+[
+  {
+    "id": "CH_BVGE_001_A-1496-2019_2021-07-16_EXCERPT_pages_1-12",
+    "file": "swiss/CH_BVGE_001_A-1496-2019_2021-07-16_EXCERPT_pages_1-12.pdf",
+    "title": "Swisscom / Sunrise - access dispute (pages 1-12)",
+    "source": "https://entscheidsuche.ch/docs/CH_BVGer/CH_BVGE_001_A-1496-2019_2021-07-16.pdf",
+    "language": "de",
+    "kind": "excerpt of original PDF",
+    "licence": "Free use and adaptation; credit entscheidsuche.ch (publisher terms)",
+    "pages": 12,
+    "sha256": "57ea8425a3d5d63e301d702f8f21242c9a89ff1a57a3fe834a1ca650073ca550"
+  },
+  {
+    "id": "CH_BVGE_001_E-1088-2022_2022-11-07",
+    "file": "swiss/CH_BVGE_001_E-1088-2022_2022-11-07.pdf",
+    "title": "Swiss administrative judgment - French",
+    "source": "https://entscheidsuche.ch/docs/CH_BVGer/CH_BVGE_001_E-1088-2022_2022-11-07.pdf",
+    "language": "fr",
+    "kind": "original published PDF",
+    "licence": "Free use and adaptation; credit entscheidsuche.ch (publisher terms)",
+    "pages": 21,
+    "sha256": "362f36ce82689d8717985a5f3716e3e378afde08d38f1d067e7c6cf9edb4e5c7"
+  },
+  {
+    "id": "CH_BVGE_001_C-6081-2022_2023-01-20",
+    "file": "swiss/CH_BVGE_001_C-6081-2022_2023-01-20.pdf",
+    "title": "Swiss administrative judgment - Italian",
+    "source": "https://entscheidsuche.ch/docs/CH_BVGer/CH_BVGE_001_C-6081-2022_2023-01-20.pdf",
+    "language": "it",
+    "kind": "original published PDF",
+    "licence": "Free use and adaptation; credit entscheidsuche.ch (publisher terms)",
+    "pages": 6,
+    "sha256": "43f5289dfe404711ec17afc56a2c84610ccd8dee8963030802a67edb821a3b8b"
+  },
+  {
+    "id": "CUAD_07_Hosting",
+    "file": "cuad/pdfs/CUAD_07_Hosting.pdf",
+    "title": "CUAD 07 Hosting",
+    "source": "https://huggingface.co/datasets/theatticusproject/cuad/resolve/a3c393f5d103fd0c516374e4fdff676c8176dcb1/CUAD_v1/full_contract_pdf/Part_I/Hosting/Freecook_20180605_S-1_EX-10.3_11233807_EX-10.3_Hosting%20Agreement.pdf",
+    "language": "en",
+    "kind": "original contract PDF",
+    "licence": "CC-BY-4.0",
+    "pages": 3,
+    "sha256": "4f7f73fad7d3f00c1f17c11894ac56867d049a7de006b38f172120e5c7bf458e"
+  }
+]

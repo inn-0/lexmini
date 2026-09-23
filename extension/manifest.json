@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Lexmini - Legal document review",
+  "version": "0.1.0",
+  "description": "Find and review private information in a PDF before sharing it.",
+  "action": {"default_title": "Open Lexmini"},
+  "background": {"service_worker": "background.js"},
+  "host_permissions": ["http://127.0.0.1:8766/*", "http://localhost:8766/*"],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'none'; connect-src 'self' http://127.0.0.1:8766 http://localhost:8766; img-src 'self' data: blob: http://127.0.0.1:8766 http://localhost:8766"
+  }
+}

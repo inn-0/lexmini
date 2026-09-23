@@ -1,0 +1,598 @@
+{
+  "schema_version": 1,
+  "pdf_sha256": "362f36ce82689d8717985a5f3716e3e378afde08d38f1d067e7c6cf9edb4e5c7",
+  "pdf_path": "data/reference/swiss/CH_BVGE_001_E-1088-2022_2022-11-07.pdf",
+  "model": {
+    "name": "openai/privacy-filter",
+    "opf_revision": "f7f00ca7fb869683eb732c010299d901457f19c3",
+    "weights_revision": "7ffa9a043d54d1be65afb281eddf0ffbe629385b",
+    "service": "Modal private PrivacyFilter.detect",
+    "mode": "one call per extracted page"
+  },
+  "pages": [
+    {
+      "text_sha256": "4ddec0e252fa6b671fa5f378ee3a26487933df8732521413d7451ce81cbf52cb",
+      "spans": []
+    },
+    {
+      "text_sha256": "d898254d5e988b7f7cfd9b7cabe31e2037f9927e94b97f7017a417eb81d3a66d",
+      "spans": [
+        {
+          "label": "private_date",
+          "start": 135,
+          "end": 148,
+          "text": "26 avril 2021",
+          "placeholder": "<PRIVATE_DATE>"
+        },
+        {
+          "label": "private_date",
+          "start": 371,
+          "end": 388,
+          "text": "10 septembre 2019",
+          "placeholder": "<PRIVATE_DATE>"
+        },
+        {
+          "label": "private_date",
+          "start": 443,
+          "end": 456,
+          "text": "29 avril 2021",
+          "placeholder": "<PRIVATE_DATE>"
+        },
+        {
+          "label": "private_date",
+          "start": 647,
+          "end": 663,
+          "text": "29 octobre \n2019",
+          "placeholder": "<PRIVATE_DATE>"
+        },
+        {
+          "label": "private_date",
+          "start": 700,
+          "end": 714,
+          "text": "8 juillet 2020",
+          "placeholder": "<PRIVATE_DATE>"
+        },
+        {
+          "label": "private_date",
+          "start": 725,
+          "end": 738,
+          "text": "30 avril 2021",
+          "placeholder": "<PRIVATE_DATE>"
+        },
+        {
+          "label": "private_person",
+          "start": 1039,
+          "end": 1053,
+          "text": "’ethnie hazâra",
+          "placeholder": "<PRIVATE_PERSON>"
+        },
+        {
+          "label": "private_person",
+          "start": 1534,
+          "end": 1541,
+          "text": "tazkira",
+          "placeholder": "<PRIVATE_PERSON>"
+        },
+        {
+          "label": "private_person",
+          "start": 1562,
+          "end": 1569,
+          "text": "afghane",
+          "placeholder": "<PRIVATE_PERSON>"
+        }
+      ]
+    },
+    {
+      "text_sha256": "11f4cdbfc0060d712796ae415497998f2ab37aa1031f445754b016509f3044ff",
+      "spans": [
+        {
+          "label": "account_number",
+          "start": 0,
+          "end": 11,
+          "text": "E-1088/2022",
+          "placeholder": "<ACCOUNT_NUMBER>"
+        },
+        {
+          "label": "private_date",
+          "start": 558,
+          "end": 571,
+          "text": "23 avril 2021",
+          "placeholder": "<PRIVATE_DATE>"
+        },
+        {
+          "label": "private_date",
+          "start": 1302,
+          "end": 1313,
+          "text": "12 mai 2021",
+          "placeholder": "<PRIVATE_DATE>"
+        },
+        {
+          "label": "private_date",
+          "start": 1561,
+          "end": 1567,
+          "text": "27 mai",
+          "placeholder": "<PRIVATE_DATE>"
+        },
+        {
+          "label": "private_date",
+          "start": 2006,
+          "end": 2018,
+          "text": "20 août 2020",
+          "placeholder": "<PRIVATE_DATE>"
+        },
+        {
+          "label": "private_date",
+          "start": 2022,
+          "end": 2034,
+          "text": "19 août 2023",
+          "placeholder": "<PRIVATE_DATE>"
+        },
+        {
+          "label": "private_date",
+          "start": 2045,
+          "end": 2060,
+          "text": "26 juillet 2021",
+          "placeholder": "<PRIVATE_DATE>"
+        },
+        {
+          "label": "private_date",
+          "start": 2196,
+          "end": 2208,
+          "text": "10 août 2021",
+          "placeholder": "<PRIVATE_DATE>"
+        }
+      ]
+    },
+    {
+      "text_sha256": "c068cdb0c4dc4be8c2adab7e941ea00e262cfad1bb450436ac33fcfcdd700e73",
+      "spans": [
+        {
+          "label": "account_number",
+          "start": 2,
+          "end": 11,
+          "text": "1088/2022",
+          "placeholder": "<ACCOUNT_NUMBER>"
+        },
+        {
+          "label": "private_date",
+          "start": 468,
+          "end": 480,
+          "text": "12 août 2021",
+          "placeholder": "<PRIVATE_DATE>"
+        }
+      ]
+    },
+    {
+      "text_sha256": "07c0dd89e977b52645a7ab1bd5b624e65624636edac155fd455cc9e1cf9e5076",
+      "spans": [
+        {
+          "label": "private_person",
+          "start": 183,
+          "end": 185,
+          "text": "M.",
+          "placeholder": "<PRIVATE_PERSON>"
+        },
+        {
+          "label": "private_date",
+          "start": 214,
+          "end": 227,
+          "text": "29 avril 2021",
+          "placeholder": "<PRIVATE_DATE>"
+        },
+        {
+          "label": "private_date",
+          "start": 442,
+          "end": 452,
+          "text": "5 mai 2021",
+          "placeholder": "<PRIVATE_DATE>"
+        },
+        {
+          "label": "private_date",
+          "start": 454,
+          "end": 465,
+          "text": "11 mai 2021",
+          "placeholder": "<PRIVATE_DATE>"
+        },
+        {
+          "label": "private_date",
+          "start": 467,
+          "end": 479,
+          "text": "28 mai \n2021",
+          "placeholder": "<PRIVATE_DATE>"
+        },
+        {
+          "label": "private_date",
+          "start": 481,
+          "end": 494,
+          "text": "1er juin 2021",
+          "placeholder": "<PRIVATE_DATE>"
+        },
+        {
+          "label": "private_date",
+          "start": 496,
+          "end": 507,
+          "text": "8 juin 2021",
+          "placeholder": "<PRIVATE_DATE>"
+        },
+        {
+          "label": "private_date",
+          "start": 509,
+          "end": 521,
+          "text": "15 juin 2021",
+          "placeholder": "<PRIVATE_DATE>"
+        },
+        {
+          "label": "private_date",
+          "start": 523,
+          "end": 535,
+          "text": "24 juin 2021",
+          "placeholder": "<PRIVATE_DATE>"
+        },
+        {
+          "label": "private_date",
+          "start": 537,
+          "end": 552,
+          "text": "13 juillet 2021",
+          "placeholder": "<PRIVATE_DATE>"
+        },
+        {
+          "label": "private_date",
+          "start": 555,
+          "end": 573,
+          "text": "1er septembre 2021",
+          "placeholder": "<PRIVATE_DATE>"
+        },
+        {
+          "label": "private_date",
+          "start": 575,
+          "end": 591,
+          "text": "6 septembre 2021",
+          "placeholder": "<PRIVATE_DATE>"
+        },
+        {
+          "label": "private_date",
+          "start": 593,
+          "end": 609,
+          "text": "9 septembre 2021",
+          "placeholder": "<PRIVATE_DATE>"
+        },
+        {
+          "label": "private_date",
+          "start": 613,
+          "end": 631,
+          "text": "14 septembre \n2021",
+          "placeholder": "<PRIVATE_DATE>"
+        },
+        {
+          "label": "private_date",
+          "start": 829,
+          "end": 844,
+          "text": "13 juillet 2021",
+          "placeholder": "<PRIVATE_DATE>"
+        },
+        {
+          "label": "private_date",
+          "start": 1181,
+          "end": 1192,
+          "text": "26 mai 2021",
+          "placeholder": "<PRIVATE_DATE>"
+        },
+        {
+          "label": "private_date",
+          "start": 1325,
+          "end": 1340,
+          "text": "6 décembre 2021",
+          "placeholder": "<PRIVATE_DATE>"
+        },
+        {
+          "label": "private_date",
+          "start": 1643,
+          "end": 1660,
+          "text": "14 décembre \n2021",
+          "placeholder": "<PRIVATE_DATE>"
+        }
+      ]
+    },
+    {
+      "text_sha256": "ce25e53e5881606eda366eb40d854535a572d61b55e45bd579b4802d71f69885",
+      "spans": [
+        {
+          "label": "private_date",
+          "start": 154,
+          "end": 170,
+          "text": "1er février 2022",
+          "placeholder": "<PRIVATE_DATE>"
+        },
+        {
+          "label": "private_date",
+          "start": 261,
+          "end": 277,
+          "text": "18 novembre 2021",
+          "placeholder": "<PRIVATE_DATE>"
+        },
+        {
+          "label": "private_date",
+          "start": 1098,
+          "end": 1113,
+          "text": "23 février 2022",
+          "placeholder": "<PRIVATE_DATE>"
+        },
+        {
+          "label": "private_date",
+          "start": 1812,
+          "end": 1827,
+          "text": "25 février 2022",
+          "placeholder": "<PRIVATE_DATE>"
+        }
+      ]
+    },
+    {
+      "text_sha256": "fcf8ef36e2a935290c73398e4babcfea11ceab53133cbd46577f1e22d7452313",
+      "spans": [
+        {
+          "label": "private_date",
+          "start": 75,
+          "end": 86,
+          "text": "7 mars 2022",
+          "placeholder": "<PRIVATE_DATE>"
+        },
+        {
+          "label": "private_date",
+          "start": 389,
+          "end": 401,
+          "text": "10 mars 2022",
+          "placeholder": "<PRIVATE_DATE>"
+        }
+      ]
+    },
+    {
+      "text_sha256": "6471f04ea4703170425d9b5952bf877be43996747daecf6ea3b180131dcac09f",
+      "spans": [
+        {
+          "label": "account_number",
+          "start": 2225,
+          "end": 2238,
+          "text": "ATF 145 I 167",
+          "placeholder": "<ACCOUNT_NUMBER>"
+        }
+      ]
+    },
+    {
+      "text_sha256": "653126a8a497ee338b436aeb8c922b7c44be5b5312f8392664d241507564bebc",
+      "spans": [
+        {
+          "label": "private_date",
+          "start": 1219,
+          "end": 1230,
+          "text": "10 mai 2021",
+          "placeholder": "<PRIVATE_DATE>"
+        }
+      ]
+    },
+    {
+      "text_sha256": "61d74cd184f9744704557eb7da9dc33bd7eb801c8c431ead7beea23f8c6b1c48",
+      "spans": []
+    },
+    {
+      "text_sha256": "0a05120d8c52959d26ea88bd369f20ba5aed7ac41438c8cdcf0575b6956b8599",
+      "spans": []
+    },
+    {
+      "text_sha256": "3fff8b9d5fcac5501f771e1e8b2ff050886ae9875fad49794aee80a094bb279f",
+      "spans": []
+    },
+    {
+      "text_sha256": "a25b11805c358cf30ebb8ef9826522cfc1706cae70ac6168d7e7dd022d2906f7",
+      "spans": []
+    },
+    {
+      "text_sha256": "9be8f1321fcd7928a6ec3cd7c2957612ecf0c843b743b9acbe3926e41bddd680",
+      "spans": [
+        {
+          "label": "private_date",
+          "start": 584,
+          "end": 599,
+          "text": "21 janvier 2011",
+          "placeholder": "<PRIVATE_DATE>"
+        },
+        {
+          "label": "private_date",
+          "start": 663,
+          "end": 679,
+          "text": "4 novembre \n2014",
+          "placeholder": "<PRIVATE_DATE>"
+        },
+        {
+          "label": "account_number",
+          "start": 684,
+          "end": 692,
+          "text": "29217/12",
+          "placeholder": "<ACCOUNT_NUMBER>"
+        },
+        {
+          "label": "private_date",
+          "start": 725,
+          "end": 737,
+          "text": "30 juin 2015",
+          "placeholder": "<PRIVATE_DATE>"
+        },
+        {
+          "label": "private_person",
+          "start": 1098,
+          "end": 1114,
+          "text": "Mohammed Hussein",
+          "placeholder": "<PRIVATE_PERSON>"
+        },
+        {
+          "label": "private_person",
+          "start": 1127,
+          "end": 1138,
+          "text": "arrêts Sufi",
+          "placeholder": "<PRIVATE_PERSON>"
+        },
+        {
+          "label": "private_person",
+          "start": 1142,
+          "end": 1146,
+          "text": "Elmi",
+          "placeholder": "<PRIVATE_PERSON>"
+        }
+      ]
+    },
+    {
+      "text_sha256": "e8c4b304dc850aa1d6fecce91f2e66782c60f4ee56291c12d2d4ee0f2e3b5755",
+      "spans": [
+        {
+          "label": "account_number",
+          "start": 0,
+          "end": 11,
+          "text": "E-1088/2022",
+          "placeholder": "<ACCOUNT_NUMBER>"
+        },
+        {
+          "label": "account_number",
+          "start": 1235,
+          "end": 1246,
+          "text": "E-3427/2021",
+          "placeholder": "<ACCOUNT_NUMBER>"
+        },
+        {
+          "label": "account_number",
+          "start": 1250,
+          "end": 1261,
+          "text": "E-3431/2021",
+          "placeholder": "<ACCOUNT_NUMBER>"
+        },
+        {
+          "label": "private_date",
+          "start": 2530,
+          "end": 2546,
+          "text": "6 septembre 2022",
+          "placeholder": "<PRIVATE_DATE>"
+        },
+        {
+          "label": "private_date",
+          "start": 2579,
+          "end": 2592,
+          "text": "25 avril 2022",
+          "placeholder": "<PRIVATE_DATE>"
+        },
+        {
+          "label": "private_date",
+          "start": 2623,
+          "end": 2637,
+          "text": "1er avril 2022",
+          "placeholder": "<PRIVATE_DATE>"
+        },
+        {
+          "label": "private_date",
+          "start": 2666,
+          "end": 2681,
+          "text": "31 janvier 2022",
+          "placeholder": "<PRIVATE_DATE>"
+        },
+        {
+          "label": "private_date",
+          "start": 2715,
+          "end": 2730,
+          "text": "26 janvier 2022",
+          "placeholder": "<PRIVATE_DATE>"
+        }
+      ]
+    },
+    {
+      "text_sha256": "912aa0f3d54141ad8fbb5fdb0307fc159fd076f93611726a969e987102c7ce0a",
+      "spans": [
+        {
+          "label": "private_date",
+          "start": 2120,
+          "end": 2136,
+          "text": "1er février 2022",
+          "placeholder": "<PRIVATE_DATE>"
+        }
+      ]
+    },
+    {
+      "text_sha256": "e85320c132ef864c4afeb8e0a3a5687c6f7d76f4ea74a3c781cea0f321d1b4c5",
+      "spans": []
+    },
+    {
+      "text_sha256": "099826553f9c86e1b25c2c148d55b2fe27b79347ff0598f082dc7413fa619575",
+      "spans": [
+        {
+          "label": "account_number",
+          "start": 417,
+          "end": 428,
+          "text": "E-3427/2021",
+          "placeholder": "<ACCOUNT_NUMBER>"
+        },
+        {
+          "label": "account_number",
+          "start": 432,
+          "end": 443,
+          "text": "E-3431/2021",
+          "placeholder": "<ACCOUNT_NUMBER>"
+        }
+      ]
+    },
+    {
+      "text_sha256": "89394a1d5d3738ae7d95562af787d8a1b68e60dc0c71ada5d2ad03895c2d59f7",
+      "spans": [
+        {
+          "label": "private_date",
+          "start": 1304,
+          "end": 1317,
+          "text": "29 avril 2021",
+          "placeholder": "<PRIVATE_DATE>"
+        },
+        {
+          "label": "private_date",
+          "start": 1989,
+          "end": 2001,
+          "text": "1er mai 2020",
+          "placeholder": "<PRIVATE_DATE>"
+        }
+      ]
+    },
+    {
+      "text_sha256": "860a9cb89f5cce448fb6d159c929902e8ea4a7ecc959c58ceb15fe383ec63a91",
+      "spans": [
+        {
+          "label": "private_date",
+          "start": 1205,
+          "end": 1220,
+          "text": "21 février 2008",
+          "placeholder": "<PRIVATE_DATE>"
+        },
+        {
+          "label": "private_date",
+          "start": 1408,
+          "end": 1420,
+          "text": "10 mars 2022",
+          "placeholder": "<PRIVATE_DATE>"
+        }
+      ]
+    },
+    {
+      "text_sha256": "4d0daada21fcf00b173d0c877d254d612891e48837593be705c852e00037e0c1",
+      "spans": [
+        {
+          "label": "private_person",
+          "start": 283,
+          "end": 297,
+          "text": "William Waeber",
+          "placeholder": "<PRIVATE_PERSON>"
+        },
+        {
+          "label": "private_person",
+          "start": 299,
+          "end": 311,
+          "text": "Lucas Pellet",
+          "placeholder": "<PRIVATE_PERSON>"
+        }
+      ]
+    }
+  ],
+  "captured_at": "2026-09-23T10:52:49.189765+00:00",
+  "baseline_rules_sha256": "34c947537c843c4289dba6cb52f9bf5f04eb377055c7d1cb8e1dead258482d8b"
+}
