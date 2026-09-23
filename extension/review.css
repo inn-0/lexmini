@@ -17,3 +17,7 @@
 .paragraph-text{white-space:pre-wrap;line-height:1.6;user-select:text}
 .legal-references{padding:12px 22px;border-bottom:1px solid #dce4dc;max-height:260px;overflow:auto;flex-shrink:0}.legal-references>summary{font-weight:650;cursor:pointer}.reference-row{padding:8px 0;border-bottom:1px solid #e0e6e0}.reference-row small{display:block;font-size:11px;color:#52675b}.reference-row a{font-size:12px;color:#0072b2}
 .sharing-panel{padding:12px 22px;border-top:1px solid #dce4dc;max-height:260px;overflow:auto;flex-shrink:0}.sharing-panel p{font-size:11px}.sharing-panel summary{cursor:pointer;font-weight:650}.sharing-panel a{display:block;color:#0072b2}.sharing-panel input[type=checkbox]{width:auto}
+
+/* Keep documentation reachable without adding a toolbar row. */
+.toolbar .docs-link{font-size:12px;font-weight:600;color:var(--green);text-underline-offset:3px;white-space:nowrap;margin-left:4px}
+.toolbar .compact-brand{flex-shrink:0;white-space:nowrap}
