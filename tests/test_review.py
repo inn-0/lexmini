@@ -61,7 +61,10 @@ class ReviewTests(unittest.TestCase):
       self.assertGreater(chosen[0].location.boxes[0][1], 150)
       clean = pdf.export_pdf(payload, chosen)
       with pymupdf.open(stream=clean, filetype="pdf") as result:
-        self.assertEqual(result[0].get_text().strip(), "Contact")
+        text = result[0].get_text()
+        self.assertEqual(text.count("alice@example.com"), 1)
+        self.assertIn("Client: Example AG.", text)
+        self.assertIn("Contact", text)
         self.assertFalse(result.metadata.get("author"))
         self.assertEqual(result.embfile_count(), 0)
         x0,y0,x1,y1 = chosen[0].location.boxes[0]

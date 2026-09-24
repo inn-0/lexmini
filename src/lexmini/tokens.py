@@ -8,6 +8,7 @@ import pymupdf
 from pydantic import BaseModel, Field
 
 PREFIXES = {"person_name": "PARTY", "organisation_name": "PARTY", "date": "DATE",
+  "medical_information": "HEALTH",
   "birth_date": "BIRTH_DATE", "confidential_term": "TERM", "account_number": "ACCOUNT"}
 
 
@@ -28,26 +29,34 @@ class TokenRegistry(BaseModel):
     return self.lookup[key]
 
 
+def replacement_groups(page, findings, registry: TokenRegistry, style: str):
+  """Merge overlapping selections once for text and original-layout exports."""
+  spans = sorted(findings, key=lambda f: (f.location.start, -f.location.end, f.field_type))
+  groups = []
+  for finding in spans:
+    start, end = finding.location.start, finding.location.end
+    if groups and start < groups[-1][1]:
+      groups[-1][1] = max(groups[-1][1], end)
+      groups[-1][2].append(finding)
+    else:
+      groups.append([start, end, [finding]])
+  result = []
+  for start, end, members in groups:
+    outer = next((f for f in members if f.location.start == start and f.location.end == end), None)
+    field_type = outer.field_type if outer else "text"
+    token = registry.assign(field_type, page.text[start:end])
+    label = token if style == "tokens" else "[X]" if style == "x" else ""
+    result.append((start, end, label))
+  return result
+
+
 def replace_pages(pages, findings, registry: TokenRegistry, style: str) -> list[str]:
   output = []
   for number, page in enumerate(pages, 1):
-    spans = sorted((f for f in findings if f.location.page_number == number),
-      key=lambda f: (f.location.start, -f.location.end, f.field_type))
-    groups = []
-    for finding in spans:
-      start, end = finding.location.start, finding.location.end
-      if groups and start < groups[-1][1]:
-        groups[-1][1] = max(groups[-1][1], end)
-        groups[-1][2].append(finding)
-      else:
-        groups.append([start, end, [finding]])
+    groups = replacement_groups(page, [f for f in findings if f.location.page_number == number], registry, style)
     text = page.text
-    for start, end, members in reversed(groups):
-      # A wider overlap needs its own key, so restoration cannot lose extra words.
-      outer = next((f for f in members if f.location.start == start and f.location.end == end), None)
-      field_type = outer.field_type if outer else "text"
-      token = registry.assign(field_type, page.text[start:end])
-      text = text[:start] + (token if style == "tokens" else "[X]") + text[end:]
+    for start, end, label in reversed(groups):
+      text = text[:start] + label + text[end:]
     output.append(text)
   return output
 

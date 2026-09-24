@@ -224,7 +224,7 @@ function findingCard(items) {
   const detail = element('details', 'evidence'); detail.append(element('summary', '', 'Detection details'));
   const sources = [...new Set(items.flatMap(f=>f.detector.split(' + ')))].join(', ');
   detail.append(element('p', '', `Source: ${sources}. Suggested sensitivity: ${[...new Set(items.flatMap(f=>f.sensitivity_levels))].join(', ')}.`));
-  detail.append(element('p', '', `Replacement: ${$('replacementStyle').value === 'x' ? '[X]' : first.replacement}`));
+  detail.append(element('p', '', `Replacement: ${$('replacementStyle').value === 'blank' ? 'Blank gap' : $('replacementStyle').value === 'x' ? '[X]' : first.replacement}`));
   for (const reason of new Set(items.map(f=>f.signal_reason).filter(Boolean))) detail.append(element('p', '', reason));
   detail.append(element('p', '', `Layout: ${[...new Set(items.map(f=>f.layout_label || 'not identified'))].join(', ')}. Confidence: not calibrated.`));
   const confidence = items.map(f=>f.detection_confidence).filter(c=>c!==null && c!==undefined);
@@ -312,8 +312,8 @@ $('keys').onclick = () => task(async () => {
 });
 $('pdfLayout').onchange = () => {
   $('layoutNote').textContent = $('pdfLayout').value === 'original'
-    ? 'PDF: original layout, colour-coded redactions, flattened pages. Replacement choice applies to text download.'
-    : 'Token PDF: new text layout. Repeated values share a token. Keys stay separate.';
+    ? 'Text stays selectable. Keys stay separate.'
+    : 'New text layout with your chosen replacements. Keys stay separate.';
 };
 $('replacementStyle').onchange = renderFindings;
 $('close').onclick = () => task(async () => {

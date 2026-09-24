@@ -108,7 +108,7 @@ class ExportRequest(BaseModel):
   selected_ids: list[str] = Field(max_length=10000)
   revision: int = Field(ge=0)
   format: Literal["pdf", "text"]
-  replacement_style: Literal["tokens", "x"] = "tokens"
+  replacement_style: Literal["tokens", "x", "blank"] = "tokens"
   pdf_layout: Literal["reflow", "original"] = "original"
 
 

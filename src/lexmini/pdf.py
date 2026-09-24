@@ -110,8 +110,28 @@ def redaction_colour(category):
   return tuple(int(value[i:i+2], 16) / 255 for i in (0, 2, 4))
 
 
-def export_pdf(payload: bytes, findings: list[Finding]) -> bytes:
-  """Rebuild visible pages as images; original text, metadata and attachments are excluded."""
+def _write_safe_text(page, text, rect, visible=False):
+  """Position only post-redaction text or generated labels on the clean page."""
+  if not text.strip() or rect.is_empty:
+    return
+  font = pymupdf.Font("helv")
+  size = max(1, min(9 if visible else 11, rect.height / (font.ascender - font.descender)))
+  width = font.text_length(text, fontsize=size)
+  if not width:
+    return
+  origin = pymupdf.Point(rect.x0, rect.y0 + font.ascender * size)
+  writer = pymupdf.TextWriter(page.rect)
+  writer.append(origin, text, font=font, fontsize=size)
+  scale = min(1, rect.width / width) if visible else rect.width / width
+  writer.write_text(page, render_mode=0 if visible else 3,
+    morph=(origin, pymupdf.Matrix(scale, 1)), color=(0,0,0))
+
+
+def export_pdf(payload: bytes, findings: list[Finding], pages=None, registry=None, style="blank") -> bytes:
+  """Rebuild the visual page plus permitted selectable text, never original PDF objects."""
+  from .tokens import TokenRegistry, replacement_groups
+  pages = pages or extract(payload).pages
+  registry = registry or TokenRegistry()
   by_page = defaultdict(list)
   for finding in findings:
     category = REDACTION_CATEGORIES.get(finding.field_type, "Other")
@@ -123,12 +143,24 @@ def export_pdf(payload: bytes, findings: list[Finding]) -> bytes:
         page.add_redact_annot(pymupdf.Rect(rect), fill=redaction_colour(category))
       if by_page[number]:
         page.apply_redactions(images=2, graphics=2, text=0)
+      # Read from the redacted page, never put the original text under an overlay.
+      safe_lines = [line for block in page.get_text("dict", sort=True)["blocks"]
+        for line in block.get("lines", [])]
       pixmap = page.get_pixmap(matrix=pymupdf.Matrix(2, 2), alpha=False, annots=False)
       categories = [key for key in REDACTION_COLOURS if any(c == key for _, c in by_page[number])]
       columns = max(1, int(page.rect.width // 135))
       footer = 18 + 16 * ((len(categories) + columns - 1) // columns) if categories else 0
       clean = output.new_page(width=page.rect.width, height=page.rect.height + footer)
       clean.insert_image(page.rect, stream=pixmap.tobytes("png"))
+      text_runs = [(pymupdf.Rect(span["bbox"]), span["text"], False)
+        for line in safe_lines for span in line["spans"]]
+      for start, end, label in replacement_groups(pages[number-1],
+          [f for f in findings if f.location.page_number == number], registry, style):
+        boxes = span_boxes(pages[number-1], start, end)
+        if label and boxes:
+          text_runs.append((pymupdf.Rect(boxes[0]), label, True))
+      for rect, text, visible in sorted(text_runs, key=lambda item:(round(item[0].y0,1),item[0].x0)):
+        _write_safe_text(clean, text, rect, visible)
       for index, category in enumerate(categories):
         x = 12 + (index % columns) * 135
         y = page.rect.height + 12 + (index // columns) * 16

@@ -277,7 +277,8 @@ def export(document_id: str, request: ExportRequest) -> bytes:
       raise ValueError("The selection contains an unknown finding")
     selected = [by_id[key] for key in set(request.selected_ids)]
     if request.format == "pdf" and request.pdf_layout == "original":
-      return pdf.export_pdf(session.payload, selected)
+      return pdf.export_pdf(session.payload, selected, session.extracted.pages,
+        session.tokens, request.replacement_style)
     pages = replace_pages(session.extracted.pages, selected, session.tokens, request.replacement_style)
     if request.format == "pdf":
       return reflow_pdf(pages)
