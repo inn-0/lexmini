@@ -32,6 +32,9 @@ class Session(BaseModel):
   spacy_spans: list[list[dict]] = Field(default_factory=list)
   layout_regions: list[layout.LayoutRegion] = Field(default_factory=list)
   organisation_id: str = _config.ORGANISATION_ID
+  quality_cache: dict[str, Any] = Field(default_factory=dict, exclude=True)
+  screening_cache: dict[str, Any] = Field(default_factory=dict, exclude=True)
+  privacy_cache: dict[str, Any] = Field(default_factory=dict, exclude=True)
 
 
 class Store:
@@ -89,10 +92,16 @@ def analyse(document_id: str, context: Context) -> DocumentReview:
     with logfire.span("Detect document fields", page_count=len(session.extracted.pages)):
       texts = [p.text for p in session.extracted.pages]
       payload = session.payload if context.use_layout else b""
-      screened = screen_remote(texts, context.languages, payload)
-      if screened["text_hashes"] != [hashlib.sha256(t.encode()).hexdigest() for t in texts]:
+      text_hashes = [hashlib.sha256(t.encode()).hexdigest() for t in texts]
+      payload_hash = hashlib.sha256(payload).hexdigest() if payload else None
+      cpu_key = hashlib.sha256(repr((session.organisation_id, text_hashes, payload_hash,
+        context.languages, _config.SCREENING_APP, 'citations-v2')).encode()).hexdigest()
+      screened = session.screening_cache.get(cpu_key)
+      if screened is None:
+        screened = screen_remote(texts, context.languages, payload)
+      if screened["text_hashes"] != text_hashes:
         raise ValueError("Screening text hashes differ from this document")
-      if screened["pdf_sha256"] != (hashlib.sha256(payload).hexdigest() if payload else None):
+      if screened["pdf_sha256"] != payload_hash:
         raise ValueError("Layout PDF hash differs from this document")
       supplements = screened["spacy_spans"]
       if len(supplements) != len(texts):
@@ -103,13 +112,23 @@ def analyse(document_id: str, context: Context) -> DocumentReview:
           if not 0 <= span["start"] < span["end"] <= len(page.text):
             raise ValueError("Screening span is outside the page")
       session.spacy_spans, session.layout_regions = supplements, regions
+      if len(session.screening_cache) >= 4 and cpu_key not in session.screening_cache:
+        session.screening_cache.pop(next(iter(session.screening_cache)))
+      session.screening_cache[cpu_key] = screened
       session.review.processing = screened["engine"]
       spans = [[] for _ in texts]
+      gpu_key = None
       if context.use_privacy_filter:
-        worker = modal.Cls.from_name(_config.MODAL_APP, _config.MODAL_CLASS)()
-        spans = worker.detect.spawn(texts).get(timeout=900)
+        gpu_key = hashlib.sha256(repr((session.organisation_id, text_hashes,
+          _config.MODAL_APP, _config.MODEL_REVISION, _config.OPF_REVISION)).encode()).hexdigest()
+        spans = session.privacy_cache.get(gpu_key)
+        if spans is None:
+          worker = modal.Cls.from_name(_config.MODAL_APP, _config.MODAL_CLASS)()
+          spans = worker.detect.spawn(texts).get(timeout=900)
         session.review.processing += ' + OpenAI Privacy Filter on Modal' 
     result = apply_predictions(document_id, context, spans)
+    if gpu_key is not None:
+      session.privacy_cache = {gpu_key:spans}
     session.review.warnings = [w for w in session.review.warnings if not w.startswith("Quality check:")]
     result.warnings = list(session.review.warnings)
     if context.use_llm_review:
@@ -160,7 +179,21 @@ def apply_predictions(document_id: str, context: Context, spans: list[list[dict]
     for finding in findings:
       finding.replacement = session.tokens.assign(finding.field_type, finding.original_text)
     layout.annotate(findings, session.extracted.pages, session.layout_regions)
-    session.review.findings = findings
+    # Re-running unchanged source text must retain approved and manual decisions.
+    approved = [f.model_copy(deep=True) for f in session.review.findings if _human_protected(f)]
+    for finding in findings:
+      same = [prior for prior in approved if prior.location.source == finding.location.source
+        and (prior.location.page_number,prior.location.start,prior.location.end) ==
+            (finding.location.page_number,finding.location.start,finding.location.end)]
+      if same:
+        finding.selected = any(prior.selected for prior in same)
+        finding.review_status = 'confirmed_remove' if finding.selected else 'confirmed_keep'
+    def identity(f):
+      return (f.location.source,f.location.page_number,f.location.start,f.location.end,f.field_type)
+    approved_by_position = {identity(f):f for f in approved}
+    positions = {identity(f) for f in findings}
+    session.review.findings = [approved_by_position.get(identity(f),f) for f in findings]
+    session.review.findings.extend(f for f in approved if identity(f) not in positions)
     session.context = context.model_copy(deep=True)
     session.review.review_set = context.review_set
     session.review.languages = list(context.languages)

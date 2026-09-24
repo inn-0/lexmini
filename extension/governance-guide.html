@@ -767,9 +767,10 @@ sensitive spans.</li>
 (NLP) models, date rules and legal-reference rules add candidates. Exact
 and close-spelling matching check for repeated approved names.</li>
 <li><strong>Final quality check:</strong> GPT-6 Sol runs through
-Pydantic AI using the OpenAI API. It checks bounded groups of text and
-findings, suggests changes to existing candidates and adds missed exact
-quotations. It does not rewrite the document.</li>
+Pydantic AI using the OpenAI API. It reads bounded groups of paragraphs and returns only sensitive exact
+quotations. The application maps those quotations to the page and updates
+machine candidates. It does not rewrite the document. Unchanged checks are
+reused within the review session; human decisions remain separate.</li>
 <li><strong>Human review:</strong> the lawyer reviews the proposed
 removals. The quality check cannot override confirmed human choices or
 automatically save party memory.</li>

@@ -8,7 +8,7 @@ from unittest.mock import patch
 
 import httpx
 from openai import AsyncOpenAI
-from lexmini import llm_review
+from lexmini import compact_review
 
 
 class QualityTransportTests(unittest.TestCase):
@@ -16,8 +16,7 @@ class QualityTransportTests(unittest.TestCase):
     requests = []
     def respond(request):
       requests.append(json.loads(request.content))
-      output = {'suggested_role':'Translator', 'suggested_goal':'Protect private facts',
-        'changes':[], 'additions':[]}
+      output = {'reviewed':[], 'spans':[]}
       return httpx.Response(200, json={
         'id':'resp_test', 'object':'response', 'created_at':1, 'model':'gpt-6-sol',
         'status':'completed', 'service_tier':'default',
@@ -30,10 +29,10 @@ class QualityTransportTests(unittest.TestCase):
     with patch('openai.AsyncOpenAI', return_value=client), \
         patch('lexmini._config.API_KEY_OPENAI', 'test-only'), \
         patch('lexmini.api_access.require_openai_access'):
-      result, usage = llm_review.call({'blocks':[]}, 'gpt-6-sol')
+      result, usage = compact_review.call({'blocks':[]}, 'gpt-6-sol')
     self.assertEqual(requests[0]['service_tier'], 'default')
     self.assertEqual(requests[0]['reasoning']['effort'], 'medium')
     self.assertFalse(requests[0]['store'])
     self.assertNotIn('temperature', requests[0])
-    self.assertEqual(result.changes, [])
+    self.assertEqual(result.spans, [])
     self.assertEqual(usage['input_tokens'], 10)

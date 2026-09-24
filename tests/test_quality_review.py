@@ -30,7 +30,7 @@ class QualityTests(unittest.TestCase):
         llm_review.Addition(block_id=block['id'],quote=valid_quote,occurrence=1,field_type='case_reference',sensitivity_levels=['public'],reason='exact')])
       return result,{'input_tokens':1,'output_tokens':1}
     with patch('lexmini.llm_review.call',side_effect=fake):
-      result=llm_review.review(session)
+      result=llm_review.review_candidates(session)
     self.assertGreater(result['rejected'],0)
     self.assertEqual(result['changes'],[])
     self.assertTrue(result['additions'])

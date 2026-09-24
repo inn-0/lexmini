@@ -96,6 +96,11 @@ def blocks_for(session):
 
 
 def review(session):
+  from .compact_review import review as compact_review
+  return compact_review(session)
+
+
+def review_candidates(session):
   blocks=blocks_for(session)
   first_pages='\n'.join(p.text for p in session.extracted.pages[:2])[:10000]
   batches=[];current=[];size=0;first_page=0
